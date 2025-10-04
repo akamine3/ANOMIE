@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\assets\\spum\\sample\\script\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|solutionrelative:assets\\spum\\sample\\script\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|c:\\users\\231001\\desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeadv2\\assets\\spum\\sample\\script\\keyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|solutionrelative:assets\\spum\\sample\\script\\keyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\assets\\spum\\sample\\script\\scenepositionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF2C79-A5AC-75A8-445E-3DC5F382F8F4}|Assembly-CSharp.csproj|solutionrelative:assets\\spum\\sample\\script\\scenepositionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScenePositionManager.cs",
+              "DocumentMoniker": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\ScenePositionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SPUM\\Sample\\Script\\ScenePositionManager.cs",
+              "ToolTip": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\ScenePositionManager.cs",
+              "RelativeToolTip": "Assets\\SPUM\\Sample\\Script\\ScenePositionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T06:28:14.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SceneChange.cs",
+              "DocumentMoniker": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\SceneChange.cs",
+              "RelativeDocumentMoniker": "Assets\\SPUM\\Sample\\Script\\SceneChange.cs",
+              "ToolTip": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\SceneChange.cs",
+              "RelativeToolTip": "Assets\\SPUM\\Sample\\Script\\SceneChange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T02:00:53.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "keyInput.cs",
+              "DocumentMoniker": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\keyInput.cs",
+              "RelativeDocumentMoniker": "Assets\\SPUM\\Sample\\Script\\keyInput.cs",
+              "ToolTip": "C:\\Users\\231001\\Desktop\\\u5352\u7814\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\prtotypeADV2\\Assets\\SPUM\\Sample\\Script\\keyInput.cs",
+              "RelativeToolTip": "Assets\\SPUM\\Sample\\Script\\keyInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T01:55:16.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
