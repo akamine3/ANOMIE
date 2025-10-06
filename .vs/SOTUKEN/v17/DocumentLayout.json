@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SOTUKEN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22685D83-897A-81AF-F18F-FFC951C99C6E}|Assembly-CSharp.csproj|d:\\projects\\sotuken\\assets\\script\\chara_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22685D83-897A-81AF-F18F-FFC951C99C6E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\chara_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22685D83-897A-81AF-F18F-FFC951C99C6E}|Assembly-CSharp.csproj|d:\\projects\\sotuken\\assets\\script\\camerafllow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22685D83-897A-81AF-F18F-FFC951C99C6E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camerafllow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chara_move.cs",
+              "DocumentMoniker": "D:\\Projects\\SOTUKEN\\Assets\\Script\\chara_move.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\chara_move.cs",
+              "ToolTip": "D:\\Projects\\SOTUKEN\\Assets\\Script\\chara_move.cs",
+              "RelativeToolTip": "Assets\\Script\\chara_move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T01:57:40.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraFllow.cs",
+              "DocumentMoniker": "D:\\Projects\\SOTUKEN\\Assets\\Script\\CameraFllow.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraFllow.cs",
+              "ToolTip": "D:\\Projects\\SOTUKEN\\Assets\\Script\\CameraFllow.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraFllow.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T01:57:14.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
