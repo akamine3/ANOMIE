@@ -1,2 +1,80 @@
-Library/
-Temp/
+# ====================================
+# Unity 2022.3 LTS チーム開発向け設定
+# ====================================
+
+# --- Unity生成フォルダ（絶対除外） ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+Recordings/
+
+# --- キャッシュ系 ---
+[Bb]urstCache/
+ShaderCache/
+Artifacts/
+TimelineCache/
+CinemachineCache/
+
+# --- 個人設定（除外） ---
+# ユーザーごとのウィンドウ配置やレイアウトなど
+UserSettings/
+
+# --- Unity自動生成プロジェクト関連（IDE用） ---
+ExportedObj/
+.consulo/
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# --- JetBrains Rider専用 ---
+*.DotSettings.user
+.idea/
+
+# --- OS依存ファイル ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- ビルド成果物 ---
+*.apk
+*.aab
+*.unitypackage
+*.exe
+*.app
+*.xcodeproj/
+*.xcworkspace/
+
+# --- ログやクラッシュ情報 ---
+*.log
+*.stacktrace
+*.crash
+sysinfo.txt
+
+# --- Unity Asset meta data ---
+# ※Assets以下のmetaは追跡対象にするため!を付ける
+!/[Aa]ssets/**/*.meta
+
+# --- Asset Storeツール（使用しない場合は除外） ---
+# [Aa]ssets/AssetStoreTools*
+
+# --- CollaborateやPlastic SCMなどを使わない場合 ---
+Collab/
+PlasticSCM/
+
+# --- Git LFS使用時（例:大容量アセット） ---
+# LFS設定を別途.gitattributesで管理可能
