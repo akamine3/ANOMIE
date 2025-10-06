@@ -1,0 +1,65 @@
+# Unity project ignore rules for sauceTree
+
+# Core Unity folders to ignore
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# Unity generated files
+*.log
+*.blend1
+*.blend1.meta
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+
+# Crash and debug files
+mono_crash.*
+sysinfo.txt
+crashlytics-build.properties
+
+# JetBrains Rider
+Assets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+.gradle/
+
+# Addressables
+ServerData/
+Assets/StreamingAssets/aa*
+Assets/AddressableAssetsData/link.xml*
+Assets/Addressables_Temp*
+Assets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Auto-generated scenes by play mode tests
+Assets/InitTestScene*.unity*
