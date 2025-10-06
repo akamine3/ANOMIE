@@ -82,3 +82,4 @@ PlasticSCM/
 
 # --- Git LFS使用時（例:大容量アセット） ---
 # LFS設定を別途.gitattributesで管理可能
+*.meta
