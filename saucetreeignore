@@ -10,6 +10,7 @@ Logs/
 UserSettings/
 MemoryCaptures/
 Recordings/
+/[Tt]emp/
 
 # Unity generated files
 *.log
