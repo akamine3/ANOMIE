@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd8b60c237db3a458044a68dea1935e, type: 3}
+  m_Name: MenuUIList
+  m_EditorClassIdentifier: 
+  MenuButtonList:
+  - m_buttonName: Save
+    m_button: {fileID: 5530458768050113295, guid: 545ff7bfe988e024298c866afe5b87d9, type: 3}
+  - m_buttonName: Load
+    m_button: {fileID: 1721144704039637502, guid: bb6c0911f88ddbb49b3fb6076afca762, type: 3}
+  - m_buttonName: VolumeControl
+    m_button: {fileID: 6412907082799354666, guid: 8ce143f10546fcd4e84f58e48d41746a, type: 3}
+  - m_buttonName: Interruption
+    m_button: {fileID: 2947101228023954972, guid: d5e33689b8d4c5145bd2aaa673b86d78, type: 3}
+  - m_buttonName: Item
+    m_button: {fileID: 110887964698309448, guid: 5810587968c3e6442b6ff1b7d64de3fd, type: 3}
+  - m_buttonName: Status
+    m_button: {fileID: 4502473815104966968, guid: 93721ae8839819c409124edfdbf0c8e8, type: 3}
