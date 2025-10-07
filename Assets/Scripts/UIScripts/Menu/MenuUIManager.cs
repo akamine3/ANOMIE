@@ -13,11 +13,6 @@ public class MenuUIManager : MonoBehaviour
     [SerializeField] private GameObject m_posePanel;
     [SerializeField] private GameObject m_interruptionPanel;
 
-
-
-
-
-
     public GameObject PosePanel => m_posePanel;
     public GameObject InterruptionPanel => m_interruptionPanel;
 
@@ -31,6 +26,7 @@ public class MenuUIManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+
 
     private void ButtonDisabled()
     {
