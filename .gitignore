@@ -22,12 +22,14 @@ CinemachineCache/
 # --- 個人設定（除外） ---
 # ユーザーごとのウィンドウ配置やレイアウトなど
 UserSettings/
+UserSettings/Layouts/
 
 # --- Unity自動生成プロジェクト関連（IDE用） ---
 ExportedObj/
 .consulo/
 .vs/
 .idea/
+.vscode/
 *.csproj
 *.unityproj
 *.sln
@@ -43,7 +45,8 @@ ExportedObj/
 
 # --- JetBrains Rider専用 ---
 *.DotSettings.user
-.idea/
+.idea/workspace.xml
+.idea/tasks.xml
 
 # --- OS依存ファイル ---
 .DS_Store
@@ -58,6 +61,7 @@ desktop.ini
 *.app
 *.xcodeproj/
 *.xcworkspace/
+.gradle/
 
 # --- ログやクラッシュ情報 ---
 *.log
@@ -78,3 +82,4 @@ PlasticSCM/
 
 # --- Git LFS使用時（例:大容量アセット） ---
 # LFS設定を別途.gitattributesで管理可能
+*.meta
