@@ -12,8 +12,17 @@ public class InventoryManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+
+        if (Instance == null)
+        {
+            Instance = this;
+            ownedItemIds.Clear(); // ← テスト用に毎回リセット
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     // アイテムをインベントリに追加するメソッド。
@@ -29,7 +38,7 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.Log($"アイテムは既に所持しています: {item.ItemName} (ID: {item.ItemId})");
         }
-        //ownedItemIds.Add(item.ItemId);
+        
     }
     // アイテムIDを所持しているか確認するメソッド。
     public bool HasItem(string itemId)
