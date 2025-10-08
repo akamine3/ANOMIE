@@ -6,9 +6,9 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
     // 所持しているアイテムのIDを保持する
-    private HashSet<int> ownedItemIds = new HashSet<int>();
+    private HashSet<string> ownedItemIds = new HashSet<string>();
 
-    public event Action<int> OnItemAdded; // アイテム追加イベント
+    public event Action<string> OnItemAdded; // アイテム追加イベント
 
     void Awake()
     {
@@ -17,7 +17,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     // アイテムをインベントリに追加するメソッド。
-    public void AddItem(ItemData item)
+    public void AddItem(ItemDataBase.ItemData item)
     {
         // アイテムのIDをハッシュセットに追加
         if (ownedItemIds.Add(item.ItemId))
@@ -32,7 +32,7 @@ public class InventoryManager : MonoBehaviour
         //ownedItemIds.Add(item.ItemId);
     }
     // アイテムIDを所持しているか確認するメソッド。
-    public bool HasItem(int itemId)
+    public bool HasItem(string itemId)
     {
         return ownedItemIds.Contains(itemId);
     }

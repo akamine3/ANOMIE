@@ -3,7 +3,7 @@ using UnityEngine.Tilemaps;
 
 public class GateController : MonoBehaviour
 {
-    [SerializeField] private int requiredItemId;
+    [SerializeField] private string requiredItemId;
     private TilemapCollider2D tilemapCollider;
 
     void Start()
@@ -13,6 +13,12 @@ public class GateController : MonoBehaviour
         if (tilemapCollider == null)
         {
             Debug.LogError("TilemapCollider2D Ç™å©Ç¬Ç©ÇËÇ‹ÇπÇÒÅB");
+            return;
+        }
+
+        if (string.IsNullOrEmpty(requiredItemId))
+        {
+            Debug.LogWarning("requiredItemId Ç™ê›íËÇ≥ÇÍÇƒÇ¢Ç‹ÇπÇÒÅI");
             return;
         }
 
@@ -28,7 +34,7 @@ public class GateController : MonoBehaviour
         }
     }
 
-    private void OnItemAdded(int itemId)
+    private void OnItemAdded(string itemId)
     {
         if (itemId == requiredItemId)
         {

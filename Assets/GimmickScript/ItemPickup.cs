@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    [SerializeField] private ItemData itemData;
+    [SerializeField] private ItemDataBase.ItemData itemData;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+        
+
         if (other.CompareTag("Player"))
         {
             InventoryManager.Instance.AddItem(itemData);
