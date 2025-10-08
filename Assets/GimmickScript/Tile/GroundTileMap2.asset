@@ -35,5 +35,6 @@ MonoBehaviour:
   m_Flags: 1
   m_ColliderType: 2
   isWalkable: 1
+  isSceneGate: 0
   isSceneTransition: 0
   targetSceneName: Sample1
