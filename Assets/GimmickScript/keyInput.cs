@@ -13,12 +13,7 @@ public class keyInput : MonoBehaviour
         speed = 100f; // ← ここで強制的に設定
 
 
-        // 戻ってきたときに位置を復元
-        /*if (ScenePositionManager.returnPosition != Vector3.zero)
-        {
-            transform.position = ScenePositionManager.returnPosition;
-            ScenePositionManager.returnPosition = Vector3.zero; // 一度使ったらリセット
-        }*/
+        
 
     }
 
