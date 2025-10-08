@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class ItemUIManager : MonoBehaviour
 {
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +26,7 @@ public class ItemUIManager : MonoBehaviour
     public void OnClickItemUseButton()
     {
         Debug.Log("[Button] アイテム使用ボタンがクリックされました");
+        // アイテムの所持数を減らす処理
     }
 
     public void OnClickOrdinaryItemsTab()
@@ -46,8 +43,5 @@ public class ItemUIManager : MonoBehaviour
     {
         Debug.Log("[Button] パッシブアイテムタブが選択されました");
     }
-
-
-
 
 }

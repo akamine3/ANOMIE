@@ -22,8 +22,7 @@ public class ItemDataBase : ScriptableObject
             None,
             Passive,
             Active
-        }  
-
+        }
 
         public string ItemId => m_itemId;
         public string ItemName => m_itemName;
