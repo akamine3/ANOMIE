@@ -16,6 +16,10 @@ public class GateController : MonoBehaviour
             return;
         }
 
+        Debug.Log($"GateController 起動: 必要なID = '{requiredItemId}'");
+        Debug.Log($"HasItem('{requiredItemId}') = {InventoryManager.Instance.HasItem(requiredItemId)}");
+
+
         if (string.IsNullOrEmpty(requiredItemId))
         {
             Debug.LogWarning("requiredItemId が設定されていません！");
