@@ -4,13 +4,17 @@ using UnityEngine.Tilemaps;
 public class GateController : MonoBehaviour
 {
     [SerializeField] private string requiredItemId;
+    [SerializeField] private Vector3Int[] gateTilesToClear; // 消すTileの座標
+
+    private Tilemap tilemap;
     private TilemapCollider2D tilemapCollider;
 
     void Start()
     {
+        tilemap = GetComponent<Tilemap>();
         tilemapCollider = GetComponent<TilemapCollider2D>();
 
-        if (tilemapCollider == null)
+        if (tilemap == null || tilemapCollider == null)
         {
             Debug.LogError("TilemapCollider2D が見つかりません。");
             return;
@@ -26,7 +30,7 @@ public class GateController : MonoBehaviour
             return;
         }
 
-        // 最初から持っていれば開ける
+       /* // 最初から持っていれば開ける
         if (InventoryManager.Instance.HasItem(requiredItemId))
         {
             OpenGate();
@@ -35,7 +39,7 @@ public class GateController : MonoBehaviour
         {
             // アイテム取得時に通知を受け取る
             InventoryManager.Instance.OnItemAdded += OnItemAdded;
-        }
+        }*/
     }
 
     private void OnItemAdded(string itemId)
@@ -46,9 +50,15 @@ public class GateController : MonoBehaviour
         }
     }
 
-    private void OpenGate()
+    public void OpenGate()
     {
         tilemapCollider.enabled = false;
+
+        foreach (var pos in gateTilesToClear)
+        {
+            tilemap.SetTile(pos, null); // Tileを消す
+        }
+
         Debug.Log("道が開いた！");
     }
 
