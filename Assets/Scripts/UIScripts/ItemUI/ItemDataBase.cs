@@ -15,22 +15,19 @@ public class ItemDataBase : ScriptableObject
         [SerializeField, Tooltip("アイテムの分類\nNone: 付与効果なし\nPassive: 常時効果アイテム\nActive: 消耗品")] private ItemType m_type;
         [SerializeField, Tooltip("アイコン画像")] private Sprite m_icon;
         [SerializeField, TextArea, Tooltip("説明テキスト")] private string m_description;
-        [SerializeField, Range(0, 99), Tooltip("所持数")] private int m_possession;
 
         public enum ItemType 
         {
             None,
             Passive,
             Active
-        }  
-
+        }
 
         public string ItemId => m_itemId;
         public string ItemName => m_itemName;
         public Sprite Icon => m_icon;
         public ItemType Type => m_type;
         public string Description => m_description;
-        public int Possession => m_possession;
     }
 
 }
