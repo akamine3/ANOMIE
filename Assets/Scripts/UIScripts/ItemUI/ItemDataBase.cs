@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Item/ItemDatabase")]
 public class ItemDataBase : ScriptableObject
 {
     public List<ItemData> ItemList = new List<ItemData>();
+
+    // カテゴリ別に読み出すプロパティ（読み取り専用）
+    public IEnumerable<ItemData> QuestItemList => ItemList.Where(i => i.Type == ItemData.ItemType.None);
+    public IEnumerable<ItemData> ConsumableItemList => ItemList.Where(i => i.Type == ItemData.ItemType.Active);
+    public IEnumerable<ItemData> PassiveItemList => ItemList.Where(i => i.Type == ItemData.ItemType.Passive);
+
 
     [System.Serializable]
     public class ItemData
