@@ -30,7 +30,7 @@ public class GateController : MonoBehaviour
             return;
         }
 
-        // 最初から持っていれば開ける
+       /* // 最初から持っていれば開ける
         if (InventoryManager.Instance.HasItem(requiredItemId))
         {
             OpenGate();
@@ -39,7 +39,7 @@ public class GateController : MonoBehaviour
         {
             // アイテム取得時に通知を受け取る
             InventoryManager.Instance.OnItemAdded += OnItemAdded;
-        }
+        }*/
     }
 
     private void OnItemAdded(string itemId)
@@ -50,7 +50,7 @@ public class GateController : MonoBehaviour
         }
     }
 
-    private void OpenGate()
+    public void OpenGate()
     {
         tilemapCollider.enabled = false;
 

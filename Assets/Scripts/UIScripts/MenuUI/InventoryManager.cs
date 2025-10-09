@@ -45,4 +45,11 @@ public class InventoryManager : MonoBehaviour
     {
         return ownedItemIds.Contains(itemId);
     }
+    public void ConsumeItem(string itemId)
+    {
+        if (ownedItemIds.Remove(itemId))
+        {
+            Debug.Log($"ÉAÉCÉeÉÄè¡îÔ: {itemId}");
+        }
+    }
 }
