@@ -3981,7 +3981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSanity: 100
   currentSanity: 0
-  decayRate: 2
+  decayRate: 0.5
 --- !u!1 &707140639
 GameObject:
   m_ObjectHideFlags: 0
@@ -11786,7 +11786,7 @@ MonoBehaviour:
   sanityManager: {fileID: 625624551}
   redOverlay: {fileID: 2109729993}
   triggerThreshold: 30
-  effectDuration: 5
+  effectDuration: 20
 --- !u!4 &1472209369
 Transform:
   m_ObjectHideFlags: 0
