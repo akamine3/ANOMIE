@@ -153,6 +153,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2140376946}
   - {fileID: 1909560090}
   m_Father: {fileID: 1608447294}
   m_RootOrder: -1
@@ -1058,7 +1059,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2463220}
-  - {fileID: 2140376946}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1413,7 +1413,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140376945}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1422,7 +1422,7 @@ RectTransform:
   - {fileID: 1161779878}
   - {fileID: 1643300752}
   - {fileID: 1343923439}
-  m_Father: {fileID: 1608447294}
+  m_Father: {fileID: 2463220}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -3054,11 +3054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 62500079030629212, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -750
       objectReference: {fileID: 0}
     - target: {fileID: 62500079030629212, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 62500079030629212, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3071,6 +3071,18 @@ PrefabInstance:
     - target: {fileID: 62500079030629212, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 675799138835694809, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
+      propertyPath: m_fontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 675799138835694809, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 675799138835694809, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 2881983116837513279, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
       propertyPath: m_Name

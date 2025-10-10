@@ -16,18 +16,18 @@ MonoBehaviour:
   - m_itemId: key-test
     m_itemName: key
     m_type: 0
+    m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: "\u6249\u3092\u958B\u3051\u308B\u305F\u3081\u306B\u5FC5\u8981"
-    m_possession: 2
   - m_itemId: potion-test01
     m_itemName: portion01
     m_type: 2
+    m_useType: 1
     m_icon: {fileID: 21300000, guid: eba88c7c9c40cab46b86f297d1a11350, type: 3}
     m_description: "SAN\u5024\u3092\u56DE\u5FA9\u3067\u304D\u308B"
-    m_possession: 2
   - m_itemId: potion-test02
     m_itemName: potion02
     m_type: 2
+    m_useType: 1
     m_icon: {fileID: 21300000, guid: 0bcf83c744792014b9523b2f45bf9b36, type: 3}
     m_description: "\u72B6\u614B\u7570\u5E38\u3092\u56DE\u5FA9\u3067\u304D\u308B"
-    m_possession: 2
