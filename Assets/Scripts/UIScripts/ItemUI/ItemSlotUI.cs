@@ -48,4 +48,9 @@ public class ItemSlotUI : MonoBehaviour
         int count = m_playerInventory.GetCount(m_itemId);
         m_numText.text = count.ToString();
     }
+
+    public void OnClickItemIcon()
+    {
+        Debug.Log("[Button] アイテムが選択されました");
+    }
 }
