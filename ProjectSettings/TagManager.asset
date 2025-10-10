@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - GraundTile
   - GroundTile
+  - Enemy
   layers:
   - Default
   - TransparentFX
