@@ -7,19 +7,23 @@ public class EnemyTrigger : MonoBehaviour
     public float chaseDuration = 10f;
     public SanityEffect sanityEffect;
 
+    private bool isChasing = false;
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (sanityEffect.redOverlay.enabled && other.CompareTag("Player"))
+        if (!isChasing && sanityEffect.IsEffectActive() && other.CompareTag("Player"))
         {
             enemy.SetActive(true);
+            isChasing = true;
             StartCoroutine(ChasePlayer());
         }
     }
 
     IEnumerator ChasePlayer()
     {
-        // ここで敵の追跡AIを有効化
+        // ここで敵の追跡AIを有効化（未実装なら仮で移動処理）
         yield return new WaitForSeconds(chaseDuration);
         enemy.SetActive(false);
+        isChasing = false;
     }
 }
