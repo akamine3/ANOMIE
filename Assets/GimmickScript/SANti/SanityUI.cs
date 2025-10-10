@@ -19,8 +19,8 @@ public class SanityUI : MonoBehaviour
     void Update()
     {
         float sanity = sanityManager.currentSanity;
-        sanitySlider.value = sanityManager.currentSanity;
-
+        //sanitySlider.value = sanityManager.currentSanity;
+        sanitySlider.value = sanity;
 
         // 色の変更
         if (sanity > 60f)
@@ -30,6 +30,11 @@ public class SanityUI : MonoBehaviour
         else
             fillImage.color = Color.red;
 
+        // SAN値が0のときFillを非表示
+        fillImage.enabled = sanity > 0;
+
+
+        //ゲージの震え
         if (sanity <= shakeThreshold)
         {
             float shakeX = Random.Range(-shakeIntensity, shakeIntensity);
