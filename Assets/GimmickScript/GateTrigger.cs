@@ -24,6 +24,13 @@ public class GateTrigger : MonoBehaviour
             playerInRange = false;
             useKeyButton.SetActive(false); // ボタン非表示
         }
+
+        if (other == null || other.gameObject == null)
+            return;
+
+        // 安全にアクセス
+        Debug.Log("Exited: " + other.gameObject.name);
+
     }
 
     public void TryUseKey()
