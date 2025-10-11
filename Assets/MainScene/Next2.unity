@@ -5173,6 +5173,41 @@ MonoBehaviour:
   player: {fileID: 1639603680}
   moveSpeed: 3
   sanityEffect: {fileID: 1472209368}
+--- !u!58 &945676933
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945676927}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.33}
+  serializedVersion: 2
+  m_Radius: 0.35
 --- !u!1001 &973906092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5492,6 +5527,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2441221134748358781, guid: 5ee7f82271ce9ea499758d1c4723f59b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 945676931}
+    - targetCorrespondingSourceObject: {fileID: 2441221134748358781, guid: 5ee7f82271ce9ea499758d1c4723f59b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945676933}
   m_SourcePrefab: {fileID: 100100000, guid: 5ee7f82271ce9ea499758d1c4723f59b, type: 3}
 --- !u!1 &1106009833
 GameObject:
