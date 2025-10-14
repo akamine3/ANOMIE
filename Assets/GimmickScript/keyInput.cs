@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class keyInput : MonoBehaviour
 {
-    public float speed =100f;
+    public float speed;
     private Rigidbody2D rb;
     private Animator animator;
 
@@ -10,7 +10,7 @@ public class keyInput : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        speed = 100f; // Å© Ç±Ç±Ç≈ã≠êßìIÇ…ê›íË
+        speed = 100f;
 
 
         
