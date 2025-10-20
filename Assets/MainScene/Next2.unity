@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d551f14c3b4a448b0902c3ebba321e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTilemap: {fileID: 0}
+  targetTilemap: {fileID: 1651654409}
 --- !u!1 &538154956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4354,19 @@ MonoBehaviour:
   useKeyButton: {fileID: 56028571}
   requiredItemId: 1
   gateController: {fileID: 1651654411}
+  gateData:
+    requiredItemId: 1
+    gateTilesToClear:
+    - {x: 11, y: 32, z: 0}
+    - {x: 11, y: 31, z: 0}
+    - {x: 11, y: 30, z: 0}
+    - {x: 11, y: 29, z: 0}
+    - {x: 11, y: 28, z: 0}
+    - {x: 11, y: 27, z: 0}
+    - {x: 11, y: 26, z: 0}
+    - {x: 11, y: 25, z: 0}
+    - {x: 11, y: 24, z: 0}
+    - {x: 11, y: 23, z: 0}
 --- !u!1 &732562182
 GameObject:
   m_ObjectHideFlags: 0
@@ -13064,14 +13077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375727d79f5489f4ea284addeb30b602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredItemId: 1
-  gateTilesToClear:
-  - {x: 11, y: 25, z: 0}
-  - {x: 11, y: 26, z: 0}
-  - {x: 11, y: 27, z: 0}
-  - {x: 11, y: 28, z: 0}
-  - {x: 11, y: 29, z: 0}
-  - {x: 11, y: 30, z: 0}
+  gates: []
 --- !u!1 &1692384858
 GameObject:
   m_ObjectHideFlags: 0
