@@ -1,13 +1,21 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System.Collections.Generic;
 
 public class GateController : MonoBehaviour
 {
-    [SerializeField] private string requiredItemId;
-    [SerializeField] private Vector3Int[] gateTilesToClear; // 消すTileの座標
+    [System.Serializable]
+    public class GateData
+    {
+        public string requiredItemId;
+        public Vector3Int[] gateTilesToClear;
+    }
+
+    [SerializeField] private List<GateData> gates = new List<GateData>();
 
     private Tilemap tilemap;
     private TilemapCollider2D tilemapCollider;
+    private HashSet<string> openedGates = new HashSet<string>();
 
     void Start()
     {
@@ -16,50 +24,44 @@ public class GateController : MonoBehaviour
 
         if (tilemap == null || tilemapCollider == null)
         {
-            Debug.LogError("TilemapCollider2D が見つかりません。");
+            Debug.LogError("Tilemap または TilemapCollider2D が見つかりません。");
             return;
         }
 
-        Debug.Log($"GateController 起動: 必要なID = '{requiredItemId}'");
-        Debug.Log($"HasItem('{requiredItemId}') = {InventoryManager.Instance.HasItem(requiredItemId)}");
+        InventoryManager.Instance.OnItemAdded += OnItemAdded;
 
-
-        if (string.IsNullOrEmpty(requiredItemId))
+        // すでに持っているアイテムで開けられるゲートをチェック
+        foreach (var gate in gates)
         {
-            Debug.LogWarning("requiredItemId が設定されていません！");
-            return;
+            if (InventoryManager.Instance.HasItem(gate.requiredItemId))
+            {
+                OpenGate(gate);
+            }
         }
-
-       /* // 最初から持っていれば開ける
-        if (InventoryManager.Instance.HasItem(requiredItemId))
-        {
-            OpenGate();
-        }
-        else
-        {
-            // アイテム取得時に通知を受け取る
-            InventoryManager.Instance.OnItemAdded += OnItemAdded;
-        }*/
     }
 
     private void OnItemAdded(string itemId)
     {
-        if (itemId == requiredItemId)
+        foreach (var gate in gates)
         {
-            OpenGate();
+            if (gate.requiredItemId == itemId && !openedGates.Contains(itemId))
+            {
+                OpenGate(gate);
+            }
         }
     }
 
-    public void OpenGate()
+    public void OpenGate(GateData gate)
     {
-        tilemapCollider.enabled = false;
-
-        foreach (var pos in gateTilesToClear)
+        foreach (var pos in gate.gateTilesToClear)
         {
-            tilemap.SetTile(pos, null); // Tileを消す
+            tilemap.SetTile(pos, null);
         }
 
-        Debug.Log("道が開いた！");
+        tilemapCollider.enabled = false;
+        openedGates.Add(gate.requiredItemId);
+
+        Debug.Log($"道が開いた！（ID: {gate.requiredItemId}）");
     }
 
     void OnDestroy()
