@@ -5257,7 +5257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bdd357a0c4fcbf4ba1d7379e21bcc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Next3
+  sceneName: Next2
   sceneFader: {fileID: 130634898}
 --- !u!1 &802216789
 GameObject:
@@ -12234,7 +12234,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.7924528, g: 0.6234959, b: 0.6234959, a: 1}
+  m_Color: {r: 1, g: 0.1830188, b: 0.1830188, a: 1}
   m_Origin: {x: -25, y: 0, z: 0}
   m_Size: {x: 61, y: 44, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}

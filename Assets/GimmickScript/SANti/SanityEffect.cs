@@ -14,6 +14,7 @@ public class SanityEffect : MonoBehaviour
     void Start()
     {
         StartCoroutine(CheckSanityEffect());
+        sanityManager = SanityManager.Instance;
     }
 
     IEnumerator CheckSanityEffect()

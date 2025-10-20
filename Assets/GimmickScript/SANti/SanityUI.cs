@@ -11,9 +11,12 @@ public class SanityUI : MonoBehaviour
     public float shakeThreshold = 10f;
     public float shakeIntensity = 2f;
 
+
+
     void Start()
     {
         sanitySlider.maxValue = sanityManager.maxSanity;
+        sanityManager = SanityManager.Instance;
     }
 
     void Update()
