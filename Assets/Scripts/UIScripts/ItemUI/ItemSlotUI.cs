@@ -9,7 +9,7 @@ public class ItemSlotUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI m_numText;  // 所持数テキスト
     [SerializeField] private ItemDataBase m_itemDatabase;
     [SerializeField] private PlayerInventory m_playerInventory;
-    [SerializeField] private string m_itemId; // 表示したいアイテムID
+    private string m_itemId; // 表示したいアイテムID
 
     private void OnEnable()
     {
@@ -28,20 +28,45 @@ public class ItemSlotUI : MonoBehaviour
             m_playerInventory.OnInventoryChanged -= UpdateUI;
     }
 
+    private void Awake()
+    {
+        if (m_playerInventory == null)
+            m_playerInventory = PlayerInventory.Instance ?? FindObjectOfType<PlayerInventory>();
+    }
+
+
     private void Start()
     {
+        UpdateUI();
+        m_iconImage.preserveAspect = true;
+    }
+
+    /// <summary>
+    /// 外部からアイテムIDを設定し、UIを更新する
+    /// </summary>
+    public void SetItemId(string itemId)
+    {
+        m_itemId = itemId;
         UpdateUI();
     }
 
     // UIを更新
     public void UpdateUI()
     {
+        if (string.IsNullOrEmpty(m_itemId)) return;
+        if (m_itemDatabase == null || m_playerInventory == null) return;
+
         // マスターからアイテム情報を取得
         var data = m_itemDatabase.ItemList.Find(d => d.ItemId == m_itemId);
 
         if (data != null)
         {
-            m_iconImage.sprite = data.Icon; // アイコン設定
+            m_iconImage.sprite = data.Icon;
+            m_iconImage.preserveAspect = true;
+        }
+        else
+        {
+            m_iconImage.sprite = null; // 見つからない場合は非表示
         }
 
         // 現在の所持数を取得して表示

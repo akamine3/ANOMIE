@@ -5,10 +5,24 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+    public static PlayerInventory Instance { get; private set; }
+
     public event Action OnInventoryChanged;
 
     [Header("所有アイテム一覧")]
     [SerializeField] private List<PlayerItemStatus> ItemStatuses = new();
+
+    private void Awake()
+    {
+        // シングルトン化
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     /// <summary>
     /// アイテムをリストに加える
@@ -20,9 +34,13 @@ public class PlayerInventory : MonoBehaviour
         var item = ItemStatuses.Find(i => i.ItemId == itemId);
 
         if (item == null)
+        {
             ItemStatuses.Add(new PlayerItemStatus(itemId, amount));
+        }
         else
+        {
             item.PossessionCount += amount;
+        }
 
         Debug.Log($"{itemId} が {amount} 個増えた！（現在：{item?.PossessionCount ?? amount}）");
 
