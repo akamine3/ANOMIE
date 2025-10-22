@@ -15,8 +15,10 @@ public class SanityUI : MonoBehaviour
 
     void Start()
     {
-        sanitySlider.maxValue = sanityManager.maxSanity;
         sanityManager = SanityManager.Instance;
+        sanitySlider.maxValue = sanityManager.maxSanity;
+        sanitySlider.value = sanityManager.currentSanity;
+       
     }
 
     void Update()
