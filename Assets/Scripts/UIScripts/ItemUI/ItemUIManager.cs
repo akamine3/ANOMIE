@@ -1,37 +1,89 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
-using static UnityEngine.Rendering.DebugUI;
 
 public class ItemUIManager : MonoBehaviour
 {
-    [Header("アイテム詳細表示パネル")]
-    [SerializeField] private GameObject m_itemDetailsPanel;
-    [SerializeField] private Image m_itemIcon;
-    [SerializeField] private TextMeshProUGUI m_itemNameText;
-    [SerializeField] private TextMeshProUGUI m_itemPossessionCount;
-    [SerializeField] private TextMeshProUGUI m_itemExplanation;
-    [SerializeField, Tooltip("アイテム未選択時テキスト")] private TextMeshProUGUI m_unselectedText;
+    [Header("ScrollView管理")]
+    [SerializeField] private ScrollViewSwitcher m_switcher;
+    [SerializeField] private GameObject m_itemSlotPrefab;
 
+    [Header("データ参照")]
+    [SerializeField] private ItemDataBase m_itemDatabase;
+    [SerializeField] private PlayerInventory m_playerInventory;
 
-    // Start is called before the first frame update
-    void Start()
+    private Transform m_currentContentParent;
+    private Dictionary<string, ItemSlotUI> m_spawnedSlots = new();
+
+    private void Start()
     {
-        
+        // イベント登録
+        if (m_playerInventory != null)
+            m_playerInventory.OnInventoryChanged += OnInventoryChanged;
+
+        // 初期表示
+        OnInventoryChanged();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        if (m_playerInventory != null)
+            m_playerInventory.OnInventoryChanged -= OnInventoryChanged;
     }
 
-    public void DisplayItemDetailsPanel(string itemId)
+    /// <summary>
+    /// インベントリ変更時のUI更新
+    /// </summary>
+    private void OnInventoryChanged()
     {
-        Debug.Log("[UI] アイテム詳細パネルを表示");
+        // 今回は「通常アイテム」タブのみ表示（必要に応じて切り替え可）
+        Debug.Log("[UI] OnInventoryChanged() 呼ばれた");
+        RefreshUI(ItemDataBase.ItemData.ItemType.Quest);
     }
 
+    /// <summary>
+    /// UIを更新（差分追加方式＋空チェック）
+    /// </summary>
+    public void RefreshUI(ItemDataBase.ItemData.ItemType type)
+    {
+        m_switcher.Show(type);
+        m_currentContentParent = m_switcher.GetCurrentContent();
+
+        // 現在の所持アイテム一覧を取得
+        var ownedItems = m_playerInventory.GetAllItems();
+        if (ownedItems == null || ownedItems.Count == 0)
+        {
+            Debug.Log("[UI] アイテムを所持していません");
+            // 既存UIを削除しておく（空表示）
+            foreach (Transform child in m_currentContentParent)
+                Destroy(child.gameObject);
+            m_spawnedSlots.Clear();
+            return;
+        }
+
+        // 所持アイテムに基づいてUIを更新
+        foreach (var owned in ownedItems)
+        {
+            // マスターから該当アイテムを検索
+            var data = m_itemDatabase.ItemList.Find(i => i.ItemId == owned.ItemId && i.Type == type);
+            if (data == null) continue; // 他カテゴリはスキップ
+
+            // 既に表示済みか？
+            if (m_spawnedSlots.ContainsKey(owned.ItemId))
+            {
+                m_spawnedSlots[owned.ItemId].UpdateUI();
+                continue;
+            }
+
+            // 新規アイテムの場合 → スロット生成
+            var slotObj = Instantiate(m_itemSlotPrefab, m_currentContentParent);
+            slotObj.name = owned.ItemId;
+            var slotUI = slotObj.GetComponent<ItemSlotUI>();
+            slotUI.SetItemId(owned.ItemId);
+
+            m_spawnedSlots.Add(owned.ItemId, slotUI);
+        }
+    }
 }

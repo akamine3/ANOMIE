@@ -1,81 +1,45 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ItemSlotUI : MonoBehaviour
 {
-    [Header("参照")]
-    [SerializeField] private Image m_iconImage;          // アイコン画像
-    [SerializeField] private TextMeshProUGUI m_numText;  // 所持数テキスト
-    [SerializeField] private ItemDataBase m_itemDatabase;
-    [SerializeField] private PlayerInventory m_playerInventory;
-    private string m_itemId; // 表示したいアイテムID
+    [SerializeField] private Image m_iconImage;
+    [SerializeField] private TextMeshProUGUI m_numText;
+    [SerializeField] private ItemDataBase m_database; // ← Inspectorで設定
 
-    private void OnEnable()
-    {
-        // イベント読み込み
-        if (m_playerInventory != null)
-            m_playerInventory.OnInventoryChanged += UpdateUI;
-
-        // 初回表示も整える
-        UpdateUI();
-    }
-
-    private void OnDisable()
-    {
-        // イベント読み込み解除（OFFになったら）
-        if (m_playerInventory != null)
-            m_playerInventory.OnInventoryChanged -= UpdateUI;
-    }
+    private string m_itemId;
+    private ItemUIManager m_uiManager;
+    private PlayerInventory m_inventory;
 
     private void Awake()
     {
-        if (m_playerInventory == null)
-            m_playerInventory = PlayerInventory.Instance ?? FindObjectOfType<PlayerInventory>();
+        m_uiManager = FindObjectOfType<ItemUIManager>();
+        m_inventory = PlayerInventory.Instance;
     }
 
-
-    private void Start()
-    {
-        UpdateUI();
-        m_iconImage.preserveAspect = true;
-    }
-
-    /// <summary>
-    /// 外部からアイテムIDを設定し、UIを更新する
-    /// </summary>
     public void SetItemId(string itemId)
     {
         m_itemId = itemId;
         UpdateUI();
     }
 
-    // UIを更新
     public void UpdateUI()
     {
-        if (string.IsNullOrEmpty(m_itemId)) return;
-        if (m_itemDatabase == null || m_playerInventory == null) return;
+        if (m_database == null)
+        {
+            Debug.LogError("[ItemSlotUI] ItemDataBaseが未設定です。Prefabまたはシーンで設定してください。");
+            return;
+        }
 
-        // マスターからアイテム情報を取得
-        var data = m_itemDatabase.ItemList.Find(d => d.ItemId == m_itemId);
-
+        var data = m_database.ItemList.Find(i => i.ItemId == m_itemId);
         if (data != null)
         {
             m_iconImage.sprite = data.Icon;
             m_iconImage.preserveAspect = true;
         }
-        else
-        {
-            m_iconImage.sprite = null; // 見つからない場合は非表示
-        }
 
-        // 現在の所持数を取得して表示
-        int count = m_playerInventory.GetCount(m_itemId);
-        m_numText.text = count.ToString();
-    }
-
-    public void OnClickItemIcon()
-    {
-        Debug.Log("[Button] アイテムが選択されました");
+        if (m_inventory != null)
+            m_numText.text = m_inventory.GetCount(m_itemId).ToString();
     }
 }
