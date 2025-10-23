@@ -16,7 +16,10 @@ public class ItemSlotUI : MonoBehaviour
     {
         m_uiManager = FindObjectOfType<ItemUIManager>();
         m_inventory = PlayerInventory.Instance;
+
     }
+
+
 
     public void SetItemId(string itemId)
     {
@@ -26,9 +29,9 @@ public class ItemSlotUI : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (m_database == null)
+        if (m_iconImage == null)
         {
-            Debug.LogError("[ItemSlotUI] ItemDataBaseが未設定です。Prefabまたはシーンで設定してください。");
+            Debug.LogError($"[ItemSlotUI] m_iconImage が Missing です: {gameObject.name}", this);
             return;
         }
 

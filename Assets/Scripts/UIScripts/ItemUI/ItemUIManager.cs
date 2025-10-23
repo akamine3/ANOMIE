@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -17,11 +18,23 @@ public class ItemUIManager : MonoBehaviour
     private Transform m_currentContentParent;
     private Dictionary<string, ItemSlotUI> m_spawnedSlots = new();
 
+
+    private void Awake()
+    {
+        Debug.Log($"[ItemUIManager] Prefab status: {m_itemSlotPrefab} ({m_itemSlotPrefab?.scene.name})");
+    }
+
     private void Start()
     {
+        if (m_itemSlotPrefab == null)
+            Debug.LogError("[ItemUIManager] Item Slot Prefab が実行時に Missing です。Prefab 参照が壊れています。");
+        else
+            Debug.Log($"[ItemUIManager] Prefab OK: {m_itemSlotPrefab.name}");
+
         // イベント登録
         if (m_playerInventory != null)
             m_playerInventory.OnInventoryChanged += OnInventoryChanged;
+
 
         // 初期表示
         OnInventoryChanged();
@@ -38,9 +51,33 @@ public class ItemUIManager : MonoBehaviour
     /// </summary>
     private void OnInventoryChanged()
     {
-        // 今回は「通常アイテム」タブのみ表示（必要に応じて切り替え可）
-        Debug.Log("[UI] OnInventoryChanged() 呼ばれた");
-        RefreshUI(ItemDataBase.ItemData.ItemType.Quest);
+        int count = m_playerInventory?.GetEventListenerCount() ?? 0;
+        Debug.Log($"[UI] OnInventoryChanged() 呼ばれた (登録回数: {count})");
+
+        //Debug.Log("[UI] OnInventoryChanged() 呼ばれた");
+
+        foreach (ItemDataBase.ItemData.ItemType type in System.Enum.GetValues(typeof(ItemDataBase.ItemData.ItemType)))
+        {
+            StartCoroutine(RefreshAfterClear());
+        }
+        /*        // 現在表示しているタブのタイプを取得
+                var currentType = m_switcher.GetCurrentType();
+
+                // 現在のタブに反映
+                RefreshUI(currentType);
+
+                // レイアウト強制更新
+                Canvas.ForceUpdateCanvases();*/
+    }
+
+
+    private IEnumerator RefreshAfterClear()
+    {
+        yield return null; // 1フレーム待つ
+        foreach (ItemDataBase.ItemData.ItemType type in System.Enum.GetValues(typeof(ItemDataBase.ItemData.ItemType)))
+        {
+            RefreshUI(type);
+        }
     }
 
     /// <summary>
@@ -48,42 +85,55 @@ public class ItemUIManager : MonoBehaviour
     /// </summary>
     public void RefreshUI(ItemDataBase.ItemData.ItemType type)
     {
+        // 対象ScrollViewを表示
         m_switcher.Show(type);
-        m_currentContentParent = m_switcher.GetCurrentContent();
 
-        // 現在の所持アイテム一覧を取得
+        // 現在のContent Transformを取得（生成先）
+        m_currentContentParent = m_switcher.GetCurrentContent();
+        if (m_currentContentParent == null)
+        {
+            Debug.LogError("[UI] Content が取得できませんでした。ScrollView の構造を確認してください。");
+            return;
+        }
+
+        // 所持アイテムを取得
         var ownedItems = m_playerInventory.GetAllItems();
         if (ownedItems == null || ownedItems.Count == 0)
         {
             Debug.Log("[UI] アイテムを所持していません");
-            // 既存UIを削除しておく（空表示）
+
             foreach (Transform child in m_currentContentParent)
+            {
                 Destroy(child.gameObject);
+            }
             m_spawnedSlots.Clear();
             return;
         }
 
-        // 所持アイテムに基づいてUIを更新
+        // スロット生成
         foreach (var owned in ownedItems)
         {
-            // マスターから該当アイテムを検索
             var data = m_itemDatabase.ItemList.Find(i => i.ItemId == owned.ItemId && i.Type == type);
-            if (data == null) continue; // 他カテゴリはスキップ
+            if (data == null) continue;
 
-            // 既に表示済みか？
             if (m_spawnedSlots.ContainsKey(owned.ItemId))
             {
                 m_spawnedSlots[owned.ItemId].UpdateUI();
                 continue;
             }
 
-            // 新規アイテムの場合 → スロット生成
+            // ここが重要：生成先を m_currentContentParent に変更
             var slotObj = Instantiate(m_itemSlotPrefab, m_currentContentParent);
             slotObj.name = owned.ItemId;
+
             var slotUI = slotObj.GetComponent<ItemSlotUI>();
             slotUI.SetItemId(owned.ItemId);
 
             m_spawnedSlots.Add(owned.ItemId, slotUI);
         }
+
+        // レイアウト更新
+        Canvas.ForceUpdateCanvases();
     }
+
 }

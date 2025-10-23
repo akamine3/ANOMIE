@@ -14,7 +14,7 @@ public class PlayerInventory : MonoBehaviour
     public event Action OnInventoryChanged;
 
     [Header("所有アイテム一覧")]
-    [SerializeField] private List<PlayerItemStatus> m_itemStatuses = new();
+    public List<PlayerItemStatus> ItemStatuses = new();
 
     private void Awake()
     {
@@ -32,12 +32,12 @@ public class PlayerInventory : MonoBehaviour
     /// </summary>
     public void AddItem(string itemId, int amount)
     {
-        if (string.IsNullOrEmpty(itemId) || amount <= 0) return;
+        //if (string.IsNullOrEmpty(itemId) || amount <= 0) return;
 
-        var item = m_itemStatuses.Find(i => i.ItemId == itemId);
+        var item = ItemStatuses.Find(i => i.ItemId == itemId);
         if (item == null)
         {
-            m_itemStatuses.Add(new PlayerItemStatus(itemId, amount));
+            ItemStatuses.Add(new PlayerItemStatus(itemId, amount));
         }
         else
         {
@@ -53,7 +53,7 @@ public class PlayerInventory : MonoBehaviour
     /// </summary>
     public bool UseItem(string itemId, int amount = 1)
     {
-        var item = m_itemStatuses.Find(i => i.ItemId == itemId);
+        var item = ItemStatuses.Find(i => i.ItemId == itemId);
         if (item == null || item.PossessionCount < amount)
         {
             Debug.LogWarning($"[Inventory] {itemId} 使用失敗（不足）");
@@ -71,14 +71,14 @@ public class PlayerInventory : MonoBehaviour
     /// </summary>
     public int GetCount(string itemId)
     {
-        var item = m_itemStatuses.Find(i => i.ItemId == itemId);
+        var item = ItemStatuses.Find(i => i.ItemId == itemId);
         return item?.PossessionCount ?? 0;
     }
 
     /// <summary>
     /// 全所持データを取得（セーブ用）
     /// </summary>
-    public IReadOnlyList<PlayerItemStatus> GetAllItems() => m_itemStatuses.AsReadOnly();
+    public IReadOnlyList<PlayerItemStatus> GetAllItems() => ItemStatuses.AsReadOnly();
 
     /// <summary>
     /// 所持アイテムをクリア（デバッグ用）
@@ -86,8 +86,15 @@ public class PlayerInventory : MonoBehaviour
     [ContextMenu("Clear Inventory")]
     public void ClearInventory()
     {
-        m_itemStatuses.Clear();
+        ItemStatuses.Clear();
         OnInventoryChanged?.Invoke();
         Debug.Log("[Inventory] 全アイテムをクリアしました");
     }
+
+    public int GetEventListenerCount()
+    {
+        return OnInventoryChanged?.GetInvocationList()?.Length ?? 0;
+    }
+
+
 }
