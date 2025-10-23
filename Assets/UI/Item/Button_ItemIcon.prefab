@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3526937833701859049}
   - component: {fileID: 675799138835694809}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 7693367450362768949}
   - component: {fileID: 1375609430875489280}
   - component: {fileID: 423163733858987247}
+  - component: {fileID: -4979929932575611603}
   m_Layer: 5
   m_Name: Button_ItemIcon
   m_TagString: Untagged
@@ -333,4 +334,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1375609430875489280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2881983116837513279}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-4979929932575611603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881983116837513279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa7ba30683427b4ba32aec985a79b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_iconImage: {fileID: 7670816184488448865}
+  m_numText: {fileID: 675799138835694809}
+  m_database: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
