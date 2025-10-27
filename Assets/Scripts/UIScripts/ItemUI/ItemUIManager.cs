@@ -136,4 +136,18 @@ public class ItemUIManager : MonoBehaviour
         Canvas.ForceUpdateCanvases();
     }
 
+    #region タブ切り替え
+
+    /// <summary>
+    /// UIボタンから呼び出す: タブ切り替え
+    /// </summary>
+    public void OnClickChangeTab(int typeIndex)
+    {
+        ItemDataBase.ItemData.ItemType type = (ItemDataBase.ItemData.ItemType)typeIndex;
+        Debug.Log($"[ItemUIManager] タブ切り替え: {type}");
+        RefreshUI(type);
+    }
+
+    #endregion
+
 }
