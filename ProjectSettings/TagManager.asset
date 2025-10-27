@@ -9,6 +9,7 @@ TagManager:
   - GraundTile
   - GroundTile
   - Enemy
+  - UIManager
   layers:
   - Default
   - TransparentFX

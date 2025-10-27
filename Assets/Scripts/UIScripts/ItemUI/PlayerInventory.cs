@@ -1,20 +1,23 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// プレイヤーの所持アイテムを管理するクラス。
+/// UI操作とは独立し、データのみを扱う。
+/// </summary>
 public class PlayerInventory : MonoBehaviour
 {
     public static PlayerInventory Instance { get; private set; }
 
+    /// <summary>所持アイテム更新イベント</summary>
     public event Action OnInventoryChanged;
 
     [Header("所有アイテム一覧")]
-    [SerializeField] private List<PlayerItemStatus> ItemStatuses = new();
+    public List<PlayerItemStatus> ItemStatuses = new();
 
     private void Awake()
     {
-        // シングルトン化
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -25,14 +28,13 @@ public class PlayerInventory : MonoBehaviour
     }
 
     /// <summary>
-    /// アイテムをリストに加える
+    /// アイテムを追加する（既存なら加算）
     /// </summary>
-    /// <param name="itemId"></param>
-    /// <param name="amount"></param>
     public void AddItem(string itemId, int amount)
     {
-        var item = ItemStatuses.Find(i => i.ItemId == itemId);
+        //if (string.IsNullOrEmpty(itemId) || amount <= 0) return;
 
+        var item = ItemStatuses.Find(i => i.ItemId == itemId);
         if (item == null)
         {
             ItemStatuses.Add(new PlayerItemStatus(itemId, amount));
@@ -42,49 +44,57 @@ public class PlayerInventory : MonoBehaviour
             item.PossessionCount += amount;
         }
 
-        Debug.Log($"{itemId} が {amount} 個増えた！（現在：{item?.PossessionCount ?? amount}）");
-
-        // 変更
-        if (OnInventoryChanged != null) OnInventoryChanged.Invoke();
+        Debug.Log($"[Inventory] {itemId} +{amount}（現在 {GetCount(itemId)}）");
+        OnInventoryChanged?.Invoke();
     }
 
     /// <summary>
-    /// アイテム使用時
+    /// アイテムを消費する（残量チェックあり）
     /// </summary>
-    /// <param name="itemId"></param>
-    /// <param name="amount"></param>
-    public void UseItem(string itemId, int amount = 1)
+    public bool UseItem(string itemId, int amount = 1)
     {
         var item = ItemStatuses.Find(i => i.ItemId == itemId);
-        if (item == null)
+        if (item == null || item.PossessionCount < amount)
         {
-            Debug.LogWarning($"[{itemId}] は所持していません。");
-            return;
-        }
-
-        if (item.PossessionCount < amount)
-        {
-            Debug.LogWarning($"[{itemId}] の所持数が足りません。");
-            return;
+            Debug.LogWarning($"[Inventory] {itemId} 使用失敗（不足）");
+            return false;
         }
 
         item.PossessionCount -= amount;
-        Debug.Log($"[{itemId}] を {amount} 個使用。残り: {item.PossessionCount}");
-
-        if (OnInventoryChanged != null) OnInventoryChanged.Invoke();
+        Debug.Log($"[Inventory] {itemId} -{amount}（残り {item.PossessionCount}）");
+        OnInventoryChanged?.Invoke();
+        return true;
     }
 
     /// <summary>
-    /// 所持数取得メソッド
+    /// 所持数を取得（存在しない場合は0）
     /// </summary>
-    /// <param name="itemId"></param>
-    /// <returns></returns>
     public int GetCount(string itemId)
     {
         var item = ItemStatuses.Find(i => i.ItemId == itemId);
-        if (item != null)
-            return item.PossessionCount; // アイテムが見つかったら所持数を返す
-        else
-            return 0;
+        return item?.PossessionCount ?? 0;
     }
+
+    /// <summary>
+    /// 全所持データを取得（セーブ用）
+    /// </summary>
+    public IReadOnlyList<PlayerItemStatus> GetAllItems() => ItemStatuses.AsReadOnly();
+
+    /// <summary>
+    /// 所持アイテムをクリア（デバッグ用）
+    /// </summary>
+    [ContextMenu("Clear Inventory")]
+    public void ClearInventory()
+    {
+        ItemStatuses.Clear();
+        OnInventoryChanged?.Invoke();
+        Debug.Log("[Inventory] 全アイテムをクリアしました");
+    }
+
+    public int GetEventListenerCount()
+    {
+        return OnInventoryChanged?.GetInvocationList()?.Length ?? 0;
+    }
+
+
 }
