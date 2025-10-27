@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/Past1.unity
     guid: ddda08fc17ba42445a1747d7316ed8d1
+  - enabled: 1
+    path: Assets/MainScene/Past1 SAKABA.unity
+    guid: a9bd2de40357fc04a9ce3138cc06ebda
+  - enabled: 1
+    path: Assets/MainScene/Next4.unity
+    guid: d9caf9b7e1ab46542a4c0b1d93786fe5
   m_configObjects: {}
