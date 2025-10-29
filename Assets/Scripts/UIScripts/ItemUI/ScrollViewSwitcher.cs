@@ -5,18 +5,21 @@ public class ScrollViewSwitcher : MonoBehaviour
     [SerializeField] private GameObject m_scrollQuest;
     [SerializeField] private GameObject m_scrollConsumable;
     [SerializeField] private GameObject m_scrollPassive;
-    private ItemDataBase.ItemData.ItemType m_currentType;
+
+
 
     private GameObject m_currentActive;
+    private ItemDataBase.ItemData.ItemType m_currentType;
 
     public void Show(ItemDataBase.ItemData.ItemType type)
     {
-        m_currentType = type;
-
+        // ScrollView の表示切替
         m_scrollQuest.SetActive(type == ItemDataBase.ItemData.ItemType.Quest);
         m_scrollConsumable.SetActive(type == ItemDataBase.ItemData.ItemType.Active);
         m_scrollPassive.SetActive(type == ItemDataBase.ItemData.ItemType.Passive);
 
+        // 現在タブ記録
+        m_currentType = type;
         switch (type)
         {
             case ItemDataBase.ItemData.ItemType.Quest: m_currentActive = m_scrollQuest; break;
@@ -25,27 +28,14 @@ public class ScrollViewSwitcher : MonoBehaviour
         }
     }
 
-    public ItemDataBase.ItemData.ItemType GetCurrentType()
-    {
-        return m_currentType;
-    }
-
     public Transform GetCurrentContent()
     {
-        if (m_currentActive == null)
-        {
-            Debug.LogError("[ScrollViewSwitcher] 現在アクティブなScrollViewが未設定です。Show()を先に呼んでください。");
-            return null;
-        }
-
-        var content = m_currentActive.transform.Find("Viewport/Content");
+        var content = m_currentActive?.transform.Find("Viewport/Content");
         if (content == null)
-        {
             Debug.LogError("[ScrollViewSwitcher] Viewport/Content が見つかりません");
-            return null;
-        }
-
         return content;
     }
+
+    public ItemDataBase.ItemData.ItemType GetCurrentType() => m_currentType;
 
 }

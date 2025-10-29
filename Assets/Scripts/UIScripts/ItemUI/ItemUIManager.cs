@@ -15,6 +15,11 @@ public class ItemUIManager : MonoBehaviour
     [SerializeField] private ItemDataBase m_itemDatabase;
     [SerializeField] private PlayerInventory m_playerInventory;
 
+    [Header("NoItems 表示テキスト")]
+    [SerializeField] private GameObject m_noItemQuest;
+    [SerializeField] private GameObject m_noItemConsumable;
+    [SerializeField] private GameObject m_noItemPassive;
+
     private Transform m_currentContentParent;
     private Dictionary<string, ItemSlotUI> m_spawnedSlots = new();
 
@@ -35,7 +40,6 @@ public class ItemUIManager : MonoBehaviour
         if (m_playerInventory != null)
             m_playerInventory.OnInventoryChanged += OnInventoryChanged;
 
-
         // 初期表示
         OnInventoryChanged();
     }
@@ -52,22 +56,11 @@ public class ItemUIManager : MonoBehaviour
     private void OnInventoryChanged()
     {
         int count = m_playerInventory?.GetEventListenerCount() ?? 0;
-        Debug.Log($"[UI] OnInventoryChanged() 呼ばれた (登録回数: {count})");
+        Debug.Log($"[UI] OnInventoryChangedが呼ばれた (登録回数: {count})");
 
-        //Debug.Log("[UI] OnInventoryChanged() 呼ばれた");
-
-        foreach (ItemDataBase.ItemData.ItemType type in System.Enum.GetValues(typeof(ItemDataBase.ItemData.ItemType)))
-        {
-            StartCoroutine(RefreshAfterClear());
-        }
-        /*        // 現在表示しているタブのタイプを取得
-                var currentType = m_switcher.GetCurrentType();
-
-                // 現在のタブに反映
-                RefreshUI(currentType);
-
-                // レイアウト強制更新
-                Canvas.ForceUpdateCanvases();*/
+        // 現在の表示タブのカテゴリのみ更新
+        var currentType = m_switcher.GetCurrentType();
+        RefreshUI(currentType);
     }
 
 
@@ -81,59 +74,93 @@ public class ItemUIManager : MonoBehaviour
     }
 
     /// <summary>
-    /// UIを更新（差分追加方式＋空チェック）
+    /// UIを更新
     /// </summary>
     public void RefreshUI(ItemDataBase.ItemData.ItemType type)
     {
-        // 対象ScrollViewを表示
-        m_switcher.Show(type);
+        StartCoroutine(RefreshUICoroutine(type));
+    }
 
-        // 現在のContent Transformを取得（生成先）
+    private IEnumerator RefreshUICoroutine(ItemDataBase.ItemData.ItemType type)
+    {
+        // タブを切り替え
+        m_switcher.Show(type);
+        yield return null; // 1フレーム待機
+
         m_currentContentParent = m_switcher.GetCurrentContent();
         if (m_currentContentParent == null)
         {
-            Debug.LogError("[UI] Content が取得できませんでした。ScrollView の構造を確認してください。");
-            return;
+            Debug.LogError($"[UI] Contentが見つかりません: {type}");
+            yield break;
         }
 
-        // 所持アイテムを取得
-        var ownedItems = m_playerInventory.GetAllItems();
-        if (ownedItems == null || ownedItems.Count == 0)
-        {
-            Debug.Log("[UI] アイテムを所持していません");
+        // 全NoItemsを一旦非表示
+        if (m_noItemQuest) m_noItemQuest.SetActive(false);
+        if (m_noItemConsumable) m_noItemConsumable.SetActive(false);
+        if (m_noItemPassive) m_noItemPassive.SetActive(false);
 
-            foreach (Transform child in m_currentContentParent)
-            {
-                Destroy(child.gameObject);
-            }
-            m_spawnedSlots.Clear();
-            return;
+        // 所持アイテム一覧
+        var ownedItems = m_playerInventory?.GetAllItems();
+        if (ownedItems == null) yield break;
+
+        // スロット削除
+        foreach (Transform child in m_currentContentParent)
+            Destroy(child.gameObject);
+        m_spawnedSlots.Clear();
+
+        // 対象タイプの抽出
+        var itemsOfType = ownedItems
+            .Where(i => i != null &&
+                        m_itemDatabase.ItemList.Any(d => d.ItemId == i.ItemId && d.Type == type))
+            .ToList();
+
+        Debug.Log($"[UI] {type} タイプの所持数: {itemsOfType.Count}");
+
+        bool hasAny = itemsOfType.Count > 0;
+
+        // NoItems表示制御（再有効化）
+        switch (type)
+        {
+            case ItemDataBase.ItemData.ItemType.Quest:
+                if (m_noItemQuest) m_noItemQuest.SetActive(!hasAny);
+                break;
+            case ItemDataBase.ItemData.ItemType.Active:
+                if (m_noItemConsumable) m_noItemConsumable.SetActive(!hasAny);
+                break;
+            case ItemDataBase.ItemData.ItemType.Passive:
+                if (m_noItemPassive) m_noItemPassive.SetActive(!hasAny);
+                break;
+        }
+
+        if (!hasAny)
+        {
+            Debug.Log($"[UI] {type} に属するアイテムなし → NoItems表示");
+            yield break;
         }
 
         // スロット生成
-        foreach (var owned in ownedItems)
+        foreach (var owned in itemsOfType)
         {
             var data = m_itemDatabase.ItemList.Find(i => i.ItemId == owned.ItemId && i.Type == type);
             if (data == null) continue;
 
-            if (m_spawnedSlots.ContainsKey(owned.ItemId))
-            {
-                m_spawnedSlots[owned.ItemId].UpdateUI();
-                continue;
-            }
-
-            // ここが重要：生成先を m_currentContentParent に変更
             var slotObj = Instantiate(m_itemSlotPrefab, m_currentContentParent);
             slotObj.name = owned.ItemId;
-
             var slotUI = slotObj.GetComponent<ItemSlotUI>();
             slotUI.SetItemId(owned.ItemId);
-
             m_spawnedSlots.Add(owned.ItemId, slotUI);
         }
 
-        // レイアウト更新
-        Canvas.ForceUpdateCanvases();
+        Debug.Log($"[UI] {type} のスロット生成完了: {m_spawnedSlots.Count}個");
+    }
+
+    /// <summary>
+    /// UIボタンから呼び出す: タブ切り替え
+    /// </summary>
+    public void ChangeTab(ItemDataBase.ItemData.ItemType type)
+    {
+        Debug.Log($"[ItemUIManager] タブ切り替え: {type}");
+        RefreshUI(type);
     }
 
 }

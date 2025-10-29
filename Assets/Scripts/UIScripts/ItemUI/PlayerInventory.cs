@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -32,8 +34,6 @@ public class PlayerInventory : MonoBehaviour
     /// </summary>
     public void AddItem(string itemId, int amount)
     {
-        //if (string.IsNullOrEmpty(itemId) || amount <= 0) return;
-
         var item = ItemStatuses.Find(i => i.ItemId == itemId);
         if (item == null)
         {
