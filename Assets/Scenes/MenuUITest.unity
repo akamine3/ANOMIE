@@ -155,7 +155,6 @@ RectTransform:
   m_Children:
   - {fileID: 2140376946}
   - {fileID: 873825085}
-  - {fileID: 893109819}
   - {fileID: 1966980161}
   - {fileID: 1321759078}
   - {fileID: 201667762}
@@ -982,6 +981,7 @@ RectTransform:
   - {fileID: 1592910058}
   - {fileID: 1418031336}
   - {fileID: 1146123192}
+  - {fileID: 893109819}
   m_Father: {fileID: 2463220}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1042,12 +1042,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_icon: {fileID: 1697829341}
   m_nameText: {fileID: 441423935}
-  m_numCount: {fileID: 0}
+  m_numCount: {fileID: 1592910059}
   m_numText: {fileID: 1898875446}
   m_descriptionText: {fileID: 1418031337}
   m_noItemText: {fileID: 1146123191}
   m_database: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
   m_inventory: {fileID: 1223290983}
+  m_useButton: {fileID: 893109820}
 --- !u!1 &878774321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,12 +1360,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1341915539}
-  m_Father: {fileID: 2463220}
+  m_Father: {fileID: 873825085}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1720, y: -1000}
+  m_AnchoredPosition: {x: 370, y: -750}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893109820
@@ -1411,9 +1412,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8140253319437354311}
-        m_TargetAssemblyTypeName: ItemUIManager, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 873825088}
+        m_TargetAssemblyTypeName: ItemDetailUI, Assembly-CSharp
+        m_MethodName: OnUseButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2548,7 +2549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemStatuses:
   - m_itemId: potion-test01
-    m_possessionCount: 17
+    m_possessionCount: 34
     m_isUsed: 0
 --- !u!1 &1226226826
 GameObject:
@@ -8409,6 +8410,9 @@ MonoBehaviour:
   m_noItemConsumable: {fileID: 786061276154877479}
   m_noItemPassive: {fileID: 6495237243580632799}
   m_detailUI: {fileID: 873825088}
+  m_tabButtons: []
+  m_activeColor: {r: 0.8, g: 0.8, b: 1, a: 1}
+  m_inactiveColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &8140253319437354314
 MonoBehaviour:
   m_ObjectHideFlags: 0
