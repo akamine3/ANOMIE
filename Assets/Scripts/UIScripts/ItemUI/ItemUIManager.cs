@@ -78,87 +78,81 @@ public class ItemUIManager : MonoBehaviour
     /// </summary>
     public void RefreshUI(ItemDataBase.ItemData.ItemType type)
     {
-        // このタブを表示し、Contentを取得
+        StartCoroutine(RefreshUICoroutine(type));
+    }
+
+    private IEnumerator RefreshUICoroutine(ItemDataBase.ItemData.ItemType type)
+    {
+        // タブを切り替え
         m_switcher.Show(type);
+        yield return null; // 1フレーム待機
+
         m_currentContentParent = m_switcher.GetCurrentContent();
         if (m_currentContentParent == null)
         {
-            Debug.LogError("[UI] Contentが見つかりません");
-            return;
+            Debug.LogError($"[UI] Contentが見つかりません: {type}");
+            yield break;
         }
 
-        // 所持アイテムをカテゴリ＆所持数>0で厳密に抽出
-        var ownedItems = m_playerInventory?.GetAllItems();
-        var filtered = (ownedItems == null)
-            ? new List<PlayerItemStatus>()
-            : ownedItems.Where(i =>
-                  i != null && i.PossessionCount > 0 &&
-                  m_itemDatabase.ItemList.Any(d => d.ItemId == i.ItemId && d.Type == type)
-              ).ToList();
-
-        // まず既存スロットを全削除
-        foreach (Transform child in m_currentContentParent)
-            Destroy(child.gameObject);
-        m_spawnedSlots.Clear();
-
-        // NoItemsテキストは毎回「全てOFF」→必要なら対象のみON
+        // 全NoItemsを一旦非表示
         if (m_noItemQuest) m_noItemQuest.SetActive(false);
         if (m_noItemConsumable) m_noItemConsumable.SetActive(false);
         if (m_noItemPassive) m_noItemPassive.SetActive(false);
 
-        // 空なら、該当タブのNoItemsだけONにして終了
-        if (filtered.Count == 0)
-        {
-            switch (type)
-            {
-                case ItemDataBase.ItemData.ItemType.Quest:
-                    if (m_playerInventory.ItemStatuses.Count(
-                        i => m_itemDatabase.ItemList.Any(d => d.Type == ItemDataBase.ItemData.ItemType.Quest)) < 0) 
-                        m_noItemQuest.SetActive(true);
-                    break;
-                case ItemDataBase.ItemData.ItemType.Active:
-                    if (m_playerInventory.ItemStatuses.Count(
-                        i => m_itemDatabase.ItemList.Any(d => d.Type == ItemDataBase.ItemData.ItemType.Active)) < 0)
-                        m_noItemConsumable.SetActive(true);
-                    break;
-                case ItemDataBase.ItemData.ItemType.Passive:
-                    if (m_playerInventory.ItemStatuses.Count(
-                        i => m_itemDatabase.ItemList.Any(d => d.Type == ItemDataBase.ItemData.ItemType.Passive)) < 0)
-                        m_noItemPassive.SetActive(true); 
-                    break;
-            }
+        // 所持アイテム一覧
+        var ownedItems = m_playerInventory?.GetAllItems();
+        if (ownedItems == null) yield break;
 
-            Debug.Log($"[UI] NoItems表示: type={type}, filtered=0");
-            return;
+        // スロット削除
+        foreach (Transform child in m_currentContentParent)
+            Destroy(child.gameObject);
+        m_spawnedSlots.Clear();
+
+        // 対象タイプの抽出
+        var itemsOfType = ownedItems
+            .Where(i => i != null &&
+                        m_itemDatabase.ItemList.Any(d => d.ItemId == i.ItemId && d.Type == type))
+            .ToList();
+
+        Debug.Log($"[UI] {type} タイプの所持数: {itemsOfType.Count}");
+
+        bool hasAny = itemsOfType.Count > 0;
+
+        // NoItems表示制御（再有効化）
+        switch (type)
+        {
+            case ItemDataBase.ItemData.ItemType.Quest:
+                if (m_noItemQuest) m_noItemQuest.SetActive(!hasAny);
+                break;
+            case ItemDataBase.ItemData.ItemType.Active:
+                if (m_noItemConsumable) m_noItemConsumable.SetActive(!hasAny);
+                break;
+            case ItemDataBase.ItemData.ItemType.Passive:
+                if (m_noItemPassive) m_noItemPassive.SetActive(!hasAny);
+                break;
         }
 
-        // スロット生成（filteredだけ）
-        foreach (var owned in filtered)
+        if (!hasAny)
         {
+            Debug.Log($"[UI] {type} に属するアイテムなし → NoItems表示");
+            yield break;
+        }
+
+        // スロット生成
+        foreach (var owned in itemsOfType)
+        {
+            var data = m_itemDatabase.ItemList.Find(i => i.ItemId == owned.ItemId && i.Type == type);
+            if (data == null) continue;
+
             var slotObj = Instantiate(m_itemSlotPrefab, m_currentContentParent);
             slotObj.name = owned.ItemId;
             var slotUI = slotObj.GetComponent<ItemSlotUI>();
             slotUI.SetItemId(owned.ItemId);
-            m_spawnedSlots[owned.ItemId] = slotUI;
+            m_spawnedSlots.Add(owned.ItemId, slotUI);
         }
 
-        // 生成できたので該当NoItemsは必ずOFF（保険）
-        switch (type)
-        {
-            case ItemDataBase.ItemData.ItemType.Quest:
-                if (m_noItemQuest) m_noItemQuest.SetActive(false);
-                break;
-            case ItemDataBase.ItemData.ItemType.Active:
-                if (m_noItemConsumable) m_noItemConsumable.SetActive(false);
-                break;
-            case ItemDataBase.ItemData.ItemType.Passive:
-                if (m_noItemPassive) m_noItemPassive.SetActive(false);
-                break;
-        }
-
-        Debug.Log($"[UI] 生成完了: type={type}, filtered={filtered.Count}, slots={m_spawnedSlots.Count}");
+        Debug.Log($"[UI] {type} のスロット生成完了: {m_spawnedSlots.Count}個");
     }
-
 
     /// <summary>
     /// UIボタンから呼び出す: タブ切り替え
