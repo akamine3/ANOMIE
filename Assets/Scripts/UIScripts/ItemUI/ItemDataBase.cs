@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using UnityEngine;
 
@@ -33,9 +34,9 @@ public class ItemDataBase : ScriptableObject
 
         public enum ItemType 
         {
-            Quest,
-            Passive,
-            Active
+            Quest = 0,
+            Passive = 1,
+            Active = 2
         }
 
         public enum UseType
@@ -53,6 +54,8 @@ public class ItemDataBase : ScriptableObject
         public ItemType Type => m_type;
         public UseType UsageType => m_useType;
         public string Description => m_description;
+
     }
+
 
 }

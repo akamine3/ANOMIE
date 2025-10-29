@@ -27,7 +27,7 @@ MonoBehaviour:
     m_description: "SAN\u5024\u3092\u56DE\u5FA9\u3067\u304D\u308B"
   - m_itemId: potion-test02
     m_itemName: potion02
-    m_type: 2
+    m_type: 1
     m_useType: 1
     m_icon: {fileID: 21300000, guid: 0bcf83c744792014b9523b2f45bf9b36, type: 3}
     m_description: "\u72B6\u614B\u7570\u5E38\u3092\u56DE\u5FA9\u3067\u304D\u308B"
