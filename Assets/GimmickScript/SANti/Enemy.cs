@@ -1,25 +1,3 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class Enemy : MonoBehaviour
-{
-    public string gameOverSceneName = "GameOver";
-
-
-    public GameOverFade fadeController;
-
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("[Enemy] プレイヤーに接触。ゲームオーバー画面へ遷移。");
-            //SceneManager.LoadScene(gameOverSceneName);
-            fadeController.StartFade();
-        }
-
-        
-
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69d567a02d82d14dd8d10f64215a5cf088df449dd1c5382486f36f527d53e1c7
+size 515

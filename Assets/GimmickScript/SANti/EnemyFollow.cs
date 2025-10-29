@@ -1,17 +1,3 @@
-using UnityEngine;
-
-public class EnemyFollow : MonoBehaviour
-{
-    public Transform player;
-    public float moveSpeed = 3f;
-    public SanityEffect sanityEffect;
-
-    void Update()
-    {
-        if (sanityEffect.IsEffectActive())
-        {
-            Vector3 direction = (player.position - transform.position).normalized;
-            transform.position += direction * moveSpeed * Time.deltaTime;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18376a91566e7f6e483d0710337f04e30879e2553520c57f5354283d4d617cf1
+size 433

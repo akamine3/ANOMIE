@@ -1,15 +1,3 @@
-using UnityEngine;
-
-public class CameraFollow : MonoBehaviour
-{
-    public Transform target; // プレイヤーのTransform
-    public Vector3 offset = new Vector3(0, 0,-10); // カメラの位置調整
-
-    void LateUpdate()
-    {
-        if (target != null)
-        {
-            transform.position = target.position + offset;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bc3b62a9a9e570eb67de5c6808ffcd248553283c4783036baaec359bf5d62cc
+size 346

@@ -1,19 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[ExecuteInEditMode]
-public class SpritePos : MonoBehaviour
-{
-    #if UNITY_EDITOR
-    // Update is called once per frame
-    void Update()
-    {
-        float tX = transform.localPosition.x;
-        float tY = transform.localPosition.y;
-        tX = tX- (tX % 0.015625f);
-        tY = tY- (tY % 0.015625f);
-        transform.localPosition = new Vector3(tX,tY,0);
-    }
-    #endif
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:51415fa1133819d8916c06736ab504b99f0f6b5432a6d7201354d666d235ff15
+size 482

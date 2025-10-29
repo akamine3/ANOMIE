@@ -1,21 +1,3 @@
-using UnityEngine;
-
-public class AudioManager : MonoBehaviour
-{
-    private static AudioManager instance;
-
-    void Awake()
-    {
-        // すでに存在する場合は破棄（重複防止）
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        // インスタンスを保持し、シーンを跨いでも破棄されないようにする
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de138189aad8480ca80d6d6ba8910dadb3385507cc0c9b3234369f51f1df7224
+size 446

@@ -1,19 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SceneChange : MonoBehaviour
-{
-    public string sceneName;
-    public SceneFader sceneFader; // Inspectorで設定
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            // フェードを使ってシーン遷移
-            sceneFader.FadeToScene(sceneName);
-            Debug.Log("Scene Changed with Fade");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f4b31a409e9d8ae6c10a7c563cdaee35de3bb1ed4b91d85af37d7e3cc24cb35
+size 499

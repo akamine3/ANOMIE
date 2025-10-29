@@ -1,13 +1,3 @@
-using UnityEngine;
-using UnityEngine.Tilemaps;
-
-[CreateAssetMenu(fileName = "New Walkable Tile",menuName = "Custom/WalkableTile")]
-public class WalkableTile : Tile
-{
-    public bool isWalkable = true;
-    public bool isSceneGate = false;
-    //シーン移動用のフラグ
-    public  bool isSceneTransition = false;
-    //移動先のシーン名
-    public string targetSceneName;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c105867fbaf7c9aca8ec84771a11211e445e93591fedfccc71703cffca17b473
+size 380

@@ -1,23 +1,3 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class GameOverUI : MonoBehaviour
-{
-    public void OnReturnToTitle()
-    {
-        SceneManager.LoadScene("Title");
-    }
-
-    public void OnContinue()
-    {
-        // セーブデータがあるか確認してロード（仮）
-        /*if (SaveManager.HasSaveData())
-        {
-            SaveManager.LoadGame();
-        }
-        else
-        {
-            Debug.Log("セーブデータがありません。");
-        }*/
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef5d32da7ababbd4d82f49730266c47079e95c425c863994fa05d8eafed40291
+size 486

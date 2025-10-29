@@ -1,29 +1,3 @@
-using System.Collections;
-using UnityEngine;
-
-public class EnemyController : MonoBehaviour
-{
-    public SanityEffect sanityEffect;
-    public GameObject enemy;
-    public float chaseDuration = 10f;
-
-    private bool isChasing = false;
-
-    void Update()
-    {
-        // ê‘Ç¢âÊñ ââèoíÜÇ…ìGÇ™èoåª
-        if (sanityEffect.IsEffectActive() && !isChasing)
-        {
-            enemy.SetActive(true);
-            isChasing = true;
-            StartCoroutine(ChaseTimer());
-        }
-    }
-
-    IEnumerator ChaseTimer()
-    {
-        yield return new WaitForSeconds(chaseDuration);
-        enemy.SetActive(false);
-        isChasing = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:83bd4a2232010b7cdd833e0e3d69d05f17287bd22693d1987cb2505296f5ac83
+size 672

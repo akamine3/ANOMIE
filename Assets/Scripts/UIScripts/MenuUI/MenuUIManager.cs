@@ -1,36 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
-
-public class MenuUIManager : MonoBehaviour
-{
-    public static MenuUIManager Instance { get; private set; }
-
-
-    [Header("Panel")]
-    [SerializeField] private GameObject m_posePanel;
-    [SerializeField] private GameObject m_interruptionPanel;
-
-    public GameObject PosePanel => m_posePanel;
-    public GameObject InterruptionPanel => m_interruptionPanel;
-
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-
-
-    private void ButtonDisabled()
-    {
-
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8aca4baba54e0d7e1449faeb707f107e662f7c8e02bed95b805e70361a4089bc
+size 804

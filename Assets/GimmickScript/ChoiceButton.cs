@@ -1,29 +1,3 @@
-using UnityEngine;
-using UnityEngine.UI;
-
-public class ChoiceButton : MonoBehaviour
-{
-    [SerializeField] private string gateItemId; // この選択肢が開けるゲートのID
-    [SerializeField] private GateController gateController;
-    [SerializeField] private Button button;
-
-    void Start()
-    {
-        if (button != null)
-        {
-            button.onClick.AddListener(OnChoiceSelected);
-        }
-    }
-
-    void OnChoiceSelected()
-    {
-       /* foreach (var gate in gateController.GetGates())
-        {
-            if (gate.requiredItemId == gateItemId)
-            {
-                gateController.OpenGate(gate);
-                break;
-            }
-        }*/
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6a66c2c97b277206d9cf4158707774b096fd6fb07935b71a1659bd03a680537
+size 705
