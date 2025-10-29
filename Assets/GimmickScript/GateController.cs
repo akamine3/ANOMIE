@@ -63,7 +63,10 @@ public class GateController : MonoBehaviour
 
         Debug.Log($"道が開いた！（ID: {gate.requiredItemId}）");
     }
-
+    /*public List<GateData> GetGates()
+    {
+        return gates;
+    }*/
     void OnDestroy()
     {
         if (InventoryManager.Instance != null)
