@@ -1,12 +1,13 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ItemSlotUI : MonoBehaviour
 {
     [SerializeField] private Image m_iconImage;
     [SerializeField] private TextMeshProUGUI m_numText;
-    [SerializeField] private ItemDataBase m_database; // Å© InspectorÇ≈ê›íË
+    [SerializeField] private ItemDataBase m_database;
 
     private string m_itemId;
     private ItemUIManager m_uiManager;
@@ -16,9 +17,7 @@ public class ItemSlotUI : MonoBehaviour
     {
         m_uiManager = FindObjectOfType<ItemUIManager>();
         m_inventory = PlayerInventory.Instance;
-
     }
-
 
 
     public void SetItemId(string itemId)
@@ -44,5 +43,10 @@ public class ItemSlotUI : MonoBehaviour
 
         if (m_inventory != null)
             m_numText.text = m_inventory.GetCount(m_itemId).ToString();
+    }
+
+    public void OnClickPointer()
+    {
+        m_uiManager.OnItemSelected(m_itemId);
     }
 }

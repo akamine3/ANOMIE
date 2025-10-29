@@ -72,7 +72,7 @@ public class PlayerInventory : MonoBehaviour
     public int GetCount(string itemId)
     {
         var item = ItemStatuses.Find(i => i.ItemId == itemId);
-        return item?.PossessionCount ?? 0;
+        return item != null ? item.PossessionCount : 0;
     }
 
     /// <summary>

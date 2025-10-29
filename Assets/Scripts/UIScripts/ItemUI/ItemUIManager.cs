@@ -20,6 +20,9 @@ public class ItemUIManager : MonoBehaviour
     [SerializeField] private GameObject m_noItemConsumable;
     [SerializeField] private GameObject m_noItemPassive;
 
+    [Header("アイテム詳細パネル")]
+    [SerializeField] private ItemDetailUI m_detailUI;
+
     private Transform m_currentContentParent;
     private Dictionary<string, ItemSlotUI> m_spawnedSlots = new();
 
@@ -39,6 +42,10 @@ public class ItemUIManager : MonoBehaviour
         // イベント登録
         if (m_playerInventory != null)
             m_playerInventory.OnInventoryChanged += OnInventoryChanged;
+
+        // アイテム詳細パネル設定
+        if (m_detailUI != null)
+            m_detailUI.Initialize(m_itemDatabase);
 
         // 初期表示
         OnInventoryChanged();
@@ -163,4 +170,11 @@ public class ItemUIManager : MonoBehaviour
         RefreshUI(type);
     }
 
+
+    public void OnItemSelected(string itemId)
+    {
+        Debug.Log($"[ItemUIManager] 選択アイテム: {itemId}");
+        if (m_detailUI != null)
+            m_detailUI.ShowItem(itemId);
+    }
 }

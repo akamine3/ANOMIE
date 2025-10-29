@@ -18,6 +18,7 @@ public class PlayerItemStatus
         get => m_possessionCount;
         set => m_possessionCount = value;
     }
+
     public bool IsUsed
     {
         get => m_isUsed;

@@ -956,6 +956,7 @@ GameObject:
   - component: {fileID: 873825085}
   - component: {fileID: 873825087}
   - component: {fileID: 873825086}
+  - component: {fileID: 873825088}
   m_Layer: 5
   m_Name: Panel_ItemDetail
   m_TagString: Untagged
@@ -1027,6 +1028,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873825084}
   m_CullTransparentMesh: 1
+--- !u!114 &873825088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873825084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c3391eda5c8ce4c99363aacde3c0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_icon: {fileID: 1697829341}
+  m_nameText: {fileID: 441423935}
+  m_numCount: {fileID: 0}
+  m_numText: {fileID: 1898875446}
+  m_descriptionText: {fileID: 1418031337}
+  m_noItemText: {fileID: 1146123191}
+  m_database: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
+  m_inventory: {fileID: 1223290983}
 --- !u!1 &878774321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,7 +2518,7 @@ MonoBehaviour:
   m_playerInventory: {fileID: 1223290983}
   m_itemDatabase: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
   m_testItemId: potion-test01
-  m_testAmount: 0
+  m_testAmount: 17
 --- !u!4 &1223290982
 Transform:
   m_ObjectHideFlags: 0
@@ -2525,7 +2546,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f727742384bb44a8c5e195c27b7e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemStatuses: []
+  ItemStatuses:
+  - m_itemId: potion-test01
+    m_possessionCount: 17
+    m_isUsed: 0
 --- !u!1 &1226226826
 GameObject:
   m_ObjectHideFlags: 0
@@ -8384,6 +8408,7 @@ MonoBehaviour:
   m_noItemQuest: {fileID: 699514657}
   m_noItemConsumable: {fileID: 786061276154877479}
   m_noItemPassive: {fileID: 6495237243580632799}
+  m_detailUI: {fileID: 873825088}
 --- !u!114 &8140253319437354314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8415,9 +8440,6 @@ MonoBehaviour:
   m_scrollQuest: {fileID: 1966980160}
   m_scrollConsumable: {fileID: 1321759077}
   m_scrollPassive: {fileID: 201667761}
-  m_noItemQuest: {fileID: 0}
-  m_noItemConsumable: {fileID: 0}
-  m_noItemPassive: {fileID: 0}
 --- !u!1 &8181414931729603878
 GameObject:
   m_ObjectHideFlags: 0
