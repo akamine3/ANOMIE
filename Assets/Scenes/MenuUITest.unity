@@ -452,6 +452,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1292,7 +1304,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_playerInventory: {fileID: 1223290983}
-  m_itemDatabase: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
   m_testItemId: potion-test01
   m_testAmount: 17
 --- !u!4 &1223290982
