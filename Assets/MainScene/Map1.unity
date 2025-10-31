@@ -4796,6 +4796,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4851519429690756774, guid: af973f7132c30484fb6f9f6536479801, type: 3}
   m_PrefabInstance: {fileID: 1249251259}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1237043781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237043782}
+  m_Layer: 0
+  m_Name: DefaultSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1237043782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237043781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: 12, z: -0.16135009}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1249251259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11828,6 +11859,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2441221134748358781, guid: 930d7599e06f83e47a38923b922d2d50, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1915147902}
+    - targetCorrespondingSourceObject: {fileID: 2441221134748358781, guid: 930d7599e06f83e47a38923b922d2d50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915147903}
   m_SourcePrefab: {fileID: 100100000, guid: 930d7599e06f83e47a38923b922d2d50, type: 3}
 --- !u!1 &1915147896 stripped
 GameObject:
@@ -11947,7 +11981,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f727742384bb44a8c5e195c27b7e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemStatuses: []
+  ItemStatuses:
+  - m_itemId: 
+    m_possessionCount: 0
+    m_isUsed: 0
+--- !u!114 &1915147903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915147896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d12f9188116f5e458c0002c4d6b20c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPointName: DefaultSpawnPoint
 --- !u!1 &2055886195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7375246290651805331, guid: af973f7132c30484fb6f9f6536479801, type: 3}
