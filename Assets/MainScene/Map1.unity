@@ -330,7 +330,7 @@ MonoBehaviour:
   m_itemPanel: {fileID: 1503738984}
   m_switcher: {fileID: 283773289}
   m_itemSlotPrefab: {fileID: 1110837549}
-  m_itemDatabase: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
+  m_itemDatabase: {fileID: 11400000, guid: 516049a0564679049a96681f6f751c46, type: 2}
   m_playerInventory: {fileID: 1915147902}
   m_noItemQuest: {fileID: 790147501}
   m_noItemConsumable: {fileID: 2055886195}
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_playerInventory: {fileID: 1915147902}
-  m_itemDatabase: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
+  m_itemDatabase: {fileID: 11400000, guid: 516049a0564679049a96681f6f751c46, type: 2}
   m_slotPrefab: {fileID: 1110837551}
   m_switcher: {fileID: 283773289}
 --- !u!114 &283773292
