@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927cfda4e409a534db32a3b7f479b4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_itemPanel: {fileID: 0}
   m_switcher: {fileID: 50562287}
   m_itemSlotPrefab: {fileID: 2881983116837513279, guid: e43c79ea64dccf245940f59bd14d3892, type: 3}
   m_itemDatabase: {fileID: 11400000, guid: 201fa9195791014438442a6698a3fb12, type: 2}
@@ -4177,7 +4178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd1925ae8deec54fb4644e20e8ad615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSanity: 30
+  maxSanity: 100
   currentSanity: 0
   decayRate: 0.5
 --- !u!1 &673465713
@@ -5439,7 +5440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78374d4df64bf6478d5e70caccebde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1639603680}
   moveSpeed: 3
   sanityEffect: {fileID: 1472209368}
 --- !u!58 &945676933
