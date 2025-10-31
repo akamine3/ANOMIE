@@ -5079,6 +5079,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2830784611070353803, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_database
+      value: 
+      objectReference: {fileID: 11400000, guid: 516049a0564679049a96681f6f751c46, type: 2}
+    - target: {fileID: 2830784611070353803, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_inventory
       value: 
       objectReference: {fileID: 1915147902}
@@ -5086,6 +5090,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6137399595163423653, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_database
+      value: 
+      objectReference: {fileID: 11400000, guid: 516049a0564679049a96681f6f751c46, type: 2}
     - target: {fileID: 6817401324563921434, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
