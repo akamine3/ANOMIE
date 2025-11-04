@@ -12239,10 +12239,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemStatuses:
-  - m_itemId: 0
+  - m_itemId: Q-key-001
     m_possessionCount: 0
     m_isUsed: 0
-  - m_itemId: Q-key-001
+  - m_itemId: 1
     m_possessionCount: 0
     m_isUsed: 0
   - m_itemId: 2
