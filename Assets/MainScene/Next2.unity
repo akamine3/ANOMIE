@@ -4424,7 +4424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useKeyButton: {fileID: 56028571}
-  requiredItemId: key01
+  requiredItemId: Q-key-001
   gateController: {fileID: 1651654411}
   gateData:
     requiredItemId: 1
@@ -5246,7 +5246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemData:
-    m_itemId: key01
+    m_itemId: Q-key-001
     m_itemName: KeyA
     m_type: 0
     m_useType: 0
