@@ -12350,16 +12350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f727742384bb44a8c5e195c27b7e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemStatuses:
-  - m_itemId: Q-key-001
-    m_possessionCount: 0
-    m_isUsed: 0
-  - m_itemId: 1
-    m_possessionCount: 0
-    m_isUsed: 0
-  - m_itemId: 2
-    m_possessionCount: 0
-    m_isUsed: 0
+  ItemStatuses: []
 --- !u!114 &1915147903
 MonoBehaviour:
   m_ObjectHideFlags: 0
