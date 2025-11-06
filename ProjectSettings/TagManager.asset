@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - UIManager
   - MenuCanvas
+  - Player2
   layers:
   - Default
   - TransparentFX
