@@ -301,9 +301,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemData:
-    m_itemId: 2
-    m_itemName: Key2
-    m_type: 2
+    m_itemId: Q-key-005
+    m_itemName: KeyG
+    m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: 
@@ -4719,7 +4719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useKeyButton: {fileID: 56028571}
-  requiredItemId: 1
+  requiredItemId: Q-key-005
   gateController: {fileID: 1651654411}
   gateData:
     requiredItemId: 1
@@ -5539,9 +5539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemData:
-    m_itemId: 1
-    m_itemName: Key1
-    m_type: 2
+    m_itemId: Q-key-005
+    m_itemName: KeyF
+    m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: 
@@ -5765,7 +5765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78374d4df64bf6478d5e70caccebde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1639603680}
   moveSpeed: 3
   sanityEffect: {fileID: 1472209368}
 --- !u!58 &945676933
