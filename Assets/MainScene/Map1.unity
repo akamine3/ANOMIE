@@ -402,6 +402,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_posePanel: {fileID: 37275}
   m_interruptionPanel: {fileID: 1444919305}
+  m_itemPanel: {fileID: 1503738984}
+  m_otherPanels: []
 --- !u!1 &473165775
 GameObject:
   m_ObjectHideFlags: 0
