@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2906169496c593d499cd076e076eb3eb, type: 3}
+  m_Name: UIColorList
+  m_EditorClassIdentifier: 
+  PanelColors:
+  - m_id: menu-background-001
+    m_color: {r: 0.2952652, g: 0.301572, b: 0.41509432, a: 1}
+  - m_id: banner-background-001
+    m_color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
+  - m_id: pose-background-001
+    m_color: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 0.62352943}
+  - m_id: scroll-contents-001
+    m_color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 0.43137255}
+  ButtonColors:
+  - m_id: nomal-001
+    m_color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+  - m_id: hover-001
+    m_color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0.5764706}
+  FontColors:
+  - m_id: nomal-001
+    m_color: {r: 1, g: 1, b: 1, a: 0}
