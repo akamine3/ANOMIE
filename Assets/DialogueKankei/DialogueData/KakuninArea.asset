@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: KakuninArea
   m_EditorClassIdentifier: 
   title: "\u78BA\u8A8D\u7528\u30A8\u30EA\u30A2"
-  dialogueID: 
+  dialogueID: KakuninyouArea
   lines: []

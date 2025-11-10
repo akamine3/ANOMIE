@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
   m_Name: KakuninSpecialDialogue
   m_EditorClassIdentifier: 
-  title: 
-  dialogueID: 
+  title: "\u78BA\u8A8D\u7528\u30C0\u30A4\u30A2\u30ED\u30B0\u30B9\u30DA\u30B7\u30E3\u30EB"
+  dialogueID: KakuninyouDialogueSpecial
   lines: []

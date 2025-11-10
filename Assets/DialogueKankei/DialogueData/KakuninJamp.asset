@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
   m_Name: KakuninJamp
   m_EditorClassIdentifier: 
-  title: 
-  dialogueID: 
+  title: "\u78BA\u8A8D\u7528\u30B8\u30E3\u30F3\u30D7"
+  dialogueID: KakuninyouJamp
   lines: []

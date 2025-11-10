@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
   m_Name: KakuninAreaChoice
   m_EditorClassIdentifier: 
-  title: 
-  dialogueID: 
+  title: "\u78BA\u8A8D\u7528\u30A8\u30EA\u30A2\u9078\u629E\u80A2"
+  dialogueID: KakuninyouAreaChoice
   lines: []
