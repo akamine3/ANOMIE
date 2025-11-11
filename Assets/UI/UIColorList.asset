@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanelColors:
   - m_id: menu-background-001
-    m_color: {r: 0.2952652, g: 0.301572, b: 0.41509432, a: 1}
+    m_color: {r: 0.3033642, g: 0.30752936, b: 0.3679245, a: 1}
   - m_id: banner-background-001
     m_color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
   - m_id: pose-background-001
     m_color: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 0.62352943}
   - m_id: scroll-contents-001
     m_color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 0.43137255}
+  - m_id: menu-background-002
+    m_color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.7019608}
   ButtonColors:
   - m_id: nomal-001
     m_color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}

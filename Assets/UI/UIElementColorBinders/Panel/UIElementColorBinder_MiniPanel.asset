@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8c66af102c9aa49a466b945dc49f7c, type: 3}
+  m_Name: UIElementColorBinder_MiniPanel
+  m_EditorClassIdentifier: 
+  m_colorList: {fileID: 11400000, guid: 83a3dd632cc677249b2f9b7461d04a0e, type: 2}
+  m_category: 0
+  m_colorId: 
+  m_targetObject:
+  - {fileID: 76380727267061527, guid: febeee2347d183d48a555646e48c8034, type: 3}
+  - {fileID: 474536088193685040, guid: 52de6cfd4a4368a4182dcd39d7931ef3, type: 3}
