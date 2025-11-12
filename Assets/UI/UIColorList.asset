@@ -27,7 +27,9 @@ MonoBehaviour:
   - m_id: nomal-001
     m_color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   - m_id: hover-001
-    m_color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0.5764706}
+    m_color: {r: 0.9433962, g: 0.91271645, b: 0.5909576, a: 1}
+  - m_id: invalid-001
+    m_color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.6666667}
   FontColors:
   - m_id: nomal-001
     m_color: {r: 1, g: 1, b: 1, a: 0}
