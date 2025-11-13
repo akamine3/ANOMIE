@@ -14,4 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "\u78BA\u8A8D\u7528\u9078\u629E\u80A22"
   dialogueID: KakuninyouChoice2
-  lines: []
+  lines:
+  - speakerName: NPC
+    speakerType: 1
+    dialogueText: "\u304A...\u304A\u304A\uFF01\u30A4\u30D9\u30F3\u30C8\u4F1A\u8A71\u5224\u5B9A\u306E\u78BA\u8A8D\u3092\u3057\u3066\u9802\u3051\u305F\u306E\u3067\u3059\u306D...\uFF01"
+    statChanges: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    useItemActions: 0
+    itemActions: []
+    developerNote: 
+  - speakerName: NPC
+    speakerType: 1
+    dialogueText: "\u3064...\u6B21\u306F\u3001\u5225\u306E\u4F1A\u8A71\u306B\u98DB\u3076\u305F\u3081\u306E\u30EA\u30BF\u30FC\u30F3\u8A2D\u5B9A...\u3067\u3059..."
+    statChanges: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 1
+    returnDialogue: {fileID: 11400000, guid: a82cccd0415d15e4c91302ab9cf9c5da, type: 2}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    useItemActions: 0
+    itemActions: []
+    developerNote: 

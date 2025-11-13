@@ -14,4 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "\u78BA\u8A8D\u7528\u30A8\u30EA\u30A2"
   dialogueID: KakuninyouArea
-  lines: []
+  lines:
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u30A4\u30D9\u30F3\u30C8\u5224\u5B9A\u3092\u9032\u307E\u305B\u307E\u3059\u304B\uFF1F"
+    statChanges: []
+    unfairSpeak: 0
+    hasChoices: 1
+    choices:
+    - choiceText: "\u306F\u3044"
+      nextDialogue: {fileID: 11400000, guid: 7268402f5d2539449bcdaf30db80727c, type: 2}
+      nextLineIndex: 0
+      statChanges: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 1
+      disableRepeatAfterSelect: 0
+      useItemActions: 0
+      itemActions: []
+      developerNote: 
+    - choiceText: "\u3044\u3044\u3048"
+      nextDialogue: {fileID: 0}
+      nextLineIndex: 0
+      statChanges: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 1
+      disableRepeatAfterSelect: 1
+      useItemActions: 0
+      itemActions: []
+      developerNote: 
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    useItemActions: 0
+    itemActions: []
+    developerNote: 
