@@ -172,6 +172,20 @@ MonoBehaviour:
   specialDialogues:
   - dialogue: {fileID: 11400000, guid: ed471542d2c9fe74c844f231d90d8b92, type: 2}
     conditions:
+    - type: 0
+      targetId: KakuninyouDialogue
+      minAffinity: 0
+      maxAffinity: 0
+      minSAN: 0
+      maxSAN: 0
+      useOr: 0
+    - type: 0
+      targetId: KakuninyouAreaChoice1
+      minAffinity: 0
+      maxAffinity: 0
+      minSAN: 0
+      maxSAN: 0
+      useOr: 0
     - type: 2
       targetId: f
       minAffinity: 0
@@ -189,7 +203,7 @@ MonoBehaviour:
     useMouse: 1
     key: 101
     mouseButton: 0
-  actionLabel: Talk
+  actionLabel: "\u8A71\u3059"
   hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &227823340
@@ -508,10 +522,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Text Position
+  m_text: "\u3053\u3053\u306B\u4F1A\u8A71\u6587\u304C\u8868\u793A\u3055\u308C\u307E\u3059"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6238ece3cc850234f863d93385536b0c, type: 2}
+  m_sharedMaterial: {fileID: 5437026055438473853, guid: 6238ece3cc850234f863d93385536b0c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -958,7 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c702fadaf45da864aa2f50258b4aecda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetOnStartInEditor: 1
+  resetOnStartInEditor: 0
 --- !u!114 &1297763704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,15 +987,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allDialogues:
   - {fileID: 11400000, guid: 0279578ebfb002f419b9e22040539dbe, type: 2}
-  - {fileID: 11400000, guid: 9bab4a602fa377141882f0075223e479, type: 2}
   - {fileID: 11400000, guid: 7268402f5d2539449bcdaf30db80727c, type: 2}
-  - {fileID: 11400000, guid: ac97f89cd9ff679438e13dee715ff2fe, type: 2}
-  - {fileID: 11400000, guid: 629e9bf57f38ae64584b388fa83d6fb5, type: 2}
   - {fileID: 11400000, guid: c03eb98677ebccd48bb80dc9106ba1bb, type: 2}
   - {fileID: 11400000, guid: 773667bfdbb158740a05da77404630be, type: 2}
   - {fileID: 11400000, guid: b2873dfd41dc38d448ae43eb6e6eb2fc, type: 2}
   - {fileID: 11400000, guid: 55f482c4363e5a149ac1ed3aaec11be2, type: 2}
   - {fileID: 11400000, guid: a82cccd0415d15e4c91302ab9cf9c5da, type: 2}
+  - {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+  - {fileID: 11400000, guid: ed471542d2c9fe74c844f231d90d8b92, type: 2}
 --- !u!114 &1297763705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,7 +1018,7 @@ MonoBehaviour:
   isChoiceActive: 0
   nameTransform: {fileID: 1789224050}
   dialogueTransform: {fileID: 680529898}
-  textSpeed: 0.03
+  textSpeed: 0.04
   player: {fileID: 1769558176}
   advanceInputs:
   - useKey: 1
@@ -1050,7 +1063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1436278257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,13 +1257,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b709719734d0964ca80b3841f2dc7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 55f482c4363e5a149ac1ed3aaec11be2, type: 2}
+  dialogueData: {fileID: 11400000, guid: 0279578ebfb002f419b9e22040539dbe, type: 2}
   dialogueManager: {fileID: 1297763705}
-  repeatable: 0
-  movePlayerOnRepeat: 0
-  moveDirection: {x: 0, y: 0}
-  moveDistance: 2
-  moveDuration: 0.5
+  repeatable: 1
+  movePlayerOnRepeat: 1
+  moveDirection: {x: 1, y: 0}
+  moveDistance: 1
+  moveDuration: 0.3
 --- !u!61 &1687456196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1650,7 +1663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: "\u540D\u524D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
