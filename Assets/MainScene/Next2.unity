@@ -4106,7 +4106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd1925ae8deec54fb4644e20e8ad615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSanity: 30
+  maxSanity: 100
   currentSanity: 0
   decayRate: 0.5
 --- !u!1 &673465713
