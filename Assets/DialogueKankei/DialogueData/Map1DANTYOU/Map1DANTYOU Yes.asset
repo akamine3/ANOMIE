@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: Map1DANTYOU Yes
+  m_EditorClassIdentifier: 
+  title: "\u8AAC\u660E\u306A\u3057"
+  dialogueID: SETUMEINASHI
+  lines:
+  - speakerName: "\u56E3\u9577"
+    speakerType: 1
+    dialogueText: "\u8056\u676F\u63A2\u7D22\u306B\u53C2\u52A0\u3057\u305F\u306E\u3060\u3002\u5F53\u7136\u3060\u306A\u3002\n\u3048\u3089\u3044\u305E\u3002"
+    statChanges: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    useItemActions: 0
+    itemActions: []
+    developerNote: 
