@@ -11796,7 +11796,7 @@ MonoBehaviour:
     affinityValue: 0
     sanValue: 100
     isDead: 0
-    overwriteFromInspector: 0
+    overwriteFromInspector: 1
   - characterID: n
     characterName: NPC
     affinityValue: 0
@@ -11809,6 +11809,7 @@ MonoBehaviour:
     sanValue: 100
     isDead: 1
     overwriteFromInspector: 1
+  mainCharacterID: player
 --- !u!114 &704201515
 MonoBehaviour:
   m_ObjectHideFlags: 0
