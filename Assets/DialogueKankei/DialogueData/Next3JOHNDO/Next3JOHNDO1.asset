@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
-  m_Name: ORPHAN1
+  m_Name: Next3JOHNDO1
   m_EditorClassIdentifier: 
-  title: "\u5B64\u5150\u9A0E\u58EB\u6D1E\u7A9F\u524D\u4F1A\u8A71"
-  dialogueID: ORPHANKAIWA
+  title: "\u53E4\u3044\u69CD\u306E\u524D\u3067\u306E\u4F1A\u8A71"
+  dialogueID: OLDLANCEMAE
   lines:
-  - speakerName: "\u3010\u5B64\u5150(\u4EEE)\u3011"
+  - speakerName: 
     speakerType: 0
-    dialogueText: "\u8056\u676F\u304C\u3042\u308C\u3070\u4E16\u754C\u5E73\u548C\u306A\u3093\u3066\u5922\u3082\u53F6\u3046\u304B\u3082\u3057\u308C\u307E\u305B\u3093\u306D\u3002\n"
+    dialogueText: "\u3053\u306E\u69CD\u3001\u72B6\u614B\u306F\u305D\u308C\u306A\u308A\u3063\u3066\u611F\u3058\u3060\u304C\n\u304B\u306A\u308A\u53E4\u3044\u578B\u3060\u305E\u3002"
     statChanges: []
     unfairSpeak: 0
     hasChoices: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
     useItemActions: 0
     itemActions: []
     developerNote: 
-  - speakerName: "\u3010\u5B64\u5150(\u4EEE)\u3011"
+  - speakerName: 
     speakerType: 0
-    dialogueText: "\u3082\u3057\u3001\u8056\u676F\u306B\u3064\u3044\u3066\u77E5\u308A\u305F\u3051\u308C\u3070\u56E3\u9577\u306B\u805E\u3044\u3066\u307F\u308B\u3068\u3044\u3044\u3067\u3059\u3088\u3002\n\u56E3\u9577\u306F\u7269\u77E5\u308A\u3060\u304B\u3089\u304D\u3063\u3068\u8056\u676F\u306B\u3064\u3044\u3066\u6559\u3048\u3066\u304F\u308C\u307E\u3059\u3002"
+    dialogueText: "\u524D\u306E\u8056\u676F\u63A2\u7D22\u306E\u6B8B\u308A\u7269\u304B\u3082\u306A"
     statChanges: []
     unfairSpeak: 0
     hasChoices: 0
