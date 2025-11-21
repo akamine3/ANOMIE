@@ -388,15 +388,21 @@ MonoBehaviour:
   minSAN: 0
   maxSAN: 100
   characterStats:
+  - characterID: k
+    characterName: "\u4E3B\u4EBA\u516C"
+    affinityValue: 0
+    sanValue: 0
+    isDead: 0
+    overwriteFromInspector: 0
   - characterID: npc-001
     characterName: "\u3042\u3044\u3046\u3048\u304A"
-    affinityValue: 0
+    affinityValue: 5
     sanValue: 0
     isDead: 0
     overwriteFromInspector: 0
   - characterID: npc-002
     characterName: "\u304B\u304D\u304F\u3051\u3053"
-    affinityValue: 0
+    affinityValue: 5
     sanValue: 0
     isDead: 0
     overwriteFromInspector: 0
