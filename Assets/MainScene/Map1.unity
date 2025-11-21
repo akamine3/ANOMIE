@@ -1068,6 +1068,7 @@ MonoBehaviour:
   m_posePanel: {fileID: 37275}
   m_interruptionPanel: {fileID: 1444919305}
   m_itemPanel: {fileID: 1503738984}
+  m_statusPanel: {fileID: 1699874506}
   m_otherPanels:
   - {fileID: 1371427755}
 --- !u!1 &298565947
@@ -13388,6 +13389,7 @@ GameObject:
   - component: {fileID: 1105447063}
   - component: {fileID: 1105447062}
   - component: {fileID: 1105447061}
+  - component: {fileID: 1105447065}
   m_Layer: 5
   m_Name: DialogueCanvas
   m_TagString: Untagged
@@ -13480,6 +13482,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1105447065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105447060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdde0bd2ef58544091d9a51feea03dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1106009833
 GameObject:
   m_ObjectHideFlags: 0
