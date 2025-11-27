@@ -19,7 +19,19 @@ MonoBehaviour:
     speakerType: 2
     dialogueText: "\u30A4\u30D9\u30F3\u30C8\u5224\u5B9A\u3092\u9032\u307E\u305B\u307E\u3059\u304B\uFF1F"
     statChanges: []
-    moveInstructions: []
+    moveInstructions:
+    - priority: 0
+      timing: 1
+      executeMode: 0
+      targetId: 
+      destinationId: 
+      moveSpeed: 0
+    - priority: 0
+      timing: 1
+      executeMode: 0
+      targetId: 
+      destinationId: 
+      moveSpeed: 0
     unfairSpeak: 0
     hasChoices: 1
     choices:
