@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 336909742409369280, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00013154591
+      value: -0.000024444074
       objectReference: {fileID: 0}
     - target: {fileID: 913706824615304010, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchorMax.x
@@ -154,10 +154,6 @@ PrefabInstance:
     - target: {fileID: 1704425205140531184, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_Name
       value: Canvas_Item
-      objectReference: {fileID: 0}
-    - target: {fileID: 1704425205140531184, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723962123267468408, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_hasFontAssetChanged
@@ -536,6 +532,7 @@ MonoBehaviour:
   m_statusPanel: {fileID: 2025419747}
   m_fellowPanel: {fileID: 2025419745}
   m_playerPanel: {fileID: 1790299288}
+  m_fellowButtonPanel: {fileID: 1082108319}
 --- !u!114 &341015583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -563,6 +560,11 @@ MonoBehaviour:
   m_explanationTitleText: {fileID: 1954571362}
   m_sanValueSlider: {fileID: 1954571364}
   m_sanValueText: {fileID: 1954571363}
+--- !u!1 &1082108319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7297630174551607518, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+  m_PrefabInstance: {fileID: 2025419739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1082172957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,7 +1179,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 336118860589855906, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00030517578
+      value: -0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 421567554225878440, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1431,10 +1433,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_Settings
       objectReference: {fileID: 0}
-    - target: {fileID: 7034625216688176897, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7130982975213910851, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1642,10 +1640,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_Status
       objectReference: {fileID: 0}
-    - target: {fileID: 250362683130776801, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2134263488271172860, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1653,10 +1647,6 @@ PrefabInstance:
     - target: {fileID: 6582113940317041061, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6848534788426231772, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
-      propertyPath: m_Name
-      value: Slider_SANValue_Button
       objectReference: {fileID: 0}
     - target: {fileID: 7846797564305254334, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
       propertyPath: m_Pivot.x
@@ -1742,9 +1732,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7932467059030914805, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+    - target: {fileID: 7874781588549117675, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
