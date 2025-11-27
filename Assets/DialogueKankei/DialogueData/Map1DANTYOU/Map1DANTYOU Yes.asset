@@ -19,6 +19,13 @@ MonoBehaviour:
     speakerType: 0
     dialogueText: "\u8056\u676F\u63A2\u7D22\u306B\u53C2\u52A0\u3057\u305F\u306E\u3060\u3002\u5F53\u7136\u3060\u306A\u3002\n\u3048\u3089\u3044\u305E\u3002"
     statChanges: []
+    moveInstructions:
+    - priority: 0
+      timing: 1
+      executeMode: 1
+      targetId: D
+      destinationId: 1
+      moveSpeed: 10
     unfairSpeak: 0
     hasChoices: 0
     choices: []

@@ -93323,6 +93323,7 @@ MonoBehaviour:
     key: 101
     mouseButton: 0
   skipKey: 115
+  debugMoveLogs: 0
 --- !u!114 &1383122095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93374,6 +93375,7 @@ MonoBehaviour:
     sanValue: 100
     isDead: 1
     overwriteFromInspector: 1
+  mainCharacterID: player
 --- !u!114 &1383122097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94141,30 +94143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultDialogue: {fileID: 11400000, guid: 0e4fe241df6758944a270f7623a39d68, type: 2}
-  specialDialogues:
-  - dialogue: {fileID: 11400000, guid: ed471542d2c9fe74c844f231d90d8b92, type: 2}
-    conditions:
-    - type: 0
-      targetId: KakuninyouDialogue
-      minAffinity: 0
-      maxAffinity: 0
-      minSAN: 0
-      maxSAN: 0
-      useOr: 0
-    - type: 0
-      targetId: KakuninyouAreaChoice1
-      minAffinity: 0
-      maxAffinity: 0
-      minSAN: 0
-      maxSAN: 0
-      useOr: 0
-    - type: 2
-      targetId: f
-      minAffinity: 0
-      maxAffinity: 0
-      minSAN: 0
-      maxSAN: 0
-      useOr: 0
+  specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
   advanceInputs:
   - useKey: 1
