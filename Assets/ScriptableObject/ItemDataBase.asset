@@ -69,17 +69,17 @@ MonoBehaviour:
     m_description: nomal key! !
   - m_itemId: A-portion-001
     m_itemName: portion
-    m_type: 2
+    m_type: 1
     m_useType: 1
     m_icon: {fileID: 21300000, guid: eba88c7c9c40cab46b86f297d1a11350, type: 3}
     m_description: portion001, SAN
-  - m_itemId: Faker
+  - m_itemId: P-faker-001
     m_itemName: FakeHolyGrail
-    m_type: 2
+    m_type: 0
     m_useType: 1
     m_icon: {fileID: 21300000, guid: 4289efceeeb9fac44872f56cfacb1050, type: 3}
     m_description: portion001, SAN
-  - m_itemId: Q-key-0
+  - m_itemId: Q-lance-001
     m_itemName: OldLance
     m_type: 0
     m_useType: 0
