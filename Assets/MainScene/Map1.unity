@@ -763,8 +763,8 @@ MonoBehaviour:
   - {fileID: 1565627745}
   - {fileID: 865020609}
   - {fileID: 1777488416}
-  m_activeColor: {r: 0.8, g: 0.8, b: 1, a: 1}
-  m_inactiveColor: {r: 1, g: 1, b: 1, a: 1}
+  m_activeColor: {r: 0.854902, g: 0.7294118, b: 0.5686275, a: 1}
+  m_inactiveColor: {r: 0.34509805, g: 0.32156864, b: 0.29411766, a: 1}
 --- !u!4 &283773288
 Transform:
   m_ObjectHideFlags: 0
@@ -52661,7 +52661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_playerId: Player
-  m_playerSprite: {fileID: 21300000, guid: 5701421b9c8697948b96aa2c24b222b5, type: 3}
+  m_playerSprite: {fileID: 21300000, guid: c515bc80816a3d0439ae728e5f91c395, type: 3}
   m_explanation: "\u4E3B\u4EBA\u516C\u3002\u3000\u8056\u676F\u3092\u63A2\u3057\u3066\u3044\u308B\u3002"
   m_playerButton: {fileID: 1393128130}
   m_playerNameText_Button: {fileID: 1393128129}
