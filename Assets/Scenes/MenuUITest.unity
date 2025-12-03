@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 336909742409369280, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00032556776
+      value: -0.000052732426
       objectReference: {fileID: 0}
     - target: {fileID: 913706824615304010, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchorMax.x
@@ -245,6 +245,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7279702473129563926, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790992581014694242, guid: af973f7132c30484fb6f9f6536479801, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -866,6 +878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343706215}
   - component: {fileID: 1343706214}
+  - component: {fileID: 1343706217}
   - component: {fileID: 1343706216}
   m_Layer: 0
   m_Name: AudioManager
@@ -1001,6 +1014,18 @@ MonoBehaviour:
   m_masterSlider: {fileID: 1881680703}
   m_bgmSlider: {fileID: 1842448331}
   m_seSlider: {fileID: 2082619149}
+--- !u!114 &1343706217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343706213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43716028f64e424cbc2ce6d9f3d3c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1351065379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3091916070294872436, guid: af973f7132c30484fb6f9f6536479801, type: 3}
@@ -1231,6 +1256,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1355709257959719883, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273066578524746937, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273066578524746937, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3273066578524746937, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3924100502016042095, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
@@ -1517,6 +1554,22 @@ PrefabInstance:
     - target: {fileID: 218219808228492812, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
       propertyPath: m_Name
       value: Canvas_Status
+      objectReference: {fileID: 0}
+    - target: {fileID: 428361327894160488, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 428361327894160488, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 428361327894160488, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+      propertyPath: m_Color.r
+      value: 0.854902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582113940317041061, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6582113940317041061, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
       propertyPath: m_AnchorMax.y
