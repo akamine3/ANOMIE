@@ -1069,6 +1069,7 @@ GameObject:
   - component: {fileID: 1297763702}
   - component: {fileID: 1297763708}
   - component: {fileID: 1297763709}
+  - component: {fileID: 1297763710}
   m_Layer: 0
   m_Name: AllManager
   m_TagString: Untagged
@@ -1241,6 +1242,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bddc24187d2195449296f8cb28f3c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1297763710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297763701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f727742384bb44a8c5e195c27b7e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemStatuses:
+  - m_itemId: SANPotion
+    m_possessionCount: 1
+    m_isUsed: 0
+  - m_itemId: AffinityPotion
+    m_possessionCount: 1
+    m_isUsed: 0
 --- !u!1 &1326770629
 GameObject:
   m_ObjectHideFlags: 0
