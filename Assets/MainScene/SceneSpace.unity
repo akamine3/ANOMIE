@@ -218,8 +218,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: efee20b64d1e73942a29ba61ce3379c3, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5270,7 +5270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bdd357a0c4fcbf4ba1d7379e21bcc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: NextXEND
+  sceneName: NextX 2
   sceneFader: {fileID: 130634898}
 --- !u!1 &802216789
 GameObject:
@@ -5315,6 +5315,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &828660768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828660769}
+  m_Layer: 0
+  m_Name: DefaultSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &828660769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828660768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: 10, z: -0.038106978}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &945676927 stripped
 GameObject:
@@ -13354,37 +13385,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1840622106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1840622107}
-  m_Layer: 0
-  m_Name: DefaultSpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1840622107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840622106}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 10, z: -0.038106978}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850279007
 GameObject:
   m_ObjectHideFlags: 0
@@ -13729,9 +13729,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFF44\uFF4B\uFF33\uFF2C\uFF27\uFF26\uFF22\u3046\uFF44\uFF48\uFF4C\uFF4B\uFF4A\u3093\uFF56\u3042\uFF4B\uFF4A\u3073\u3046\uFF46\uFF48\uFF4AAZGSB\uFF53\uFF4A\uFF4B\uFF46\uFF48\u3057UGFBIUK\uFF53\uFF4B\uFF4A\uFF47\uFF46\uFF42\u3062\u3046\uFF4A\uFF4B\uFF53\uFF4B\uFF4AGB\uFF53\uFF47\uFF42\u3075\u3043\u3065\uFF4B\uFF4A\uFF53\uFF42JKDBXIJ\uFF58\uFF4A\uFF56\uFF43\uFF48\uFF4B\uFF4A\uFF58\uFF48\uFF4B\uFF56XJVHDJKXCXHKJCDHJD\uFF43\uFF4BVbxJB\uFF44\uFF4A\uFF48CG\uFF44\uFF4A\uFF4B\uFF48\uFF56\u3002\uFF48\uFF56\uFF48\uFF4A\uFF56\u3062\uFF5A\uFF4B\uFF4C\uFF48\uFF56\u3093\uFF44\uFF0A\uFF3A\uFF2C\uFF48\uFF44\uFF5A\uFF4B\uFF58\uFF4A\uFF22\uFF36\uFF28\uFF2A\uFF24\uFF33\uFF22\uFF2B\uFF36\uFF22\uFF38\uFF2A\uFF2B\uFF22\u30F4\u3043\u3065\uFF4A\uFF2E\uFF22\uFF36\u3044\u3046\uFF4B\uFF44\uFF2E\uFF22\uFF2C\uFF2B\uFF23\uFF36\uFF35\uFF29\uFF24\uFF36\uFF22\uFF35\uFF0B\uFF23\uFF2C\uFF38\uFF36\uFF48\uFF42\uFF56\uFF2A\uFF2B\uFF22\uFF56\uFF4A\uFF4B\uFF43\uFF58\uFF42\uFF4C\uFF58\uFF43\uFF4E"
+  m_text: USE:Key1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6238ece3cc850234f863d93385536b0c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 66866803ac20b944dae7ea7c4be5ced3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -13739,7 +13739,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13795,7 +13795,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2122485442
