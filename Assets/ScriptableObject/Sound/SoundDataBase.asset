@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: SoundDataBase
   m_EditorClassIdentifier: 
   m_soundDataList:
-  - m_soundId: 
+  - m_soundId: ClickButton01
     m_soundType: 0
-    m_audioClip: {fileID: 0}
+    m_audioClip: {fileID: 8300000, guid: 7bb33e5474533fc46949f94ef67ad750, type: 3}
+  - m_soundId: ClickButton02
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: ff25eecbec132b84da8900c301482e80, type: 3}
+  - m_soundId: ClickButton02
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: ff25eecbec132b84da8900c301482e80, type: 3}
