@@ -53389,6 +53389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_audioMixer: {fileID: 24100000, guid: eff1bde272a3ffd4f9e2cba3be422c01, type: 2}
+  m_bgmSource: {fileID: 0}
+  m_seSource: {fileID: 0}
   m_masterSlider: {fileID: 1505801671}
   m_bgmSlider: {fileID: 1505801670}
   m_seSlider: {fileID: 1505801669}
@@ -54289,7 +54291,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2079867123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e43716028f64e424cbc2ce6d9f3d3c09, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a025429c41778d43b5e9d24604fb3fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2091704414
