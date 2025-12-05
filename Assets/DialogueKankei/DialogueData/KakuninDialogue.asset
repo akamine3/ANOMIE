@@ -220,90 +220,6 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: NPC
-    speakerType: 1
-    dialogueText: "...\u3064\u3001\u6B21\u306B...\u9078\u629E\u80A2\u306E\u78BA\u8A8D\u3067\u3059...\n\u9078\u629E\u80A2\u306B\u3072\u3087...\u8868\u793A\u3059\u308B\u305F\u3081\u306E\u9078\u629E\u80A2\u3092\u4ED8\u3051\u3066\u3044\u308B\u306E\u3067...\n\u9078\u629E\u3067\u304D\u308B\u3082\u306E\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044..."
-    statChanges: []
-    moveInstructions: []
-    useItemActions: 0
-    itemActions: []
-    useEffectActions: 0
-    itemEffectActions: []
-    unfairSpeak: 0
-    hasChoices: 1
-    choices:
-    - choiceText: "\u901A\u5E38\u306E\u9078\u629E\u80A2\u3060"
-      nextDialogue: {fileID: 11400000, guid: c03eb98677ebccd48bb80dc9106ba1bb, type: 2}
-      nextLineIndex: 0
-      statChanges: []
-      moveInstructions: []
-      useItemActions: 0
-      itemActions: []
-      useEffectActions: 0
-      itemEffectActions: []
-      isAvailable: 1
-      conditions: []
-      fairChoice: 1
-      disableRepeatAfterSelect: 0
-      developerNote: 
-    - choiceText: "\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
-      nextDialogue: {fileID: 11400000, guid: 773667bfdbb158740a05da77404630be, type: 2}
-      nextLineIndex: 0
-      statChanges: []
-      moveInstructions: []
-      useItemActions: 0
-      itemActions: []
-      useEffectActions: 0
-      itemEffectActions: []
-      isAvailable: 1
-      conditions:
-      - type: 0
-        targetId: KakuninyouAreaChoice1
-        minAffinity: 0
-        maxAffinity: 0
-        minSAN: 0
-        maxSAN: 0
-        useOr: 0
-      fairChoice: 1
-      disableRepeatAfterSelect: 0
-      developerNote: 
-    - choiceText: "\u8907\u6570\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
-      nextDialogue: {fileID: 11400000, guid: b2873dfd41dc38d448ae43eb6e6eb2fc, type: 2}
-      nextLineIndex: 0
-      statChanges: []
-      moveInstructions: []
-      useItemActions: 0
-      itemActions: []
-      useEffectActions: 0
-      itemEffectActions: []
-      isAvailable: 1
-      conditions:
-      - type: 0
-        targetId: KakuninyouAreaChoice1
-        minAffinity: 0
-        maxAffinity: 0
-        minSAN: 0
-        maxSAN: 0
-        useOr: 0
-      - type: 2
-        targetId: f
-        minAffinity: 0
-        maxAffinity: 0
-        minSAN: 0
-        maxSAN: 0
-        useOr: 0
-      fairChoice: 1
-      disableRepeatAfterSelect: 0
-      developerNote: 
-    noChoiceAction: 2
-    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
-    noChoiceNextLineIndex: 0
-    returnAfterThisLine: 0
-    returnDialogue: {fileID: 0}
-    returnLineIndex: 0
-    requireCondition: 0
-    conditions: []
-    developerNote: 
   - speakerName: 
     speakerType: 2
     dialogueText: "\u305D\u308C\u304B\u3089\u3001\u30A2\u30A4\u30C6\u30E0\u4F7F\u7528\u3067
@@ -436,6 +352,90 @@ MonoBehaviour:
     unfairSpeak: 0
     hasChoices: 0
     choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: NPC
+    speakerType: 1
+    dialogueText: "...\u3064\u3001\u6B21\u306B...\u9078\u629E\u80A2\u306E\u78BA\u8A8D\u3067\u3059...\n\u9078\u629E\u80A2\u306B\u3072\u3087...\u8868\u793A\u3059\u308B\u305F\u3081\u306E\u9078\u629E\u80A2\u3092\u4ED8\u3051\u3066\u3044\u308B\u306E\u3067...\n\u9078\u629E\u3067\u304D\u308B\u3082\u306E\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044..."
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 1
+    choices:
+    - choiceText: "\u901A\u5E38\u306E\u9078\u629E\u80A2\u3060"
+      nextDialogue: {fileID: 11400000, guid: c03eb98677ebccd48bb80dc9106ba1bb, type: 2}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 1
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
+      nextDialogue: {fileID: 11400000, guid: 773667bfdbb158740a05da77404630be, type: 2}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions:
+      - type: 0
+        targetId: KakuninyouAreaChoice1
+        minAffinity: 0
+        maxAffinity: 0
+        minSAN: 0
+        maxSAN: 0
+        useOr: 0
+      fairChoice: 1
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u8907\u6570\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
+      nextDialogue: {fileID: 11400000, guid: b2873dfd41dc38d448ae43eb6e6eb2fc, type: 2}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions:
+      - type: 0
+        targetId: KakuninyouAreaChoice1
+        minAffinity: 0
+        maxAffinity: 0
+        minSAN: 0
+        maxSAN: 0
+        useOr: 0
+      - type: 2
+        targetId: f
+        minAffinity: 0
+        maxAffinity: 0
+        minSAN: 0
+        maxSAN: 0
+        useOr: 0
+      fairChoice: 1
+      disableRepeatAfterSelect: 0
+      developerNote: 
     noChoiceAction: 2
     noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
     noChoiceNextLineIndex: 0

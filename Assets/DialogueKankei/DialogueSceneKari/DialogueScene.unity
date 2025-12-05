@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6db87f6a6f254d4d8ce4ef78935fe7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDialogue: {fileID: 11400000, guid: 55f482c4363e5a149ac1ed3aaec11be2, type: 2}
+  defaultDialogue: {fileID: 11400000, guid: 844e9e2451f8c984f892148a71907c51, type: 2}
   specialDialogues:
   - dialogue: {fileID: 11400000, guid: ed471542d2c9fe74c844f231d90d8b92, type: 2}
     conditions:
@@ -1900,7 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04f40fa6a064ba4a828544efe14dd5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 5
 --- !u!1 &1789224049
 GameObject:
   m_ObjectHideFlags: 0
