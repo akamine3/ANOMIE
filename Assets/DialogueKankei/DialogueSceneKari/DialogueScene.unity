@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6db87f6a6f254d4d8ce4ef78935fe7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDialogue: {fileID: 11400000, guid: 55f482c4363e5a149ac1ed3aaec11be2, type: 2}
+  defaultDialogue: {fileID: 11400000, guid: 844e9e2451f8c984f892148a71907c51, type: 2}
   specialDialogues:
   - dialogue: {fileID: 11400000, guid: ed471542d2c9fe74c844f231d90d8b92, type: 2}
     conditions:
@@ -1069,6 +1069,7 @@ GameObject:
   - component: {fileID: 1297763702}
   - component: {fileID: 1297763708}
   - component: {fileID: 1297763709}
+  - component: {fileID: 1297763710}
   m_Layer: 0
   m_Name: AllManager
   m_TagString: Untagged
@@ -1241,6 +1242,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bddc24187d2195449296f8cb28f3c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1297763710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297763701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f727742384bb44a8c5e195c27b7e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemStatuses:
+  - m_itemId: SANPotion
+    m_possessionCount: 1
+    m_isUsed: 0
+  - m_itemId: AffinityPotion
+    m_possessionCount: 1
+    m_isUsed: 0
 --- !u!1 &1326770629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04f40fa6a064ba4a828544efe14dd5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 5
 --- !u!1 &1789224049
 GameObject:
   m_ObjectHideFlags: 0

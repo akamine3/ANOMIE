@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: Slide Presentation Dialogue Data
+  m_EditorClassIdentifier: 
+  title: "\u30D7\u30EC\u30BC\u30F3\u7528\u30C0\u30A4\u30A2\u30ED\u30B0"
+  dialogueID: SlidePresentationDialogueData
+  lines:
+  - speakerName: "\u4E3B\u4EBA\u516C"
+    speakerType: 0
+    dialogueText: "\u3088\u3063\uFF01\u5143\u6C17\u304B\uFF1F"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u3069\u3046\u3057\u3088\u3046\u304B\u306A\uFF1F"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 1
+    choices:
+    - choiceText: "\u8056\u676F\u3092\u63A2\u3057\u306B\u884C\u304F"
+      nextDialogue: {fileID: 0}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u6E96\u5099\u3092\u6574\u3048\u308B"
+      nextDialogue: {fileID: 0}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u5E30\u308B"
+      nextDialogue: {fileID: 0}
+      nextLineIndex: 0
+      statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 

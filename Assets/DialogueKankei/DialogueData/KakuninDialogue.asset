@@ -19,13 +19,11 @@ MonoBehaviour:
     speakerType: 0
     dialogueText: "\u3093...\u4F55\u304B\u3042\u3063\u305F\u304B\uFF1F"
     statChanges: []
-    moveInstructions:
-    - priority: 0
-      timing: 0
-      executeMode: 0
-      targetId: k
-      destinationId: u
-      moveSpeed: 2
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -37,14 +35,16 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
   - speakerName: NPC
     speakerType: 1
     dialogueText: "\u3042...\u3048\u3063\u3068...\u30C0\u30A4\u30A2\u30ED\u30B0\u304C\u304D\u3061\u3093\u3068\u51FA\u308B\u304B\u306E\u78BA\u8A8D\u3092\u4E00\u7DD2\u306B\u3057\u3066\u6B32\u3057\u304F\u3066..."
     statChanges: []
     moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -56,14 +56,16 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
   - speakerName: 
     speakerType: 2
     dialogueText: "\u3053\u3053\u3067\u78BA\u8A8D\u3057\u3066\u304A\u304F\u306E\u3082\u60AA\u304F\u306A\u3044\u3060\u308D\u3046"
     statChanges: []
     moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -75,8 +77,6 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
   - speakerName: "\u4E3B\u4EBA\u516C"
     speakerType: 0
@@ -89,6 +89,10 @@ MonoBehaviour:
       affinityChange: 50
       sanChange: -50
     moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -100,14 +104,272 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u8FFD\u52A0\u3057\u305F\u30B3\u30FC\u30C9\u306E\u52D5\u304D\u306E\u78BA\u8A8D\u3092\u631F\u307F\u307E\u3057\u3087\u3046\u3002\n\u3053\u306E\u4F1A\u8A71\u304C\u7D42\u308F\u3063\u305F\u5F8C\u306B\u52D5\u304F\u69D8\u306B\u3057\u307E\u3059\u3002\n10
+      9 8 7 6 5 4 3 2 1 0"
+    statChanges: []
+    moveInstructions:
+    - priority: 0
+      timing: 1
+      executeMode: 0
+      targetId: k
+      destinationId: u
+      moveSpeed: 6
     useItemActions: 0
     itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u3053\u308C\u306F\u4F1A\u8A71\u304C\u59CB\u307E\u3063\u305F\u5834\u5408\u306E\u79FB\u52D5\u3067\u3059\u306D\u3002"
+    statChanges: []
+    moveInstructions:
+    - priority: 0
+      timing: 0
+      executeMode: 0
+      targetId: k
+      destinationId: d
+      moveSpeed: 6
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u305D\u308C\u304B\u3089\u540C\u6642\u79FB\u52D5"
+    statChanges: []
+    moveInstructions:
+    - priority: 0
+      timing: 0
+      executeMode: 1
+      targetId: k
+      destinationId: m
+      moveSpeed: 6
+    - priority: 0
+      timing: 0
+      executeMode: 1
+      targetId: n
+      destinationId: l
+      moveSpeed: 6
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u77AC\u9593\u79FB\u52D5\u306A\u3093\u3066\u3082\u306E\u3082\u3042\u308A\u307E\u3059\u304C\u3001\n\u3053\u3061\u3089\u306F\u79FB\u52D5\u524D\u5F8C\u306B\u30D5\u30A7\u30FC\u30C9\u51E6\u7406\u3092\u5165\u308C\u305F\u3044\u3068\u8003\u3048\u3066\u3044\u307E\u3059"
+    statChanges: []
+    moveInstructions:
+    - priority: 1
+      timing: 1
+      executeMode: 0
+      targetId: k
+      destinationId: u
+      moveSpeed: 6
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u305D\u308C\u304B\u3089\u3001\u30A2\u30A4\u30C6\u30E0\u4F7F\u7528\u3067
+      Inner States Manager \u306E\u5024\u3092\n\u3044\u3058\u308C\u308B\u69D8\u306B\u306A\u308A\u307E\u3057\u305F\u3002\u78BA\u8A8D\u7528\u306B\u4E3B\u4EBA\u516C\u306E\u5024\u3092\u5168\u30660\u306B\u3057\u3066\u3001\n\u30A2\u30A4\u30C6\u30E0\u3067\u56DE\u5FA9\u3068\u3044\u3046\u52D5\u304D\u3092\u898B\u3066\u3044\u304D\u307E\u3057\u3087\u3046"
+    statChanges:
+    - targetCharacterId: k
+      affinityChange: -100
+      sanChange: -100
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u307E\u305A\u306FSAN\u5024\u30DD\u30FC\u30B7\u30E7\u30F3\u3068\u540D\u4ED8\u3051\u305F\u3082\u306E"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions:
+    - effect: {fileID: 11400000, guid: 1bace8297a758a344b62b1ac23f7d306, type: 2}
+      targetCharacterId: k
+      useOverrideAmount: 0
+      overrideAmountValue: 0
+      itemActions:
+      - actionType: 1
+        itemId: SANPotion
+        amount: 1
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u6B21\u306BAffinity\u30DD\u30FC\u30B7\u30E7\u30F3\u3068\u540D\u4ED8\u3051\u305F\u3082\u306E\n\u5024\u306A\u3069\u306F\u3053\u3061\u3089\u3067\u4E0A\u66F8\u304D\u304C\u51FA\u6765\u308B\u306E\u3067\u3001\n\u5411\u3053\u3046\u306E\u306F\u6C17\u306B\u3057\u306A\u304F\u3066\u3082\u826F\u3044\u304B\u3082\u3067\u3059"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions:
+    - effect: {fileID: 11400000, guid: 1c0f9013708ad944dadcdbc4a5594b88, type: 2}
+      targetCharacterId: k
+      useOverrideAmount: 1
+      overrideAmountValue: 100
+      itemActions:
+      - actionType: 1
+        itemId: AffinityPotion
+        amount: 1
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u3082\u3061\u308D\u3093\u7121\u3051\u308C\u3070\u4F7F\u3048\u307E\u305B\u3093\n\u8A66\u3057\u306BSAN\u5024\u30DD\u30FC\u30B7\u30E7\u30F3\u3092\u6D88\u8CBB\u3057\u3066\n\u56DE\u5FA9\u3055\u305B\u3088\u3046\u3068\u3057\u3066\u307F\u307E\u3059\u304C\u3001\u8B66\u544A\u6587\u304C\u51FA\u3066\u3044\u307E\u305B\u3093\u304B\uFF1F"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 1
+    itemEffectActions:
+    - effect: {fileID: 11400000, guid: 1bace8297a758a344b62b1ac23f7d306, type: 2}
+      targetCharacterId: k
+      useOverrideAmount: 1
+      overrideAmountValue: 100
+      itemActions:
+      - actionType: 1
+        itemId: SANPotion
+        amount: 1
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 2
+    dialogueText: "\u305D\u308C\u304B\u3089\u3001\u5897\u3084\u3057\u3066\u30EA\u30B9\u30C8\u306B\u5165\u308C\u308B\u3053\u3068\u3082\u51FA\u6765\u307E\u3059\n(\u5897\u3084\u3057\u3066\u56DE\u5FA9\u306A\u3089\u3044\u3064\u3067\u3082\u4F7F\u3048\u308B\u306E\u3067\u3001\n\u9593\u9055\u3048\u306A\u3044\u3088\u3046\u306B\u304A\u6C17\u3092\u4ED8\u3051\u304F\u3060\u3055\u3044)"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 1
+    itemEffectActions:
+    - effect: {fileID: 11400000, guid: 1bace8297a758a344b62b1ac23f7d306, type: 2}
+      targetCharacterId: k
+      useOverrideAmount: 1
+      overrideAmountValue: 100
+      itemActions:
+      - actionType: 1
+        itemId: SANPotion
+        amount: 1
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 2
+    noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
     developerNote: 
   - speakerName: NPC
     speakerType: 1
     dialogueText: "...\u3064\u3001\u6B21\u306B...\u9078\u629E\u80A2\u306E\u78BA\u8A8D\u3067\u3059...\n\u9078\u629E\u80A2\u306B\u3072\u3087...\u8868\u793A\u3059\u308B\u305F\u3081\u306E\u9078\u629E\u80A2\u3092\u4ED8\u3051\u3066\u3044\u308B\u306E\u3067...\n\u9078\u629E\u3067\u304D\u308B\u3082\u306E\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044..."
     statChanges: []
     moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 1
     choices:
@@ -115,17 +377,25 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: c03eb98677ebccd48bb80dc9106ba1bb, type: 2}
       nextLineIndex: 0
       statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
       isAvailable: 1
       conditions: []
       fairChoice: 1
       disableRepeatAfterSelect: 0
-      useItemActions: 0
-      itemActions: []
       developerNote: 
     - choiceText: "\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
       nextDialogue: {fileID: 11400000, guid: 773667bfdbb158740a05da77404630be, type: 2}
       nextLineIndex: 0
       statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
       isAvailable: 1
       conditions:
       - type: 0
@@ -137,13 +407,16 @@ MonoBehaviour:
         useOr: 0
       fairChoice: 1
       disableRepeatAfterSelect: 0
-      useItemActions: 0
-      itemActions: []
       developerNote: 
     - choiceText: "\u8907\u6570\u6761\u4EF6\u4ED8\u304D\u306E\u9078\u629E\u80A2\u3060"
       nextDialogue: {fileID: 11400000, guid: b2873dfd41dc38d448ae43eb6e6eb2fc, type: 2}
       nextLineIndex: 0
       statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
       isAvailable: 1
       conditions:
       - type: 0
@@ -162,8 +435,6 @@ MonoBehaviour:
         useOr: 0
       fairChoice: 1
       disableRepeatAfterSelect: 0
-      useItemActions: 0
-      itemActions: []
       developerNote: 
     noChoiceAction: 2
     noChoiceNextDialogue: {fileID: 11400000, guid: c7f7ffcec2c29a4468cb04ac468075db, type: 2}
@@ -173,6 +444,4 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
