@@ -11597,13 +11597,13 @@ MonoBehaviour:
     sanValue: 100
     isDead: 0
     overwriteFromInspector: 1
-  - characterID: D
+  - characterID: npc-001
     characterName: NPC
     affinityValue: 0
     sanValue: 100
     isDead: 0
     overwriteFromInspector: 0
-  - characterID: O
+  - characterID: npc-002
     characterName: NPC2
     affinityValue: 0
     sanValue: 100
@@ -54245,7 +54245,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5230691286371722794, guid: eff1bde272a3ffd4f9e2cba3be422c01, type: 2}
-  m_audioClip: {fileID: 8300000, guid: f34c97b55e4622f4683b69267e0b3b63, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d92f76b46b173aa4288a94b3fe0f5e36, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -54253,7 +54253,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 74
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
