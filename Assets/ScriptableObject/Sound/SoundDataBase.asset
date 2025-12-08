@@ -19,6 +19,21 @@ MonoBehaviour:
   - m_soundId: ClickButton02
     m_soundType: 0
     m_audioClip: {fileID: 8300000, guid: ff25eecbec132b84da8900c301482e80, type: 3}
-  - m_soundId: ClickButton02
-    m_soundType: 0
-    m_audioClip: {fileID: 8300000, guid: ff25eecbec132b84da8900c301482e80, type: 3}
+  - m_soundId: Opening01
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 0dd1a1077626dda469d95bd1adf7eb10, type: 3}
+  - m_soundId: Ending01
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: d058cd64563bffe4da536af6a1475667, type: 3}
+  - m_soundId: Ending02
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: db80d95d195db5f4985a9d4186645469, type: 3}
+  - m_soundId: Map01
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: d92f76b46b173aa4288a94b3fe0f5e36, type: 3}
+  - m_soundId: Map02
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 5182cdb3b44bb9f4e98524ab6b9bbe2e, type: 3}
+  - m_soundId: Map03
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 6ce4be45ef1493d42aa31f5f932818f4, type: 3}
