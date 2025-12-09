@@ -19,69 +19,81 @@ MonoBehaviour:
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key!
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-002
     m_itemName: keyB
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-003
     m_itemName: keyC
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-004
     m_itemName: KeyD
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-005
     m_itemName: KeyE
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-006
     m_itemName: KeyF
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-007
     m_itemName: KeyG
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-008
     m_itemName: KeyH
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: Q-key-009
     m_itemName: I
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
     m_description: nomal key! !
+    m_effect: {fileID: 0}
   - m_itemId: A-portion-001
     m_itemName: portion
     m_type: 2
     m_useType: 1
     m_icon: {fileID: 21300000, guid: eba88c7c9c40cab46b86f297d1a11350, type: 3}
     m_description: "\u666E\u901A\u306E\u30DD\u30FC\u30B7\u30E7\u30F3\u3002SAN\u5024\u3092\u56DE\u5FA9\u3067\u304D\u308B\u3002"
+    m_effect: {fileID: 0}
   - m_itemId: P-faker-001
     m_itemName: FakeHolyGrail
-    m_type: 1
+    m_type: 0
     m_useType: 1
     m_icon: {fileID: 21300000, guid: 4289efceeeb9fac44872f56cfacb1050, type: 3}
     m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u507D\u306E\u8056\u676F\u3002"
+    m_effect: {fileID: 0}
   - m_itemId: Q-lance-001
     m_itemName: OldLance
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: e26205813d9ee4de3aae83b2f2b7a237, type: 3}
     m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u53E4\u3044\u5263\u3002"
+    m_effect: {fileID: 0}
