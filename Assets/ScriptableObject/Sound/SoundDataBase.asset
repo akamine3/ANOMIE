@@ -19,6 +19,12 @@ MonoBehaviour:
   - m_soundId: ClickButton02
     m_soundType: 0
     m_audioClip: {fileID: 8300000, guid: ff25eecbec132b84da8900c301482e80, type: 3}
+  - m_soundId: OpenMenu01
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 6101757665208004b98ecf77829d886c, type: 3}
+  - m_soundId: SanityHeal01
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 8eec2eb3767925546aa8463ebea9f42c, type: 3}
   - m_soundId: Opening01
     m_soundType: 1
     m_audioClip: {fileID: 8300000, guid: 0dd1a1077626dda469d95bd1adf7eb10, type: 3}

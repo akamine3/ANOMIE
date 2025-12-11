@@ -16,28 +16,30 @@ MonoBehaviour:
   - Scene: {fileID: 102900000, guid: 58031b161d9ad8c4ea0f0e313a98b884, type: 3}
     BGM: 2
   - Scene: {fileID: 0}
-    BGM: 2
+    BGM: 9
   - Scene: {fileID: 102900000, guid: 9b41dbb2e4ecb984d8b456836c7922a6, type: 3}
-    BGM: 5
+    BGM: 7
   - Scene: {fileID: 102900000, guid: b459d01a44bffa346b9c69174ca13474, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: 916c68779e9a6b1418948704eb9c7a6c, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: faef301616a799b4ebaee0d56d097c7b, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: 6771ab45b3d3447458a835eb2f3fab15, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: aaaa188fb60aa3b41a5d2653712035e7, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: a8cc71b3beb3caf4eab307abb014953a, type: 3}
-    BGM: 6
+    BGM: 7
   - Scene: {fileID: 102900000, guid: 50623ef37ae2a1c46981b25eee808f0a, type: 3}
-    BGM: 7
+    BGM: 8
   - Scene: {fileID: 102900000, guid: 0dd01e829b02f4a4e802c30c599245f3, type: 3}
-    BGM: 7
+    BGM: 8
   - Scene: {fileID: 102900000, guid: 34cf32fc0ed5fc2418415ede5dcfb23a, type: 3}
-    BGM: 7
+    BGM: 8
   - Scene: {fileID: 102900000, guid: 52c2845136914ab4687ee03820d11a8f, type: 3}
-    BGM: 7
+    BGM: 8
   - Scene: {fileID: 102900000, guid: 284b5bc001dbffb418d6ca678496418a, type: 3}
-    BGM: 7
+    BGM: 8
+  - Scene: {fileID: 102900000, guid: 5fd10b2c1b08fff43bbb615f1473c24d, type: 3}
+    BGM: 6
