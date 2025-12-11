@@ -15,8 +15,6 @@ MonoBehaviour:
   Entries:
   - Scene: {fileID: 102900000, guid: 58031b161d9ad8c4ea0f0e313a98b884, type: 3}
     BGM: 2
-  - Scene: {fileID: 0}
-    BGM: 9
   - Scene: {fileID: 102900000, guid: 9b41dbb2e4ecb984d8b456836c7922a6, type: 3}
     BGM: 7
   - Scene: {fileID: 102900000, guid: b459d01a44bffa346b9c69174ca13474, type: 3}

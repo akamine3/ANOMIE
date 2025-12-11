@@ -43,3 +43,54 @@ MonoBehaviour:
   - m_soundId: Map03
     m_soundType: 1
     m_audioClip: {fileID: 8300000, guid: 6ce4be45ef1493d42aa31f5f932818f4, type: 3}
+  - m_soundId: Dungeon01
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 92b81ad1dabdb0d4fbdc3228321e13e5, type: 3}
+  - m_soundId: Dungeon02
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: da2685734fdb468489d6fc1475bf237a, type: 3}
+  - m_soundId: Dungeon06
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 618703ec968b980499a855872f1b5a88, type: 3}
+  - m_soundId: Dungeon09
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 9d131dbe4dbe7dd40b07657508554970, type: 3}
+  - m_soundId: Dungeon11
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: d30fb9b56568e4f429ef7163ff2eab01, type: 3}
+  - m_soundId: Dungeon12
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 73099a666ad4e7e44b88bf1d5273f862, type: 3}
+  - m_soundId: Dangeon15
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 608a63cfc0d219948820bf0ac47d333a, type: 3}
+  - m_soundId: Dungeon17
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 0f9b0bb771566f4468a033d498ae7ec5, type: 3}
+  - m_soundId: Dungeon20
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: faa12ff5bed44454f8a1c91953170c75, type: 3}
+  - m_soundId: Dungeon22
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: 0ec4aadacc74cf54f80a267351193594, type: 3}
+  - m_soundId: Jingle01
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 5b7f811866bbc6348a2a4ae9c8b491d8, type: 3}
+  - m_soundId: Onepoint02
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 614dc98e6bc365a4bb1a5e0836efc829, type: 3}
+  - m_soundId: Onepoint07
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 31fd554063c62954ea4e669b4485f68a, type: 3}
+  - m_soundId: Onepoint13
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 7dc24718ce9a3874b99c4329dedb9e30, type: 3}
+  - m_soundId: Onepoint24
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 05a65005cd62e774c894d33fffb4d220, type: 3}
+  - m_soundId: Onepoint28
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 98700e005dda9544da2eff04bd2b9665, type: 3}
+  - m_soundId: Onepoint30
+    m_soundType: 0
+    m_audioClip: {fileID: 8300000, guid: 844c71d9bf0573b478495a85d91b1aa2, type: 3}
