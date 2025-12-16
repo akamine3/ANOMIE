@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 775a8d6b418e05247afe195fdf53df95
   - enabled: 1
     path: Assets/MainScene/Next2.unity
-    guid: d2d66cd6e1fefc84ab842a9ebe77166b
+    guid: b459d01a44bffa346b9c69174ca13474
   - enabled: 1
     path: Assets/MainScene/GameOver.unity
     guid: 5fd10b2c1b08fff43bbb615f1473c24d
@@ -38,10 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/Next3.unity
     guid: 916c68779e9a6b1418948704eb9c7a6c
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainScene/Past1.unity
     guid: ddda08fc17ba42445a1747d7316ed8d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainScene/Past1 SAKABA.unity
     guid: a9bd2de40357fc04a9ce3138cc06ebda
   - enabled: 1
@@ -49,10 +49,10 @@ EditorBuildSettings:
     guid: 284b5bc001dbffb418d6ca678496418a
   - enabled: 1
     path: Assets/MainScene/Next4.unity
-    guid: d9caf9b7e1ab46542a4c0b1d93786fe5
+    guid: faef301616a799b4ebaee0d56d097c7b
   - enabled: 1
     path: Assets/MainScene/NextX.unity
-    guid: 60f796cb404301c4b8fcbcda0f037b55
+    guid: 50623ef37ae2a1c46981b25eee808f0a
   - enabled: 1
     path: Assets/MainScene/Next5.unity
     guid: 6771ab45b3d3447458a835eb2f3fab15
@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/Next7.unity
     guid: a8cc71b3beb3caf4eab307abb014953a
+  - enabled: 1
+    path: Assets/MainScene/Next3 1.unity
+    guid: a21a322fcad6bdf4fba8e215311d2c47
   m_configObjects: {}

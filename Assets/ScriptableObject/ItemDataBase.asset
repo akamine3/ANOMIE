@@ -97,3 +97,10 @@ MonoBehaviour:
     m_icon: {fileID: 21300000, guid: e26205813d9ee4de3aae83b2f2b7a237, type: 3}
     m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u53E4\u3044\u5263\u3002"
     m_effect: {fileID: 0}
+  - m_itemId: P-letter-001
+    m_itemName: "\u624B\u8A181"
+    m_type: 1
+    m_useType: 2
+    m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
+    m_description: "\u53E4\u3044\u624B\u8A18\u3002"
+    m_effect: {fileID: 0}
