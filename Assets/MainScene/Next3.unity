@@ -92552,6 +92552,7 @@ MonoBehaviour:
     mouseButton: 0
   skipKey: 115
   debugMoveLogs: 0
+  dialogueCanvasPrefab: {fileID: 0}
 --- !u!114 &1383122095
 MonoBehaviour:
   m_ObjectHideFlags: 0
