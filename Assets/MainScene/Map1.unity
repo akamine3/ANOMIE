@@ -471,7 +471,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_Menu
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8356404751693174638, guid: 52eb9823f4984064f97d7e16b4b1e0d2, type: 3}
+    - {fileID: 80665208107028157, guid: 52eb9823f4984064f97d7e16b4b1e0d2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11680,7 +11682,6 @@ GameObject:
   - component: {fileID: 704201516}
   - component: {fileID: 704201515}
   - component: {fileID: 704201514}
-  - component: {fileID: 704201513}
   - component: {fileID: 704201519}
   - component: {fileID: 704201520}
   m_Layer: 0
@@ -11727,18 +11728,6 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
---- !u!114 &704201513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704201511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc5dddea88c124c43b4aa95c490c1106, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &704201514
 MonoBehaviour:
   m_ObjectHideFlags: 0
