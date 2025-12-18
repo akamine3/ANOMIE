@@ -20,6 +20,10 @@ MonoBehaviour:
     dialogueText: "\u3053\u3053\u304C\u8056\u676F\u304C\u7720\u308B\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u6D1E\u7A9F\u3060\u3002\n\u8056\u676F\u3055\u3048\u624B\u306B\u5165\u308C\u3070\uFF0E\uFF0E\uFF0E"
     statChanges: []
     moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -31,8 +35,6 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
   - speakerName: "\u3010\u56E3\u9577\u3011"
     speakerType: 0
@@ -45,6 +47,10 @@ MonoBehaviour:
       targetId: Dantyou
       destinationId: Move
       moveSpeed: 10
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 1
     choices:
@@ -52,23 +58,32 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: fb1dfee7e3deb9a42bc6760ebf887344, type: 2}
       nextLineIndex: 0
       statChanges: []
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
       isAvailable: 1
       conditions: []
       fairChoice: 0
       disableRepeatAfterSelect: 0
-      useItemActions: 0
-      itemActions: []
       developerNote: 
     - choiceText: "\u5B9F\u306F\u77E5\u3089\u306A\u3044\u3067\u3059"
       nextDialogue: {fileID: 11400000, guid: 83a5bcd8bd688ca4194cb569ecc0e994, type: 2}
       nextLineIndex: 0
-      statChanges: []
+      statChanges:
+      - characterId: 
+        affinityChange: 0
+        sanChange: 0
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
       isAvailable: 1
       conditions: []
       fairChoice: 0
       disableRepeatAfterSelect: 0
-      useItemActions: 0
-      itemActions: []
       developerNote: 
     noChoiceAction: 0
     noChoiceNextDialogue: {fileID: 0}
@@ -78,6 +93,4 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 

@@ -18,7 +18,10 @@ MonoBehaviour:
   - speakerName: "\u3010\u56E3\u9577\u3011"
     speakerType: 0
     dialogueText: "\u8056\u676F\u63A2\u7D22\u306B\u53C2\u52A0\u3057\u305F\u306E\u3060\u3002\u5F53\u7136\u3060\u306A\u3002\n\u3048\u3089\u3044\u305E\u3002"
-    statChanges: []
+    statChanges:
+    - targetCharacterId: Player
+      affinityChange: 10
+      sanChange: 10
     moveInstructions:
     - priority: 0
       timing: 1
@@ -26,6 +29,10 @@ MonoBehaviour:
       targetId: D
       destinationId: 1
       moveSpeed: 10
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
     unfairSpeak: 0
     hasChoices: 0
     choices: []
@@ -37,6 +44,4 @@ MonoBehaviour:
     returnLineIndex: 0
     requireCondition: 0
     conditions: []
-    useItemActions: 0
-    itemActions: []
     developerNote: 
