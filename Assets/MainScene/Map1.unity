@@ -176,13 +176,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: a4f992a848419e24693859e35f307180, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &6212683
 BoxCollider2D:
@@ -322,13 +322,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: f3e89aa2ce5a540428d4cc02e7c46881, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &37881720
 BoxCollider2D:
@@ -11577,7 +11577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &589545517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11675,13 +11675,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: 39a71ae65ae27a54d809667a1f6ebd7b, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &644746087
 BoxCollider2D:
@@ -11763,9 +11763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff10f33168565479bbe5e00c2873d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueWindow: {fileID: 1105447060}
   nameText: {fileID: 57773371}
   dialogueText: {fileID: 298565949}
-  dialogueWindow: {fileID: 1105447060}
   choicesParent: {fileID: 416567932}
   choiceButtonPrefab: {fileID: 4628476555361386970, guid: ce6fc8345217e4e4db26c6a2e9049afe, type: 3}
   dialogueWindowTransform: {fileID: 298565948}
@@ -11788,6 +11788,24 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
+  routeRules:
+  - characterId: Player
+    statType: 1
+    minValue: 1
+    maxValue: 10
+    sceneName: Next3
+  - characterId: Player
+    statType: 1
+    minValue: 0
+    maxValue: 0
+    sceneName: Next2
+  - characterId: Player
+    statType: 1
+    minValue: -1
+    maxValue: -10
+    sceneName: bad
+  defaultSceneName: Next2
+  sceneChange: {fileID: 796025530}
 --- !u!114 &704201513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14059,13 +14077,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: dfda5959e06538d41ad2f2dcc93a96ce, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &1251784516
 BoxCollider2D:
