@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: Next5Former1
+  m_EditorClassIdentifier: 
+  title: "\u811A\u3092\u5931\u3063\u305F\u4EF2\u9593"
+  dialogueID: formernakama
+  lines:
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u30AF\u30BD\u2026\uFF01\uFF01\uFF01"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u5B8C\u5168\u306B\u3061\u304E\u308C\u3066\u3044\u308B\u2026\uFF01\uFF01"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u8AB0\u304B\uFF01\uFF01\u50B7\u3092\u8986\u3046\u5E03\u3092\uFF01\uFF01"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 

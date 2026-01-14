@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: Next5ALL
+  m_EditorClassIdentifier: 
+  title: "\u4EF2\u9593\u306E\u4ECA\u5F8C"
+  dialogueID: 
+  lines:
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u50B7\u53E3\u306F\u30DE\u30F3\u30C8\u3068\u30ED\u30FC\u30D7\u3067\u7E1B\u3063\u3066\u304A\u3044\u305F\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u3060\u304C\u3001\u305F\u3060\u306E\u5FDC\u6025\u51E6\u7F6E\u7A0B\u5EA6\u306E\u6B62\u8840\u3060\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u65E9\u6025\u306B\u533B\u8005\u306B\u898B\u305B\u306D\u3070\u305F\u3059\u304B\u3089\u306A\u3044\u3060\u308D\u3046..."
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u533B\u8005\u306B\u898B\u305B\u308B\u3068\u8A00\u3063\u3066\u3082\u3069\u3046\u3059\u308B\u6C17\u3060\uFF1F"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u5D29\u843D\u3067\u9000\u8DEF\u306F\u306A\u3044\u3093\u3060\uFF01\u3053\u306E\u5148\u9023\u308C\u3066\u3044\u3051\u308B\u304B\u3082\u308F\u304B\u3089\u306A\u3044\u3093\u3060\u305E\uFF01"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u5143\u9A0E\u58EB\u6BBF\u2026\u3042\u306A\u305F\u306F\u5F7C\u3092\u3053\u3053\u3067\u6368\u3066\u7F6E\u3051\u3068\u8A00\u3044\u305F\u3044\u3093\u3067\u3059\u304B...?"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    speakerType: 0
+    dialogueText: "\u304A\u4E8C\u4EBA\u3068\u3082\u9759\u304B\u306B...\u5F7C\u304C\u76EE\u3092\u899A\u307E\u3057\u3066\u3057\u307E\u3046\u3002"
+    statChanges: []
+    moveInstructions:
+    - priority: 0
+      timing: 1
+      executeMode: 0
+      targetId: 
+      destinationId: 
+      moveSpeed: 0
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    speakerType: 0
+    dialogueText: "\u305D\u3093\u306A\u4F1A\u8A71\u3092\u5F7C\u306B\u805E\u304B\u305B\u308B\u308F\u3051\u306B\u306F\u3044\u304D\u307E\u305B\u3093..."
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u3059\u307E\u306A\u3044...\u3060\u304C\u73FE\u5B9F\u7684\u306B\u8003\u3048\u308D..."
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u3042\u306E\u6DF1\u624B\u3060\u3002\u3053\u306E\u6D1E\u7A9F\u304C\u3069\u308C\u307B\u3069\u7D9A\u3044\u3066\u3044\u308B\u306E\u304B\u3082\u308F\u304B\u3089\u306A\u3044\u3093\u3060\u305E\uFF1F"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u4ECA\u306E\u3042\u3044\u3064\u306F\u8377\u7269\u306B\u306A\u308B...\u305D\u306E\u305B\u3044\u3067\u5168\u6EC5\u3057\u305F\u3089\u5143\u3082\u5B50\u3082\u306A\u3044\u3060\u308D\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u3060\u304B\u3089\u305D\u3046\u306A\u3089\u306A\u3044\u7B56\u3092\u8003\u3048\u3066\u308B\u3093\u3060\uFF01"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u56E3\u9577"
+    speakerType: 0
+    dialogueText: "\u79C1\u306F\u4EF2\u9593\u3092\u2026\u5BB6\u65CF\u3092\u898B\u6368\u3066\u305F\u304F\u306A\u3044"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    speakerType: 0
+    dialogueText: "\u79C1\u3082\u3001\u56E3\u9577\u3068\u540C\u3058\u6C17\u6301\u3061\u3067\u3059..."
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    speakerType: 0
+    dialogueText: "\u898B\u6368\u3066\u308B\u308F\u3051\u306B\u306F\u3044\u304B\u306A\u3044"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u30AF\u30BD\u2026"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: "\u5143\u9A0E\u58EB"
+    speakerType: 1
+    dialogueText: "\u304A\u524D\u306F\u3069\u3046\u8003\u3048\u308B\uFF1F\u4FFA\u305F\u3061\u3060\u3051\u3067\u9032\u3080\u3079\u304D\u304B\u3002\u305D\u308C\u3068\u3082\u9023\u308C\u3066\u3044\u304F\u304B\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 1
+    choices:
+    - choiceText: "\u52A9\u3051\u305F\u3044"
+      nextDialogue: {fileID: 11400000, guid: 111f4b8d1d6a4e143b4eafe37a64fca6, type: 2}
+      nextLineIndex: 0
+      statChanges:
+      - characterId: Player
+        affinityChange: 10
+        sanChange: 0
+      - characterId: D
+        affinityChange: 10
+        sanChange: 0
+      - characterId: O
+        affinityChange: 10
+        sanChange: 0
+      - characterId: F
+        affinityChange: -10
+        sanChange: 0
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u8DB3\u624B\u307E\u3068\u3044\u3060"
+      nextDialogue: {fileID: 11400000, guid: a168432d9b8d9c0479dbe4ea446c6bbf, type: 2}
+      nextLineIndex: 0
+      statChanges:
+      - characterId: Player
+        affinityChange: -10
+        sanChange: 0
+      - characterId: D
+        affinityChange: -10
+        sanChange: 0
+      - characterId: O
+        affinityChange: -10
+        sanChange: 0
+      - characterId: F
+        affinityChange: 5
+        sanChange: 0
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    - choiceText: "\u4ECB\u932F"
+      nextDialogue: {fileID: 11400000, guid: 6e2212ef98d8a9d469a00068f4649b8d, type: 2}
+      nextLineIndex: 0
+      statChanges:
+      - characterId: Player
+        affinityChange: 0
+        sanChange: 30
+      - characterId: D
+        affinityChange: 0
+        sanChange: -10
+      - characterId: O
+        affinityChange: 0
+        sanChange: -10
+      - characterId: F
+        affinityChange: 0
+        sanChange: -10
+      moveInstructions: []
+      useItemActions: 0
+      itemActions: []
+      useEffectActions: 0
+      itemEffectActions: []
+      isAvailable: 1
+      conditions: []
+      fairChoice: 0
+      disableRepeatAfterSelect: 0
+      developerNote: 
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 1
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 

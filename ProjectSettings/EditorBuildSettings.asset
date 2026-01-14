@@ -60,8 +60,14 @@ EditorBuildSettings:
     path: Assets/MainScene/Next6.unity
     guid: aaaa188fb60aa3b41a5d2653712035e7
   - enabled: 1
+    path: Assets/MainScene/FreeSpace.unity
+    guid: 0161fa8d760f0994ba94799989c3147e
+  - enabled: 1
     path: Assets/MainScene/Next7.unity
     guid: a8cc71b3beb3caf4eab307abb014953a
+  - enabled: 1
+    path: Assets/MainScene/Next5 1.unity
+    guid: 7e6ec1e72900af8459054809046d4376
   - enabled: 1
     path: Assets/MainScene/Next3 1.unity
     guid: a21a322fcad6bdf4fba8e215311d2c47

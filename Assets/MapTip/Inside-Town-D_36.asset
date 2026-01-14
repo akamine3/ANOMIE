@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Inside-Town-D_36
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -70260297, guid: ad4af6126decdce4380c5d9b9bb55087, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5566038, g: 0.5429512, b: 0.5429512, a: 1}
   m_Transform:
     e00: 1
     e01: 0

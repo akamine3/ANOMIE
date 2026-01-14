@@ -104,3 +104,10 @@ MonoBehaviour:
     m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
     m_description: "\u53E4\u3044\u624B\u8A18\u3002"
     m_effect: {fileID: 0}
+  - m_itemId: P-letter-002
+    m_itemName: "\u624B\u8A182"
+    m_type: 1
+    m_useType: 2
+    m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
+    m_description: "\u53E4\u3044\u624B\u8A18\u3002"
+    m_effect: {fileID: 0}

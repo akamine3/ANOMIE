@@ -12,6 +12,8 @@ TagManager:
   - UIManager
   - MenuCanvas
   - Player2
+  - CaveCollapse
+  - SceneChanger
   layers:
   - Default
   - TransparentFX

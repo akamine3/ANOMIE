@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: Next4Former1
+  m_EditorClassIdentifier: 
+  title: "\u5D29\u843D\u306E\u524D\u306B\u7ACB\u3064"
+  dialogueID: houraku
+  lines:
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u3053\u3063\u3061\u306E\u9053\u306F\u5D29\u843D\u3067\u585E\u304C\u3063\u3066\u308B\u306A\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u3055\u3059\u304C\u306B\u5D29\u3057\u3066\u901A\u308B\u308F\u3051\u306B\u306F\u3044\u304B\u306A\u3044\u306A\uFF0E\uFF0E\uFF0E"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
