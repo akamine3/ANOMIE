@@ -176,13 +176,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: a4f992a848419e24693859e35f307180, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &6212683
 BoxCollider2D:
@@ -322,13 +322,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: f3e89aa2ce5a540428d4cc02e7c46881, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &37881720
 BoxCollider2D:
@@ -899,13 +899,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241520300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.246652, y: 34.19749, z: -6.977098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1051.7959, y: -430.09567, z: -10.787291}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 1974870230}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &256126225
 PrefabInstance:
@@ -1041,7 +1041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193005197304269136, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 365
+      value: 365.00003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12025,13 +12025,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: 39a71ae65ae27a54d809667a1f6ebd7b, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &644746087
 BoxCollider2D:
@@ -12112,9 +12112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff10f33168565479bbe5e00c2873d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueWindow: {fileID: 1105447060}
   nameText: {fileID: 57773371}
   dialogueText: {fileID: 298565949}
-  dialogueWindow: {fileID: 1105447060}
   choicesParent: {fileID: 416567932}
   choiceButtonPrefab: {fileID: 4628476555361386970, guid: ce6fc8345217e4e4db26c6a2e9049afe, type: 3}
   dialogueWindowTransform: {fileID: 298565948}
@@ -12137,6 +12137,9 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
+  routeRules: []
+  defaultSceneName: NeutralScene
+  sceneChange: {fileID: 0}
 --- !u!114 &704201514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13723,7 +13726,7 @@ GameObject:
   - component: {fileID: 938568194}
   - component: {fileID: 938568195}
   m_Layer: 0
-  m_Name: UIManager
+  m_Name: MenuUIManager
   m_TagString: UIManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14181,7 +14184,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1249251259
 PrefabInstance:
@@ -14393,13 +14396,13 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: dfda5959e06538d41ad2f2dcc93a96ce, type: 2}
   specialDialogues: []
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &1251784516
 BoxCollider2D:
@@ -52889,6 +52892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_enableAutoSave: 1
+  m_sceneLoadAutoSaveDelay: 0.3
 --- !u!114 &1372095365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52915,7 +52919,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1385391089
 PrefabInstance:
@@ -55146,9 +55150,10 @@ Transform:
   m_LocalPosition: {x: 1039.5492, y: 464.29315, z: 3.810192}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 241520302}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1974870231
 MonoBehaviour:
@@ -55162,7 +55167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa94052cf7aabd5438446db6aacfdd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: Map1
 --- !u!1 &2041605276
 GameObject:
   m_ObjectHideFlags: 0
