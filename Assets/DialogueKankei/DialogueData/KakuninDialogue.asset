@@ -117,6 +117,8 @@ MonoBehaviour:
       targetId: k
       destinationId: u
       moveSpeed: 6
+      useFade: 0
+      fadeSetting: {fileID: 0}
     useItemActions: 0
     itemActions: []
     useEffectActions: 0
@@ -144,6 +146,8 @@ MonoBehaviour:
       targetId: k
       destinationId: d
       moveSpeed: 6
+      useFade: 0
+      fadeSetting: {fileID: 0}
     useItemActions: 0
     itemActions: []
     useEffectActions: 0
@@ -171,12 +175,16 @@ MonoBehaviour:
       targetId: k
       destinationId: m
       moveSpeed: 6
+      useFade: 0
+      fadeSetting: {fileID: 0}
     - priority: 0
       timing: 0
       executeMode: 1
       targetId: n
       destinationId: l
       moveSpeed: 6
+      useFade: 0
+      fadeSetting: {fileID: 0}
     useItemActions: 0
     itemActions: []
     useEffectActions: 0
@@ -204,6 +212,8 @@ MonoBehaviour:
       targetId: k
       destinationId: u
       moveSpeed: 6
+      useFade: 1
+      fadeSetting: {fileID: 0}
     useItemActions: 0
     itemActions: []
     useEffectActions: 0

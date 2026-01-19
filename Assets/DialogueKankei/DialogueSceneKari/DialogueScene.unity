@@ -350,6 +350,8 @@ MonoBehaviour:
       maxSAN: 0
       useOr: 0
   talkHintPrefab: {fileID: 8393327474695698037, guid: dfa004389c1953e4490ebcd90a23705c, type: 3}
+  hintOffset: {x: 0, y: 2, z: 0}
+  actionLabel: "\u8A71\u3059"
   advanceInputs:
   - useKey: 1
     useMouse: 0
@@ -359,8 +361,6 @@ MonoBehaviour:
     useMouse: 1
     key: 101
     mouseButton: 0
-  actionLabel: "\u8A71\u3059"
-  hintOffset: {x: 0, y: 2, z: 0}
   repeatable: 1
 --- !u!61 &227823340
 BoxCollider2D:
@@ -1480,6 +1480,9 @@ MonoBehaviour:
   defaultY: -30
   specialY: 0
   isChoiceActive: 0
+  bookCanvasGroup: {fileID: 0}
+  bookBackground: {fileID: 0}
+  bookMessageText: {fileID: 0}
   nameTransform: {fileID: 0}
   dialogueTransform: {fileID: 0}
   textSpeed: 0.04
@@ -1496,6 +1499,8 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 2690103916971591387, guid: 8ac9b13cf0d8c4747acfbcc3b8f0aeca, type: 3}
+  bookCanvasPrefab: {fileID: 991044316818890402, guid: 47ba7399405866746ac52a067c77b65b, type: 3}
+  fadeCanvasPrefab: {fileID: 1043316862708672675, guid: 34dc3017675a39244b2663700c8ce169, type: 3}
 --- !u!4 &1297763706
 Transform:
   m_ObjectHideFlags: 0
