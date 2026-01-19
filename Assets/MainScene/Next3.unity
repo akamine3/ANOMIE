@@ -496,11 +496,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5869541130073751363, guid: 7c2fa53bb9af445c8bd6e17fcd48f532, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 5869541130073751363, guid: 7c2fa53bb9af445c8bd6e17fcd48f532, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 28.5
       objectReference: {fileID: 0}
     - target: {fileID: 5869541130073751363, guid: 7c2fa53bb9af445c8bd6e17fcd48f532, type: 3}
       propertyPath: m_LocalPosition.z
@@ -637,8 +637,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 65216560}
   m_SourcePrefab: {fileID: 100100000, guid: 7c2fa53bb9af445c8bd6e17fcd48f532, type: 3}
---- !u!224 &65216558 stripped
-RectTransform:
+--- !u!4 &65216558 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 5869541130073751363, guid: 7c2fa53bb9af445c8bd6e17fcd48f532, type: 3}
   m_PrefabInstance: {fileID: 65216557}
   m_PrefabAsset: {fileID: 0}
@@ -27327,11 +27327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713476301919201301, guid: 844274ca572374f548e3f997237f97d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4713476301919201301, guid: 844274ca572374f548e3f997237f97d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 28.4
       objectReference: {fileID: 0}
     - target: {fileID: 4713476301919201301, guid: 844274ca572374f548e3f997237f97d9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27424,8 +27424,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 793218118}
   m_SourcePrefab: {fileID: 100100000, guid: 844274ca572374f548e3f997237f97d9, type: 3}
---- !u!224 &793218116 stripped
-RectTransform:
+--- !u!4 &793218116 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 4713476301919201301, guid: 844274ca572374f548e3f997237f97d9, type: 3}
   m_PrefabInstance: {fileID: 793218115}
   m_PrefabAsset: {fileID: 0}
@@ -28566,11 +28566,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4396153468119527906, guid: c734732335e7d4f5bac755f5fca34c7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -62.5
       objectReference: {fileID: 0}
     - target: {fileID: 4396153468119527906, guid: c734732335e7d4f5bac755f5fca34c7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 104.7
       objectReference: {fileID: 0}
     - target: {fileID: 4396153468119527906, guid: c734732335e7d4f5bac755f5fca34c7c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28675,8 +28675,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1203285436}
   m_SourcePrefab: {fileID: 100100000, guid: c734732335e7d4f5bac755f5fca34c7c, type: 3}
---- !u!224 &1203285434 stripped
-RectTransform:
+--- !u!4 &1203285434 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 4396153468119527906, guid: c734732335e7d4f5bac755f5fca34c7c, type: 3}
   m_PrefabInstance: {fileID: 1203285433}
   m_PrefabAsset: {fileID: 0}
@@ -92536,6 +92536,9 @@ MonoBehaviour:
   defaultY: -30
   specialY: 0
   isChoiceActive: 0
+  bookCanvasGroup: {fileID: 0}
+  bookBackground: {fileID: 0}
+  bookMessageText: {fileID: 0}
   nameTransform: {fileID: 166821243}
   dialogueTransform: {fileID: 682963808}
   textSpeed: 0.04
@@ -92552,6 +92555,8 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
+  bookCanvasPrefab: {fileID: 0}
+  fadeCanvasPrefab: {fileID: 0}
   routeRules: []
   defaultSceneName: NeutralScene
   sceneChange: {fileID: 0}
@@ -94956,11 +94961,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473383029601493893, guid: 945d6fbbe984647ad8c42f440b36e57b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 36.8
       objectReference: {fileID: 0}
     - target: {fileID: 473383029601493893, guid: 945d6fbbe984647ad8c42f440b36e57b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 13.2
       objectReference: {fileID: 0}
     - target: {fileID: 473383029601493893, guid: 945d6fbbe984647ad8c42f440b36e57b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -95018,8 +95023,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2098371625}
   m_SourcePrefab: {fileID: 100100000, guid: 945d6fbbe984647ad8c42f440b36e57b, type: 3}
---- !u!224 &2098371623 stripped
-RectTransform:
+--- !u!4 &2098371623 stripped
+Transform:
   m_CorrespondingSourceObject: {fileID: 473383029601493893, guid: 945d6fbbe984647ad8c42f440b36e57b, type: 3}
   m_PrefabInstance: {fileID: 2098371622}
   m_PrefabAsset: {fileID: 0}
