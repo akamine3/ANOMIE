@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Next5ALL NO
   m_EditorClassIdentifier: 
   title: "\u4EF2\u9593\u3092\u898B\u6368\u3066\u308B"
-  dialogueID: 
+  dialogueID: Bunki2
   lines:
   - speakerName: 
     speakerType: 0

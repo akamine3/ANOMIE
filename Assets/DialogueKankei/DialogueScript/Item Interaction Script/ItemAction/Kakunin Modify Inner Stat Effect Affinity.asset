@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320724045be4e5d4687dfc0e0ec36c59, type: 3}
   m_Name: Kakunin Modify Inner Stat Effect Affinity
   m_EditorClassIdentifier: 
-  statType: 1
-  defaultCharacterId: k
-  defaultAmount: 10
+  statType: 0
+  defaultCharacterId: Player
+  defaultAmount: -10

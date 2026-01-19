@@ -329,7 +329,7 @@ MonoBehaviour:
     useMouse: 0
     key: 101
     mouseButton: 0
-  repeatable: 1
+  repeatable: 0
 --- !u!61 &37881720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1114,6 +1114,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298565947}
   m_CullTransparentMesh: 1
+--- !u!1 &302123980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3759679554165163259, guid: 52eb9823f4984064f97d7e16b4b1e0d2, type: 3}
+  m_PrefabInstance: {fileID: 44475760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &339371641 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8391001970281550758, guid: d1d2863bdab04ef49bce2f96988d3342, type: 3}
@@ -23652,24 +23657,24 @@ MonoBehaviour:
     mouseButton: 0
   skipKey: 115
   debugMoveLogs: 0
-  dialogueCanvasPrefab: {fileID: 0}
+  dialogueCanvasPrefab: {fileID: 1105447060}
   routeRules:
   - characterId: Player
     statType: 1
     minValue: 1
     maxValue: 10
-    sceneName: Next6
+    sceneName: PV1 2
   - characterId: Player
     statType: 1
     minValue: 0
     maxValue: 0
-    sceneName: Next5
+    sceneName: PV1
   - characterId: Player
     statType: 1
-    minValue: -1
-    maxValue: -10
-    sceneName: bad
-  defaultSceneName: Next2
+    minValue: -10
+    maxValue: -1
+    sceneName: NextX
+  defaultSceneName: Next5 1
   sceneChange: {fileID: 796025530}
 --- !u!114 &704201513
 MonoBehaviour:
@@ -23699,7 +23704,7 @@ MonoBehaviour:
   debugMode: 1
   debugKey: 108
   resetKey: 114
-  minAffinity: 0
+  minAffinity: -100
   maxAffinity: 100
   minSAN: 0
   maxSAN: 100
@@ -25273,7 +25278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bdd357a0c4fcbf4ba1d7379e21bcc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Next5
+  sceneName: Next3
   sceneFader: {fileID: 130634898}
 --- !u!114 &865020609 stripped
 MonoBehaviour:
@@ -25338,6 +25343,8 @@ MonoBehaviour:
   m_itemPanel: {fileID: 1249251260}
   m_statusPanel: {fileID: 1393128131}
   m_settingPanel: {fileID: 1371427755}
+  m_SavePanel: {fileID: 1853824707}
+  m_LoadPanel: {fileID: 302123980}
 --- !u!1 &1013364846
 GameObject:
   m_ObjectHideFlags: 0
@@ -25770,7 +25777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 336909742409369280, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0008540731
+      value: 0.000009536743
       objectReference: {fileID: 0}
     - target: {fileID: 913706824615304010, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchorMax.x
@@ -25804,44 +25811,12 @@ PrefabInstance:
       propertyPath: m_inventory
       value: 
       objectReference: {fileID: 1915147902}
-    - target: {fileID: 3213194959909805867, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3213194959909805867, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3213194959909805867, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3991462225990482254, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4166206970165353395, guid: af973f7132c30484fb6f9f6536479801, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4307027474514956124, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.000061035156
-      objectReference: {fileID: 0}
-    - target: {fileID: 4307027474514956124, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.0007701367
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592867334955565745, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592867334955565745, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592867334955565745, guid: af973f7132c30484fb6f9f6536479801, type: 3}
-      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4688718969549465500, guid: af973f7132c30484fb6f9f6536479801, type: 3}
@@ -66176,6 +66151,11 @@ CapsuleCollider2D:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4374299846052437221, guid: af973f7132c30484fb6f9f6536479801, type: 3}
   m_PrefabInstance: {fileID: 1249251259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1853824707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2687252885765479658, guid: 52eb9823f4984064f97d7e16b4b1e0d2, type: 3}
+  m_PrefabInstance: {fileID: 44475760}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1905838649 stripped
 GameObject:
