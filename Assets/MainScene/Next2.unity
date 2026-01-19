@@ -12540,6 +12540,10 @@ PrefabInstance:
       propertyPath: num
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1495967502790840517, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
+      propertyPath: m_itemId
+      value: Q-key-001
+      objectReference: {fileID: 0}
     - target: {fileID: 6682650347529265132, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -12586,7 +12590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7236406439427510789, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: m_Name
-      value: GateKey
+      value: Q-key-001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12603,6 +12607,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 631063347287669717, guid: 3893ba9d089153046a0fb2627c51cba2, type: 3}
       propertyPath: m_Name
+      value: A-portion-001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876369726316278059, guid: 3893ba9d089153046a0fb2627c51cba2, type: 3}
+      propertyPath: m_itemId
       value: A-portion-001
       objectReference: {fileID: 0}
     - target: {fileID: 9054209939837442753, guid: 3893ba9d089153046a0fb2627c51cba2, type: 3}

@@ -841,6 +841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: A-portion-001
       objectReference: {fileID: 0}
+    - target: {fileID: 8876369726316278059, guid: 3893ba9d089153046a0fb2627c51cba2, type: 3}
+      propertyPath: m_itemId
+      value: A-portion-001
+      objectReference: {fileID: 0}
     - target: {fileID: 9054209939837442753, guid: 3893ba9d089153046a0fb2627c51cba2, type: 3}
       propertyPath: num
       value: 3
@@ -27871,6 +27875,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1533684175222479464, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: itemId
+      value: Q-key-002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495967502790840517, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
+      propertyPath: m_itemId
       value: Q-key-002
       objectReference: {fileID: 0}
     - target: {fileID: 6682650347529265132, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
@@ -91884,6 +91892,10 @@ PrefabInstance:
       value: P-letter-002
       objectReference: {fileID: 0}
     - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
+      propertyPath: m_itemId
+      value: P-letter-002
+      objectReference: {fileID: 0}
+    - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: itemData.m_itemId
       value: P-letter-002
       objectReference: {fileID: 0}
@@ -92550,6 +92562,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1533684175222479464, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: itemId
+      value: Q-key-003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495967502790840517, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
+      propertyPath: m_itemId
       value: Q-key-003
       objectReference: {fileID: 0}
     - target: {fileID: 6682650347529265132, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
@@ -94781,6 +94797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lance
       objectReference: {fileID: 0}
+    - target: {fileID: 6671405118099888473, guid: 08907de36161bd04a8a421765b0e3421, type: 3}
+      propertyPath: m_itemId
+      value: Q-lance-001
+      objectReference: {fileID: 0}
     - target: {fileID: 7664925922717408113, guid: 08907de36161bd04a8a421765b0e3421, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -94841,6 +94861,10 @@ PrefabInstance:
     - target: {fileID: -4584629316794612025, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: num
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
+      propertyPath: m_itemId
+      value: P-letter-001
       objectReference: {fileID: 0}
     - target: {fileID: 1463641221366369332, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_RootOrder
