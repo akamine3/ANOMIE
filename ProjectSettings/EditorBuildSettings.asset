@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: "Assets/SPUM/Sample/Scene/Next\u2715.unity"
     guid: 775a8d6b418e05247afe195fdf53df95
   - enabled: 1
+    path: Assets/MainScene/PV2 1.unity
+    guid: 5351c276f1d27a341aca31419b299375
+  - enabled: 1
     path: Assets/MainScene/Next2.unity
     guid: b459d01a44bffa346b9c69174ca13474
   - enabled: 1
