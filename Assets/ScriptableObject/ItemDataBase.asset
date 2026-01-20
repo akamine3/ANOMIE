@@ -99,7 +99,7 @@ MonoBehaviour:
     m_effect: {fileID: 0}
   - m_itemId: P-letter-001
     m_itemName: "\u624B\u8A181"
-    m_type: 1
+    m_type: 0
     m_useType: 2
     m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
     m_description: "\u53E4\u3044\u624B\u8A18\u3002"
@@ -109,11 +109,11 @@ MonoBehaviour:
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 1583482623376728253, guid: d24756e433435b249be5737019648d69, type: 3}
-    m_description: "\u81ED\u3044\u3002\u3059\u306D\u6BDB\u304C\u6FC3\u3044\u3002"
+    m_description: "\u4EF2\u9593\u306E\u7247\u8DB3"
     m_effect: {fileID: 0}
   - m_itemId: P-letter-002
     m_itemName: "\u624B\u8A182"
-    m_type: 1
+    m_type: 0
     m_useType: 2
     m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
     m_description: "\u53E4\u3044\u624B\u8A18\u3002"
