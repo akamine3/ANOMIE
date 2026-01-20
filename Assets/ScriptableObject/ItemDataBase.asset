@@ -14,70 +14,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemList:
   - m_itemId: Q-key-001
-    m_itemName: keyA
+    m_itemName: "\u6249\u306E\u9375A"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key!
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-002
-    m_itemName: keyB
+    m_itemName: "\u6249\u306E\u9375B"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-003
-    m_itemName: keyC
+    m_itemName: "\u6249\u306E\u9375C"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-004
-    m_itemName: KeyD
+    m_itemName: "\u6249\u306E\u9375D"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-005
-    m_itemName: KeyE
+    m_itemName: "\u6249\u306E\u9375E"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-006
-    m_itemName: KeyF
+    m_itemName: "\u6249\u306E\u9375F"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-007
-    m_itemName: KeyG
+    m_itemName: "\u6249\u306E\u9375G"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-008
-    m_itemName: KeyH
+    m_itemName: "\u6249\u306E\u9375H"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: Q-key-009
-    m_itemName: I
+    m_itemName: "\u6249\u306E\u9375I"
     m_type: 0
     m_useType: 0
     m_icon: {fileID: 21300000, guid: 303e2dc4eb9481248b8c208116a04120, type: 3}
-    m_description: nomal key! !
+    m_description: "\u6249\u306E\u9375\u3002\u3069\u3053\u304B\u306E\u6249\u3092\u958B\u3051\u3089\u308C\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u30FB\u30FB\u30FB\u3002"
     m_effect: {fileID: 0}
   - m_itemId: A-portion-001
-    m_itemName: portion
+    m_itemName: "\u30DD\u30FC\u30B7\u30E7\u30F3"
     m_type: 2
     m_useType: 1
     m_icon: {fileID: 21300000, guid: eba88c7c9c40cab46b86f297d1a11350, type: 3}
