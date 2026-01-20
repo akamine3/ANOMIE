@@ -91889,11 +91889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4584629316794612025, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: itemId
-      value: P-letter-002
+      value: Q-letter-002
       objectReference: {fileID: 0}
     - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_itemId
-      value: P-letter-002
+      value: Q-letter-002
       objectReference: {fileID: 0}
     - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: itemData.m_itemId
@@ -91949,7 +91949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8681731654172857236, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_Name
-      value: P-letter-002
+      value: Q-letter-002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -91998,6 +91998,9 @@ MonoBehaviour:
   defaultY: -30
   specialY: 0
   isChoiceActive: 0
+  bookCanvasGroup: {fileID: 0}
+  bookBackground: {fileID: 0}
+  bookMessageText: {fileID: 0}
   nameTransform: {fileID: 166821243}
   dialogueTransform: {fileID: 682963808}
   textSpeed: 0.04
@@ -92014,6 +92017,8 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
+  bookCanvasPrefab: {fileID: 0}
+  fadeCanvasPrefab: {fileID: 0}
   routeRules: []
   defaultSceneName: NeutralScene
   sceneChange: {fileID: 0}
@@ -94864,7 +94869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 859380054273595257, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_itemId
-      value: P-letter-001
+      value: Q-letter-001
       objectReference: {fileID: 0}
     - target: {fileID: 1463641221366369332, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_RootOrder
@@ -94912,7 +94917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8681731654172857236, guid: 320110e2b7cc017439765a5ebfc5332d, type: 3}
       propertyPath: m_Name
-      value: P-letter-001
+      value: Q-letter-002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
