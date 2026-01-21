@@ -19514,7 +19514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627387973105573081, guid: 73a6c4c036683aa40adb416d9567440b, type: 3}
       propertyPath: repeatable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7627387973105573081, guid: 73a6c4c036683aa40adb416d9567440b, type: 3}
       propertyPath: defaultDialogue

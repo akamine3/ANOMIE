@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/MainScene/Next5.unity
     guid: 6771ab45b3d3447458a835eb2f3fab15
   - enabled: 1
+    path: Assets/MainScene/PV2 2.unity
+    guid: 5a3645bbcff41fd42bbbb4637efdf392
+  - enabled: 1
     path: Assets/MainScene/Next6.unity
     guid: aaaa188fb60aa3b41a5d2653712035e7
   - enabled: 1

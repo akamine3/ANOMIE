@@ -23670,8 +23670,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1303879985}
+  m_Children: []
   m_Father: {fileID: 1013364847}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23719,6 +23718,9 @@ MonoBehaviour:
   defaultY: -30
   specialY: 0
   isChoiceActive: 0
+  bookCanvasGroup: {fileID: 0}
+  bookBackground: {fileID: 0}
+  bookMessageText: {fileID: 0}
   nameTransform: {fileID: 57773370}
   dialogueTransform: {fileID: 298565948}
   textSpeed: 0.04
@@ -23735,12 +23737,14 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 1105447060}
+  bookCanvasPrefab: {fileID: 1363132183}
+  fadeCanvasPrefab: {fileID: 130634897}
   routeRules:
   - characterId: Player
     statType: 1
     minValue: 1
     maxValue: 10
-    sceneName: PV1 2
+    sceneName: Next5
   - characterId: Player
     statType: 1
     minValue: 0
@@ -25535,6 +25539,7 @@ Transform:
   - {fileID: 1505801668}
   - {fileID: 1052423610}
   - {fileID: 1363132182}
+  - {fileID: 1303879985}
   - {fileID: 650891843}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -25560,8 +25565,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1013364847}
     m_Modifications:
     - target: {fileID: 60847064939504132, guid: dc03303d2ffbd3e46a88bb964393fb23, type: 3}
+      propertyPath: m_Size
+      value: 0.99999547
+      objectReference: {fileID: 0}
+    - target: {fileID: 60847064939504132, guid: dc03303d2ffbd3e46a88bb964393fb23, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 132917192382167482, guid: dc03303d2ffbd3e46a88bb964393fb23, type: 3}
       propertyPath: m_AnchorMax.x
@@ -26546,7 +26555,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1633447194}
-  m_Father: {fileID: 650891843}
+  m_Father: {fileID: 1013364847}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -64848,6 +64857,14 @@ PrefabInstance:
       propertyPath: slotList
       value: 
       objectReference: {fileID: 92919717}
+    - target: {fileID: 60847064939504132, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
+      propertyPath: m_Size
+      value: 0.99999547
+      objectReference: {fileID: 0}
+    - target: {fileID: 60847064939504132, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 132917192382167482, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -64980,6 +64997,11 @@ PrefabInstance:
 --- !u!224 &1363132182 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7901552851174711531, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
+  m_PrefabInstance: {fileID: 1363132181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1363132183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5676788165343468525, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
   m_PrefabInstance: {fileID: 1363132181}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1371427755 stripped
@@ -65958,7 +65980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939551129692179309, guid: eaf08fead9ba4ed4aa862f04d5d3c4ac, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67326,6 +67348,7 @@ GameObject:
   - component: {fileID: 2072312740}
   - component: {fileID: 2072312739}
   - component: {fileID: 2072312743}
+  - component: {fileID: 2072312744}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -67429,6 +67452,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &2072312744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072312738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3861a25578e5830498fd678e59802ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2075508055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7845722175794957726, guid: af973f7132c30484fb6f9f6536479801, type: 3}

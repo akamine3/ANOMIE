@@ -51849,6 +51849,9 @@ MonoBehaviour:
   defaultY: -30
   specialY: 0
   isChoiceActive: 0
+  bookCanvasGroup: {fileID: 0}
+  bookBackground: {fileID: 0}
+  bookMessageText: {fileID: 0}
   nameTransform: {fileID: 166821243}
   dialogueTransform: {fileID: 682963808}
   textSpeed: 0.04
@@ -51865,6 +51868,8 @@ MonoBehaviour:
   skipKey: 115
   debugMoveLogs: 0
   dialogueCanvasPrefab: {fileID: 0}
+  bookCanvasPrefab: {fileID: 0}
+  fadeCanvasPrefab: {fileID: 0}
   routeRules: []
   defaultSceneName: NeutralScene
   sceneChange: {fileID: 0}
@@ -53424,6 +53429,14 @@ MonoBehaviour:
     - {x: -4, y: 111, z: 0}
     - {x: -3, y: 111, z: 0}
     - {x: -2, y: 111, z: 0}
+  - gateId: N3-W-1
+    requiredItemId: Q-lance-001
+    gateTilesToClear:
+    - {x: -57, y: 106, z: 0}
+    - {x: -57, y: 105, z: 0}
+    - {x: -57, y: 104, z: 0}
+    - {x: -57, y: 103, z: 0}
+    - {x: -57, y: 102, z: 0}
 --- !u!61 &1651654412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56569,6 +56582,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 758969969319811236, guid: 4fbb47f86cefb614eaa8003c1a14b9c6, type: 3}
+      propertyPath: m_itemId
+      value: Q-lance-001
+      objectReference: {fileID: 0}
     - target: {fileID: 5482332527227273744, guid: 4fbb47f86cefb614eaa8003c1a14b9c6, type: 3}
       propertyPath: m_Name
       value: Lance
