@@ -83,23 +83,16 @@ MonoBehaviour:
     m_icon: {fileID: 21300000, guid: eba88c7c9c40cab46b86f297d1a11350, type: 3}
     m_description: "\u666E\u901A\u306E\u30DD\u30FC\u30B7\u30E7\u30F3\u3002SAN\u5024\u3092\u56DE\u5FA9\u3067\u304D\u308B\u3002"
     m_effect: {fileID: 0}
-  - m_itemId: P-faker-001
-    m_itemName: FakeHolyGrail
+  - m_itemId: Q-faker-001
+    m_itemName: "\u8056\u676F(\uFF1F)"
     m_type: 0
     m_useType: 1
     m_icon: {fileID: 21300000, guid: 4289efceeeb9fac44872f56cfacb1050, type: 3}
-    m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u507D\u306E\u8056\u676F\u3002"
+    m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u8056\u676F\u3089\u3057\u304D\u3082\u306E\u3002"
     m_effect: {fileID: 0}
-  - m_itemId: Q-lance-001
-    m_itemName: OldLance
-    m_type: 0
-    m_useType: 0
-    m_icon: {fileID: 21300000, guid: e26205813d9ee4de3aae83b2f2b7a237, type: 3}
-    m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u53E4\u3044\u5263\u3002"
-    m_effect: {fileID: 0}
-  - m_itemId: P-letter-001
+  - m_itemId: Q-letter-001
     m_itemName: "\u624B\u8A181"
-    m_type: 1
+    m_type: 0
     m_useType: 2
     m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
     m_description: "\u53E4\u3044\u624B\u8A18\u3002"
@@ -109,12 +102,26 @@ MonoBehaviour:
     m_type: 1
     m_useType: 0
     m_icon: {fileID: 1583482623376728253, guid: d24756e433435b249be5737019648d69, type: 3}
-    m_description: "\u81ED\u3044\u3002\u3059\u306D\u6BDB\u304C\u6FC3\u3044\u3002"
+    m_description: "\u4EF2\u9593\u306E\u7247\u8DB3"
     m_effect: {fileID: 0}
-  - m_itemId: P-letter-002
+  - m_itemId: Q-letter-002
     m_itemName: "\u624B\u8A182"
-    m_type: 1
+    m_type: 0
     m_useType: 2
     m_icon: {fileID: 21300000, guid: f8b22b1c4301ad240af0e29fd59ef3f9, type: 3}
     m_description: "\u53E4\u3044\u624B\u8A18\u3002"
+    m_effect: {fileID: 0}
+  - m_itemId: Q-lance-001
+    m_itemName: "\u53E4\u3044\u30E9\u30F3\u30B9"
+    m_type: 0
+    m_useType: 0
+    m_icon: {fileID: 21300000, guid: e26205813d9ee4de3aae83b2f2b7a237, type: 3}
+    m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u53E4\u3044\u30E9\u30F3\u30B9\u3002"
+    m_effect: {fileID: 0}
+  - m_itemId: Q-lance-002
+    m_itemName: "\u9306\u3073\u305F\u30E9\u30F3\u30B9"
+    m_type: 0
+    m_useType: 0
+    m_icon: {fileID: 21300000, guid: e26205813d9ee4de3aae83b2f2b7a237, type: 3}
+    m_description: "\u63A2\u7D22\u4E2D\u306B\u898B\u3064\u3051\u305F\u9306\u3073\u305F\u30E9\u30F3\u30B9\u3002"
     m_effect: {fileID: 0}

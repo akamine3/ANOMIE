@@ -25686,7 +25686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193005197304269136, guid: dc03303d2ffbd3e46a88bb964393fb23, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.9996
+      value: 364.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25722,7 +25722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1105447061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64963,7 +64963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193005197304269136, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.9996
+      value: 364.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67340,7 +67340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2072312739
 MonoBehaviour:
   m_ObjectHideFlags: 0
