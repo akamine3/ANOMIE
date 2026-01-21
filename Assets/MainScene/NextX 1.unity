@@ -5175,9 +5175,13 @@ PrefabInstance:
       propertyPath: num
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1533684175222479464, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
+      propertyPath: itemId
+      value: Q-key-009
+      objectReference: {fileID: 0}
     - target: {fileID: 1495967502790840517, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: m_itemId
-      value: Q-key-001
+      value: Q-key-009
       objectReference: {fileID: 0}
     - target: {fileID: 6682650347529265132, guid: 50c9deafeeb044a4295f10a89f3ba648, type: 3}
       propertyPath: m_RootOrder
