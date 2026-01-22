@@ -23130,7 +23130,7 @@ MonoBehaviour:
     mouseButton: 0
   skipKey: 115
   debugMoveLogs: 0
-  dialogueCanvasPrefab: {fileID: 4856993131163783017, guid: 8ac9b13cf0d8c4747acfbcc3b8f0aeca, type: 3}
+  dialogueCanvasPrefab: {fileID: 1105447060}
   bookCanvasPrefab: {fileID: 991044316818890402, guid: 47ba7399405866746ac52a067c77b65b, type: 3}
   fadeCanvasPrefab: {fileID: 1043316862708672675, guid: 34dc3017675a39244b2663700c8ce169, type: 3}
   routeRules:
@@ -23138,7 +23138,7 @@ MonoBehaviour:
     statType: 1
     minValue: 1
     maxValue: 10
-    sceneName: PV1 2
+    sceneName: PV1
   - characterId: Player
     statType: 1
     minValue: 0
@@ -24729,7 +24729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1105447061
 MonoBehaviour:
   m_ObjectHideFlags: 0

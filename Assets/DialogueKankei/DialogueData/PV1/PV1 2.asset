@@ -244,7 +244,7 @@ MonoBehaviour:
       type: 0
       duration: 0
       waitForCompletion: 0
-    fadeOut: 1
+    fadeOut: 0
     fadeIn: 0
     fadeDuration: 0.5
     fadePreset: {fileID: 11400000, guid: 8ce99949e4b741645948b8a14d1c93c9, type: 2}

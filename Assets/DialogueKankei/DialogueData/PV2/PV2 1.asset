@@ -153,7 +153,7 @@ MonoBehaviour:
     preSceneChangeFadeDuration: 0
   - speakerName: "\u5143\u9A0E\u58EB"
     speakerType: 2
-    dialogueText: "(\u5263\u3092\u62FE\u3044)"
+    dialogueText: "(\u5263\u3092\u62FE\u3046)"
     statChanges: []
     moveInstructions: []
     useItemActions: 0
