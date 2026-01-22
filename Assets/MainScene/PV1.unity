@@ -12737,6 +12737,139 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &967576819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967576822}
+  - component: {fileID: 967576821}
+  - component: {fileID: 967576820}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &967576820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967576819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc99767faf58e9d43911b28b8e1b37a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  voiceLines:
+  - "\u79C1\u304C\u6BBA\u3059"
+  - "\u79C1\u304C\u751F\u304B\u3059"
+  - "\u6211\u304C\u624B\u3092\u9003\u308C\u3046\u308B\u8005\u306F\u4E00\u4EBA\u3082\u3044\u306A\u3044"
+  - "\u6211\u304C\u76EE\u306E\u5C4A\u304B\u306C\u8005\u306F\u4E00\u4EBA\u3082\u3044\u306A\u3044"
+  - "\u6253\u3061\u7815\u304B\u308C\u3088"
+  - "\u6557\u308C\u305F\u3082\u306E\u3001\u8001\u3044\u305F\u8005\u3092\u79C1\u304C\u5C0E\u304F"
+  - "\u79C1\u306B\u59D4\u306D\u79C1\u306B\u5F93\u3048"
+  - "\u79C1\u306B\u5B66\u3073"
+  - "\u79C1\u306B\u5F93\u3048"
+  - "\u4F11\u606F\u3092"
+  - "\u5504\u3092\u5FD8\u308C\u305A"
+  - "\u7948\u308A\u3092\u5FD8\u308C\u305A"
+  - "\u79C1\u3092\u5FD8\u308C\u305A"
+  - "\u79C1\u306F\u8EFD\u304F"
+  - "\u3042\u3089\u3086\u308B\u91CD\u307F\u3092\u5FD8\u308C\u3055\u305B\u308B"
+  - "\u88C5\u3046\u3053\u3068\u306A\u304B\u308C"
+  - "\u8A31\u3057\u306B\u306F\u5831\u5FA9\u3092"
+  - "\u4FE1\u983C\u306B\u306F\u88CF\u5207\u308A\u3092"
+  - "\u5E0C\u671B\u306B\u306F\u7D76\u671B\u3092"
+  - "\u5149\u3042\u308B\u3082\u306E\u306B\u306F\u95C7\u3092"
+  - "\u751F\u3042\u308B\u3082\u306E\u306B\u306F\u6697\u3044\u6B7B\u3092"
+  - "\u4F11\u606F\u306F\u79C1\u306E\u624B\u306B"
+  - "\u8CB4\u65B9\u306E\u7F6A\u306B\u6CB9\u3092\u6CE8\u304E\u5370\u3092\u8A18\u305D\u3046"
+  - "\u6C38\u9060\u306E\u547D\u306F"
+  - "\u6B7B\u306E\u4E2D\u3067\u3053\u305D\u4E0E\u3048\u3089\u308C\u308B"
+  spawnIntervalMin: 0.15
+  spawnIntervalMax: 0.15
+  maxAlive: 24
+  horizontalSpread: 1.2
+  verticalRange: {x: -27.97, y: 6.33}
+  baseFontSize: 15
+  baseColor: {r: 0.953069, g: 1, b: 0, a: 0}
+  fontSizeJitter: 0.49
+  riseDistance: 0.6
+  riseDuration: 1.2
+  fadeIn: 0.12
+  fadeOut: 0.25
+  swayAmplitude: 0.05
+  swaySpeed: 6
+  sortingLayerName: UI
+  sortingOrder: 100
+--- !u!61 &967576821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967576819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -13.99}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.59, y: 27.99}
+  m_EdgeRadius: 0
+--- !u!4 &967576822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967576819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3, y: 41.28, z: 3.164868}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995872979
 GameObject:
   m_ObjectHideFlags: 0
