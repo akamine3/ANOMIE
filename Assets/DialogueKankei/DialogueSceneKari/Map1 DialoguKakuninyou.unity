@@ -1016,7 +1016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193005197304269136, guid: 38bf05365b616f643b8ec7e0feca9d1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.54144
+      value: 364.99924
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1518,7 +1518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193005197304269136, guid: dc03303d2ffbd3e46a88bb964393fb23, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.54144
+      value: 364.99924
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11866,6 +11866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1674452243e162e409ee94dd0701e20b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_settingCanvas: {fileID: 0}
+  m_panels: []
+  m_tabButtons: []
 --- !u!4 &583104949
 Transform:
   m_ObjectHideFlags: 0
@@ -12048,7 +12051,7 @@ MonoBehaviour:
     mouseButton: 0
   skipKey: 115
   debugMoveLogs: 0
-  dialogueCanvasPrefab: {fileID: 4856993131163783017, guid: 8ac9b13cf0d8c4747acfbcc3b8f0aeca, type: 3}
+  dialogueCanvasPrefab: {fileID: 1540458100432326740, guid: 8ac9b13cf0d8c4747acfbcc3b8f0aeca, type: 3}
   bookCanvasPrefab: {fileID: 991044316818890402, guid: 47ba7399405866746ac52a067c77b65b, type: 3}
   fadeCanvasPrefab: {fileID: 1043316862708672675, guid: 34dc3017675a39244b2663700c8ce169, type: 3}
   routeRules: []
