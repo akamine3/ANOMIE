@@ -24729,7 +24729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1105447061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64412,7 +64412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563290866953910530, guid: 930d7599e06f83e47a38923b922d2d50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.44
+      value: -3.4
       objectReference: {fileID: 0}
     - target: {fileID: 1563290866953910530, guid: 930d7599e06f83e47a38923b922d2d50, type: 3}
       propertyPath: m_LocalPosition.y
@@ -64723,7 +64723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11b11817daa5435f92b04440958b38a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WalkTileMap: {fileID: 0}
+  WalkTileMap: {fileID: 1304117816}
   _startPos: {x: 0, y: 0, z: 0}
   _columnNum: 0
   _playerList: []
