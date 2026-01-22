@@ -852,6 +852,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9697a15a46461d4e962bb30b58c524b, type: 3}
+--- !u!114 &1106465343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8550607136762331120, guid: d9697a15a46461d4e962bb30b58c524b, type: 3}
+  m_PrefabInstance: {fileID: 1106465342}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34118ff73bd596f409ae2f5da54a0ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1151498746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1052,6 +1063,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3464829855428724182, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
+      propertyPath: m_statsManager
+      value: 
+      objectReference: {fileID: 1106465343}
     - target: {fileID: 3601765361455539628, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -128
