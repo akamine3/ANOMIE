@@ -54,7 +54,7 @@ MonoBehaviour:
     preSceneChangePreset: {fileID: 0}
   - speakerName: "\u5143\u9A0E\u58EB"
     speakerType: 0
-    dialogueText: "\u5F8C\u306F\u983C\u3093\u3060\u305E\u3002"
+    dialogueText: "\u5F8C\u306F\u983C\u3093\u3060\u2026"
     statChanges: []
     moveInstructions: []
     useItemActions: 0

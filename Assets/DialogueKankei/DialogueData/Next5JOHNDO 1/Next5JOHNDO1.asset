@@ -49,6 +49,9 @@ MonoBehaviour:
     waitAdvanceBeforeSceneChange: 1
     fadeOutBeforeSceneChange: 1
     preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: "\u30B5\u30A4\u30B7\u30E7\u30FB\u4E8C\u30B7\u30FC\u30CC"
     speakerType: 0
     dialogueText: "\u811A\u304C...\u4FFA\u306E\u8DB3\u304C..."
@@ -83,6 +86,9 @@ MonoBehaviour:
     waitAdvanceBeforeSceneChange: 1
     fadeOutBeforeSceneChange: 1
     preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: "\u30B5\u30A4\u30B7\u30E7\u30FB\u4E8C\u30B7\u30FC\u30CC"
     speakerType: 0
     dialogueText: "\u75DB\u3044\u2026\u75DB\u3044\u2026\u3046\u3045\u2026"
@@ -117,6 +123,9 @@ MonoBehaviour:
     waitAdvanceBeforeSceneChange: 1
     fadeOutBeforeSceneChange: 1
     preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: "\u56E3\u9577"
     speakerType: 0
     dialogueText: "\u30AF\u30BD\u2026\u3068\u306B\u304B\u304F\u904B\u3079\uFF01\uFF01"
@@ -126,7 +135,7 @@ MonoBehaviour:
     itemActions: []
     useEffectActions: 0
     itemEffectActions: []
-    unfairSpeak: 1
+    unfairSpeak: 0
     hasChoices: 0
     choices: []
     noChoiceAction: 0
@@ -141,13 +150,16 @@ MonoBehaviour:
     fade:
       type: 0
       duration: 0.5
-      waitForCompletion: 1
-    fadeOut: 1
+      waitForCompletion: 0
+    fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
-    fadePreset: {fileID: 11400000, guid: 8ce99949e4b741645948b8a14d1c93c9, type: 2}
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 1
     nextSceneName: Next5 1
     waitAdvanceBeforeSceneChange: 1
     fadeOutBeforeSceneChange: 0
-    preSceneChangeFadeDuration: 0.1
+    preSceneChangeFadeDuration: 0.5
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

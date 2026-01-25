@@ -152664,6 +152664,14 @@ PrefabInstance:
       propertyPath: defaultDialogue
       value: 
       objectReference: {fileID: 11400000, guid: b9ffd8f247e3f2648a69be08245a7b20, type: 2}
+    - target: {fileID: 6620872905959710975, guid: ccc3988561520e0498215abd3053119b, type: 3}
+      propertyPath: m_Size.x
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620872905959710975, guid: ccc3988561520e0498215abd3053119b, type: 3}
+      propertyPath: m_Size.y
+      value: 3.87
+      objectReference: {fileID: 0}
     - target: {fileID: 6739390467618433202, guid: ccc3988561520e0498215abd3053119b, type: 3}
       propertyPath: m_IsActive
       value: 0
