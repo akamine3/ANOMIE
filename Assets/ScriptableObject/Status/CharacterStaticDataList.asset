@@ -14,23 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Characters:
   - m_characterId: npc-001
+    m_characterName: "\u56E3\u9577"
+    m_characterIcon: {fileID: 21300000, guid: 2039504bdd210794d8b56268271af77b, type: 3}
+    m_sanInitialValue: 50
+    m_likeabilityInitialValue: 0
+    m_characterPersonality: "\u512A\u3057\u3044"
+    m_characterExplanatoryText: "\u738B\u5BB6\u306E\u5074\u5BA4\u306E\u5A18\u3002\u200B\r\n\u6B63\u5BA4\u306B\u7537\u5150\u304C\u751F\u307E\u308C\u305F\u3053\u3068\u3067\u200B\u3001\u4E21\u89AA\u304B\u3089\u306E\u611B\u3092\u5931\u3046\u3002\u200B\r\n\u611B\u3092\u53D6\u308A\u623B\u3059\u305F\u3081\u8056\u676F\u63A2\u7D22\u3078\u3002\r"
+  - m_characterId: npc-002
+    m_characterName: "\u30B5\u30A4\u30B7\u30E7\u30CB\u30FB\u30B7\u30FC\u30CC"
+    m_characterIcon: {fileID: 21300000, guid: 0ad488f9fe84b2a4b9a5b1abc16b220d, type: 3}
+    m_sanInitialValue: 80
+    m_likeabilityInitialValue: 0
+    m_characterPersonality: "\u9811\u56FA"
+    m_characterExplanatoryText: "\u5148\u8F29\u306E\u9A0E\u58EB\u3002\u6307\u5C0E\u4E0D\u8DB3\u3067\u90E8\u4E0B\u3092\u55AA\u3063\u305F\u3053\u3068\u3092\u6094\u3084\u3093\u3067\u3044\u308B\u3002\n\u90E8\u4E0B\u3078\u511F\u3046\u305F\u3081\u3001\u8056\u676F\u63A2\u7D22\u3078\u53C2\u52A0\u3057\u305F\u3002"
+  - m_characterId: npc-003
     m_characterName: "\u5143\u9A0E\u58EB"
     m_characterIcon: {fileID: 21300000, guid: 8804a1d51080a7e429cb72daefe2eeb7, type: 3}
-    m_sanInitialValue: 0
+    m_sanInitialValue: 50
     m_likeabilityInitialValue: 0
     m_characterPersonality: "\u308C\u3044\u305B\u3044"
-    m_characterExplanatoryText: "\u5143\u9A0E\u58EB\u3002\u3000\u8A73\u7D30\u8AAC\u660E\u30C6\u30AD\u30B9\u30C8"
-  - m_characterId: npc-002
-    m_characterName: "\u9A0E\u58EB"
-    m_characterIcon: {fileID: 21300000, guid: 0ad488f9fe84b2a4b9a5b1abc16b220d, type: 3}
+    m_characterExplanatoryText: "\u65E2\u306B\u5F15\u9000\u3057\u3066\u3044\u308B\u9A0E\u58EB\u3002\u73FE\u5F79\u6642\u4EE3\u306F\u512A\u79C0\u306A\u9A0E\u58EB\u3060\u3063\u305F\u304C\u3001\u200B\u738B\u56FD\u5185\u3067\u8D77\u304D\u305F\u5E02\u6C11\u306E\u9769\u547D\u904B\u52D5\u3092\u53CE\u3081\u308B\u70BA\u306B\u5E02\u6C11\u306B\u5263\u3092\u632F\u308B\u3063\u305F\u3053\u3068\u3092\u200B\u304D\u3063\u304B\u3051\u306B\u5F15\u9000\u3057\u305F\u3002\u200B\r\n\u5E02\u6C11\u306B\u8FEB\u5BB3\u3055\u308C\u8077\u306B\u5C31\u3051\u305A\u3001\u5BB6\u65CF\u3092\u990A\u3046\u305F\u3081\u306B\u8056\u676F\u63A2\u7D22\u306B\u53C2\u52A0\u3059\u308B\u3002\u200B"
+  - m_characterId: npc-004
+    m_characterName: "\u5B64\u5150\u9A0E\u58EB"
+    m_characterIcon: {fileID: 21300000, guid: 9bb8cff6c70f30a4c9c3756cf32de8be, type: 3}
     m_sanInitialValue: 0
-    m_likeabilityInitialValue: 0
-    m_characterPersonality: "\u3084\u3093\u3061\u3083"
-    m_characterExplanatoryText: "\u9A0E\u58EB\u3002\u3000\u8A73\u7D30\u8AAC\u660E\u30C6\u30AD\u30B9\u30C8"
-  - m_characterId: npc-003
-    m_characterName: "\u56E3\u9577"
-    m_characterIcon: {fileID: 21300000, guid: 5701421b9c8697948b96aa2c24b222b5, type: 3}
-    m_sanInitialValue: 0
-    m_likeabilityInitialValue: 0
-    m_characterPersonality: "\u3088\u3046\u304D"
-    m_characterExplanatoryText: "\u9A0E\u58EB\u56E3\u306E\u56E3\u9577\u3002"
+    m_likeabilityInitialValue: 50
+    m_characterPersonality: "\u5BC2\u3057\u304C\u308A"
+    m_characterExplanatoryText: "\u57CE\u4E0B\u753A\u306E\u8DEF\u5730\u3067\u80B2\u3061\u3001\u200B\u62FE\u3063\u3066\u304F\u308C\u305F\u990A\u7236\u6BCD\u306B\u5F53\u305F\u308B2\u4EBA\u3092\u8AA4\u3063\u3066\u6BBA\u3057\u305F\u3002\u200B\r\n\u990A\u7236\u306E\u540D\u524D\u3092\u76D7\u3093\u3067\u9A0E\u58EB\u3068\u306A\u308A\u3001\u200B\u8AB0\u3088\u308A\u3082\u5584\u3092\u91CD\u3093\u3058\u308B\u9A0E\u58EB\u3068\u3057\u3066\u8056\u676F\u63A2\u7D22\u306B\u53C2\u52A0\u3059\u308B\u3002\u200B"
