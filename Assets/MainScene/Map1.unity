@@ -24510,7 +24510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bdd357a0c4fcbf4ba1d7379e21bcc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Next3
+  sceneName: Next5
   sceneFader: {fileID: 130634898}
 --- !u!1 &1105447060
 GameObject:
@@ -24841,7 +24841,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227082112}
-  - component: {fileID: 1227082111}
   m_Layer: 0
   m_Name: GateStateRegistry
   m_TagString: Untagged
@@ -24849,18 +24848,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1227082111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227082110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fecac7a6a6f3ed48b63b0e5c4a400f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1227082112
 Transform:
   m_ObjectHideFlags: 0
@@ -64412,6 +64399,10 @@ PrefabInstance:
       propertyPath: dialogueWindowTransform
       value: 
       objectReference: {fileID: 298565948}
+    - target: {fileID: 1820093339877444338, guid: 650108700ea794947ba3d5dec5faead4, type: 3}
+      propertyPath: routeRules.Array.data[0].sceneName
+      value: Next5
+      objectReference: {fileID: 0}
     - target: {fileID: 3916538093164440427, guid: 650108700ea794947ba3d5dec5faead4, type: 3}
       propertyPath: m_RootOrder
       value: 0

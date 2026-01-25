@@ -12830,14 +12830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b497223049bde6488300f87a9e3f52e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData:
-    m_itemId: Foot
-    m_itemName: "\u4EF2\u9593\u306E\u811A"
-    m_type: 1
-    m_useType: 0
-    m_icon: {fileID: 1583482623376728253, guid: d24756e433435b249be5737019648d69, type: 3}
-    m_description: "SAN\u5024\u304C\u6E1B\u308B"
-    m_effect: {fileID: 11400000, guid: 1c0f9013708ad944dadcdbc4a5594b88, type: 2}
+  m_itemId: Q-foot-001
+  m_itemDatabase: {fileID: 11400000, guid: 516049a0564679049a96681f6f751c46, type: 2}
 --- !u!58 &738233363
 CircleCollider2D:
   m_ObjectHideFlags: 0
