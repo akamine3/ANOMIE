@@ -939,7 +939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479955129431522516, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00079345703
+      value: -0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 1011740680023415781, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_SizeDelta.y
@@ -947,7 +947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1011740680023415781, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0008737801
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1212440904523434941, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1049,13 +1049,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1965009387392302012, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965009387392302012, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334880906672951444, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
+      propertyPath: m_characterPersonalityText
+      value: 
+      objectReference: {fileID: 1303657098}
     - target: {fileID: 2979089470767934690, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979089470767934690, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.999
+      value: 365.00003
       objectReference: {fileID: 0}
     - target: {fileID: 3418023489692220623, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1227,7 +1239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346344025622183414, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 364.999
+      value: 365.00003
       objectReference: {fileID: 0}
     - target: {fileID: 7402148745248502855, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1554,6 +1566,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163307238}
   m_CullTransparentMesh: 1
+--- !u!114 &1303657098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5298043028096596994, guid: cace69e1e5b7e9144aab8ccf1fa65d74, type: 3}
+  m_PrefabInstance: {fileID: 1151498746}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1332615569
 GameObject:
   m_ObjectHideFlags: 0
