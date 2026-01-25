@@ -1815,10 +1815,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bootstrap
       objectReference: {fileID: 0}
-    - target: {fileID: 8675884614572158046, guid: 0d757f8bc3acce746969931bfb77c2c0, type: 3}
-      propertyPath: m_gameManagerPrefab
-      value: 
-      objectReference: {fileID: 5536753872057510765, guid: 4adcef601fdcf7848ae0643200434c12, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
