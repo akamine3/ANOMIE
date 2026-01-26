@@ -43,11 +43,15 @@ MonoBehaviour:
     fadeOut: 1
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: 
     speakerType: 2
     dialogueText: "\u610F\u8B58\u3092\u5931\u3063\u3066\u3044\u304F..."
@@ -76,11 +80,15 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: 
     speakerType: 0
     dialogueText: "\u3046...\u982D\u304C"
@@ -109,8 +117,12 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 1
-    nextSceneName: PV1 2
+    nextSceneName: PV2 1
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 1
     preSceneChangeFadeDuration: 1
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

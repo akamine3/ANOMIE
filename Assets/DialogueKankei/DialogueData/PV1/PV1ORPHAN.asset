@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
-  m_Name: PV2 2
+  m_Name: PV1ORPHAN
   m_EditorClassIdentifier: 
-  title: "\u6B7B\u4EA1"
+  title: 
   dialogueID: 
   lines:
-  - speakerName: "\u5143\u9A0E\u58EB"
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
     speakerType: 0
-    dialogueText: "\u3054\u307B...\u3054\u307B"
+    dialogueText: "\u9759\u304B\uFF1F"
     statChanges: []
     moveInstructions: []
     useItemActions: 0
@@ -52,9 +52,9 @@ MonoBehaviour:
     useFadePreset: 0
     usePreSceneChangePreset: 0
     preSceneChangePreset: {fileID: 0}
-  - speakerName: "\u5143\u9A0E\u58EB"
+  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
     speakerType: 0
-    dialogueText: "\u5F8C\u306F\u983C\u3093\u3060\u2026"
+    dialogueText: "\u307E\u3055\u304B\u7686\u3053\u306E\u58F0\u304C\u805E\u3053\u3048\u3066\u306A\u3044\u306E\u304B,,,?"
     statChanges: []
     moveInstructions: []
     useItemActions: 0
@@ -81,10 +81,10 @@ MonoBehaviour:
     fadeIn: 0
     fadeDuration: 0
     fadePreset: {fileID: 0}
-    changeSceneOnReadEnd: 1
-    nextSceneName: PV1 1
-    waitAdvanceBeforeSceneChange: 1
-    fadeOutBeforeSceneChange: 1
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
     useFadePreset: 0
     usePreSceneChangePreset: 0

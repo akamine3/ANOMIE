@@ -18,31 +18,34 @@ EditorBuildSettings:
     path: "Assets/SPUM/Sample/Scene/Next\u2715.unity"
     guid: 775a8d6b418e05247afe195fdf53df95
   - enabled: 1
-    path: Assets/MainScene/PV2 1.unity
+    path: Assets/ItemSOZAI/MainScene/PV2 1.unity
     guid: 5351c276f1d27a341aca31419b299375
   - enabled: 1
-    path: Assets/MainScene/Next2.unity
+    path: Assets/ItemSOZAI/MainScene/Next2.unity
     guid: b459d01a44bffa346b9c69174ca13474
   - enabled: 1
-    path: Assets/MainScene/GameOver.unity
+    path: Assets/ItemSOZAI/MainScene/GameOver.unity
     guid: 5fd10b2c1b08fff43bbb615f1473c24d
   - enabled: 1
-    path: Assets/MainScene/NextX 1.unity
+    path: Assets/ItemSOZAI/MainScene/PV1 1.unity
+    guid: 0e876a79e63b66b459e38fa507f7c7cf
+  - enabled: 1
+    path: Assets/ItemSOZAI/MainScene/NextX 1.unity
     guid: 0dd01e829b02f4a4e802c30c599245f3
   - enabled: 1
-    path: Assets/MainScene/NextX 2.unity
+    path: Assets/ItemSOZAI/MainScene/NextX 2.unity
     guid: 34cf32fc0ed5fc2418415ede5dcfb23a
   - enabled: 1
-    path: Assets/MainScene/NextX 3.unity
+    path: Assets/ItemSOZAI/MainScene/NextX 3.unity
     guid: 52c2845136914ab4687ee03820d11a8f
   - enabled: 1
-    path: Assets/MainScene/Title.unity
+    path: Assets/ItemSOZAI/MainScene/Title.unity
     guid: 58031b161d9ad8c4ea0f0e313a98b884
   - enabled: 1
-    path: Assets/MainScene/PV1.unity
+    path: Assets/ItemSOZAI/MainScene/PV1.unity
     guid: b849454e9fb025d49990570ee18e19e0
   - enabled: 1
-    path: Assets/MainScene/Next3.unity
+    path: Assets/ItemSOZAI/MainScene/Next3.unity
     guid: 916c68779e9a6b1418948704eb9c7a6c
   - enabled: 0
     path: Assets/MainScene/Past1.unity
@@ -51,42 +54,45 @@ EditorBuildSettings:
     path: Assets/MainScene/Past1 SAKABA.unity
     guid: a9bd2de40357fc04a9ce3138cc06ebda
   - enabled: 1
-    path: Assets/MainScene/PV1 2.unity
+    path: Assets/ItemSOZAI/MainScene/PV1 2.unity
     guid: b0a6e39433ca4a34eb5dc8b3ed478a85
   - enabled: 1
-    path: Assets/MainScene/NextXEND.unity
+    path: Assets/ItemSOZAI/MainScene/NextXEND.unity
     guid: 284b5bc001dbffb418d6ca678496418a
   - enabled: 1
-    path: Assets/MainScene/Next4.unity
+    path: Assets/ItemSOZAI/MainScene/Next4.unity
     guid: faef301616a799b4ebaee0d56d097c7b
   - enabled: 1
-    path: Assets/MainScene/NextX.unity
+    path: Assets/ItemSOZAI/MainScene/NextX.unity
     guid: 50623ef37ae2a1c46981b25eee808f0a
   - enabled: 1
-    path: Assets/MainScene/Next5.unity
+    path: Assets/ItemSOZAI/MainScene/Next5.unity
     guid: 6771ab45b3d3447458a835eb2f3fab15
   - enabled: 1
-    path: Assets/MainScene/PV2 2.unity
+    path: Assets/ItemSOZAI/MainScene/PV2 2.unity
     guid: 5a3645bbcff41fd42bbbb4637efdf392
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainScene/Next6.unity
     guid: aaaa188fb60aa3b41a5d2653712035e7
   - enabled: 1
-    path: Assets/MainScene/FreeSpace.unity
+    path: Assets/ItemSOZAI/MainScene/FreeSpace.unity
     guid: 0161fa8d760f0994ba94799989c3147e
   - enabled: 1
-    path: Assets/MainScene/Next7.unity
+    path: Assets/ItemSOZAI/MainScene/Next7.unity
     guid: a8cc71b3beb3caf4eab307abb014953a
   - enabled: 1
-    path: Assets/MainScene/Next5 1.unity
+    path: Assets/ItemSOZAI/MainScene/Next5 1.unity
     guid: 7e6ec1e72900af8459054809046d4376
   - enabled: 1
-    path: Assets/MainScene/Next5 2.unity
+    path: Assets/ItemSOZAI/MainScene/Next5 2.unity
     guid: 1225732ec121f4d4ebf3594280416168
   - enabled: 1
-    path: Assets/MainScene/Next3 1.unity
+    path: Assets/ItemSOZAI/MainScene/Next3 1.unity
     guid: 7a9ed1700dee88e409d9b971a54861d3
   - enabled: 1
-    path: Assets/MainScene/Map1.unity
+    path: Assets/ItemSOZAI/MainScene/Next6.unity
+    guid: 3256009892fcc594d91f73399adeffdf
+  - enabled: 1
+    path: Assets/ItemSOZAI/MainScene/Map1.unity
     guid: 9b41dbb2e4ecb984d8b456836c7922a6
   m_configObjects: {}
