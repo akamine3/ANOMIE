@@ -94,3 +94,6 @@ MonoBehaviour:
   - m_soundId: Onepoint30
     m_soundType: 0
     m_audioClip: {fileID: 8300000, guid: 844c71d9bf0573b478495a85d91b1aa2, type: 3}
+  - m_soundId: Episode001
+    m_soundType: 1
+    m_audioClip: {fileID: 8300000, guid: c3a043879052fc64891c41f41667aa49, type: 3}
