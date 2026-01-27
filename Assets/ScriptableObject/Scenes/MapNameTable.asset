@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3e7052815ecfa4ba58170d50d2c81c, type: 3}
+  m_Name: MapNameTable
+  m_EditorClassIdentifier: 
+  mapList:
+  - sceneAsset: {fileID: 102900000, guid: 9b41dbb2e4ecb984d8b456836c7922a6, type: 3}
+    displayName: "\u59CB\u307E\u308A\u306E\u8349\u539F"
+    sceneName: Map1
+  - sceneAsset: {fileID: 102900000, guid: b459d01a44bffa346b9c69174ca13474, type: 3}
+    displayName: "\u30C0\u30F3\u30B8\u30E7\u30F3\u5165\u308A\u53E3"
+    sceneName: Next2
+  - sceneAsset: {fileID: 102900000, guid: 916c68779e9a6b1418948704eb9c7a6c, type: 3}
+    displayName: "\u5606\u304D\u306E\u98A8\u7A74"
+    sceneName: Next3
+  - sceneAsset: {fileID: 102900000, guid: 7a9ed1700dee88e409d9b971a54861d3, type: 3}
+    displayName: "\u9244\u5C51\u306E\u5893\u5834"
+    sceneName: Next3 1
+  - sceneAsset: {fileID: 102900000, guid: faef301616a799b4ebaee0d56d097c7b, type: 3}
+    displayName: "\u843D\u77F3\u306E\u9053"
+    sceneName: Next4
+  - sceneAsset: {fileID: 102900000, guid: 6771ab45b3d3447458a835eb2f3fab15, type: 3}
+    displayName: "\u5D29\u843D\u3057\u305F\u5148"
+    sceneName: Next5
+  - sceneAsset: {fileID: 102900000, guid: 7e6ec1e72900af8459054809046d4376, type: 3}
+    displayName: "\u5D29\u843D\u3057\u305F\u5148"
+    sceneName: Next5 1
+  - sceneAsset: {fileID: 102900000, guid: 1225732ec121f4d4ebf3594280416168, type: 3}
+    displayName: "\u5D29\u843D\u3057\u305F\u5148"
+    sceneName: Next5 2
+  - sceneAsset: {fileID: 102900000, guid: 3256009892fcc594d91f73399adeffdf, type: 3}
+    displayName: "\u5D29\u843D\u3057\u305F\u5148"
+    sceneName: Next6
+  - sceneAsset: {fileID: 102900000, guid: a8cc71b3beb3caf4eab307abb014953a, type: 3}
+    displayName: "\u5D29\u843D\u3057\u305F\u5148"
+    sceneName: Next7
+  - sceneAsset: {fileID: 102900000, guid: 50623ef37ae2a1c46981b25eee808f0a, type: 3}
+    displayName: "\u77E5\u3089\u305A\u306E\u56DE\u5ECA"
+    sceneName: NextX
+  - sceneAsset: {fileID: 102900000, guid: 0dd01e829b02f4a4e802c30c599245f3, type: 3}
+    displayName: "\u77E5\u3089\u305A\u306E\u56DE\u5ECA"
+    sceneName: NextX 1
+  - sceneAsset: {fileID: 102900000, guid: 34cf32fc0ed5fc2418415ede5dcfb23a, type: 3}
+    displayName: "\u77E5\u3089\u305A\u306E\u56DE\u5ECA"
+    sceneName: NextX 2
+  - sceneAsset: {fileID: 102900000, guid: 52c2845136914ab4687ee03820d11a8f, type: 3}
+    displayName: "\u77E5\u3089\u305A\u306E\u56DE\u5ECA"
+    sceneName: NextX 3
+  - sceneAsset: {fileID: 102900000, guid: 284b5bc001dbffb418d6ca678496418a, type: 3}
+    displayName: "\u679C\u3066\u306E\u9593"
+    sceneName: NextXEND
+  - sceneAsset: {fileID: 102900000, guid: b849454e9fb025d49990570ee18e19e0, type: 3}
+    displayName: "\u5FD8\u5374\u306E\u6C34\u8108"
+    sceneName: PV1
+  - sceneAsset: {fileID: 102900000, guid: 0e876a79e63b66b459e38fa507f7c7cf, type: 3}
+    displayName: "\u5FD8\u5374\u306E\u6C34\u8108"
+    sceneName: PV1 1
+  - sceneAsset: {fileID: 102900000, guid: b0a6e39433ca4a34eb5dc8b3ed478a85, type: 3}
+    displayName: "\u56E3\u9577\u306E\u8A18\u61B6"
+    sceneName: PV1 2
+  - sceneAsset: {fileID: 102900000, guid: 5351c276f1d27a341aca31419b299375, type: 3}
+    displayName: "\u5143\u9A0E\u58EB\u306E\u8A18\u61B6"
+    sceneName: PV2 1
+  - sceneAsset: {fileID: 102900000, guid: 5a3645bbcff41fd42bbbb4637efdf392, type: 3}
+    displayName: "\u5143\u9A0E\u58EB\u306E\u8A18\u61B6"
+    sceneName: PV2 2
