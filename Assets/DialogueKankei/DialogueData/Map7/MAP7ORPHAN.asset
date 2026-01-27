@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571e3ccfae9e2b46943cdcac3476b94, type: 3}
+  m_Name: MAP7ORPHAN
+  m_EditorClassIdentifier: 
+  title: 
+  dialogueID: 
+  lines:
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "...\u5C0F\u58F0\u3067\u8A71\u3057\u307E\u3057\u3087\u3046...\u56E3\u9577\u306B\u306F\u805E\u304B\u305B\u3066\u306F\u3044\u3051\u307E\u305B\u3093"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "\u79C1\u305F\u3061\u304C\u898B\u305F\u3042\u306E\u98A8\u666F\u3001\u304D\u3063\u3068\u3042\u306E\u4E2D\u3067\u5F7C\u306F\u6B7B\u3093\u3067\u308B\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "\u56E3\u9577\u306F\u90E8\u4E0B\u3092\u6B7B\u306A\u305B\u305F\u3068\u4E8C\u30B7\u30FC\u30CC\u3055\u3093\u306E\u4E00\u4EF6\u304B\u3089\u75B2\u5F0A\u3057\u3066\u3044\u307E\u3059\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "\u30A8\u30C9\u30EA\u30C3\u30AF\u3055\u3093\u304C\u6B7B\u3093\u3060\u3068\u77E5\u308C\u3070\u304D\u3063\u3068\u58CA\u308C\u3066\u3057\u307E\u3044\u307E\u3059\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "...\u5F7C\u5973\u306F\u4E0A\u306B\u7ACB\u3064\u56E3\u9577\u3068\u3057\u3066\u3075\u308B\u307E\u3063\u3066\u308B\u3060\u3051\u3067\n\u307B\u3093\u3068\u306F\u4E0D\u5B89\u306B\u304B\u3089\u308C\u3066\u3044\u308B\u5FC3\u306E\u5F31\u3044\u65B9\u3067\u3059\u304B\u3089\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
+    speakerType: 0
+    dialogueText: "\u307E\u3060\u4F55\u304B\u308F\u304B\u3089\u306A\u3044\u6CC9\u3067\u306E\u5E7B\u899A\u306E\u3053\u3068\u3082\u9ED9\u3063\u3066\u3044\u307E\u3057\u3087\u3046"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

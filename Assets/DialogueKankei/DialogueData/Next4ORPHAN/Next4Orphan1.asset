@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "\u9A0E\u58EB\u306E\u4EA1\u9AB8\u306E\u524D\u3067"
   dialogueID: Orhan
   lines:
-  - speakerName: 
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u3053\u306E\u9A0E\u58EB\u306F\u3053\u3053\u3067\u606F\u7D76\u3048\u305F\u3088\u3046\u3067\u3059\u306D\uFF0E\uFF0E\uFF0E"
     statChanges: []
@@ -36,7 +36,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u3082\u3063\u3068\u65E9\u304F\u3053\u306E\u6D1E\u7A9F\u3092\u898B\u3064\u3051\u3066\u3044\u308C\u3070\u52A9\u3051\u3089\u308C\u305F\u304B\u3082\u3057\u308C\u306A\u3044\u3067\u3059\u306D\uFF0E\uFF0E\uFF0E"
     statChanges: []
@@ -57,7 +73,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u305B\u3081\u3066\u3053\u306E\u30E9\u30F3\u30B9\u3060\u3051\u3067\u3082\u5F79\u7ACB\u3066\u307E\u3057\u3087\u3046\u3002\u3053\u308C\u304C\u3042\u308C\u3070\u305D\u3053\u306E\u58C1\u3092\u58CA\u305B\u305D\u3046\u3067\u3059\u3002"
     statChanges: []
@@ -78,3 +110,19 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

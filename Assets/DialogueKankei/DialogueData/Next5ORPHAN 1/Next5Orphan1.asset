@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "\u811A\u3092\u5931\u3063\u305F\u4EF2\u9593\u306E\u524D"
   dialogueID: Orhannakama
   lines:
-  - speakerName: 
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u3059\u3050\u306B\u6B62\u8840\u3092\uFF01\uFF01"
     statChanges: []
@@ -36,7 +36,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u3060\u3044\u3058\u3087\u3046\u3076\uFF01\u5FC5\u305A\u52A9\u3051\u307E\u3059\u304B\u3089\uFF01"
     statChanges: []
@@ -57,7 +73,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u6B7B\u306A\u306A\u3044\u3067\uFF01"
     statChanges: []
@@ -78,3 +110,19 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

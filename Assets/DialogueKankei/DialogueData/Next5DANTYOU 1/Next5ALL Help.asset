@@ -36,6 +36,22 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
   - speakerName: 
     speakerType: 0
     dialogueText: "\u62C5\u3044\u3067\u3067\u3082\u9023\u308C\u3066\u3044\u304D\u307E\u3059\uFF01"
@@ -57,7 +73,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: "\u5143\u9A0E\u58EB"
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30A8\u30C9\u30EA\u30C3\u30AF"
     speakerType: 1
     dialogueText: "\u304A\u524D\u307E\u3067\u305D\u3093\u306A\u3053\u3068\u3092\u2026"
     statChanges: []
@@ -78,3 +110,19 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

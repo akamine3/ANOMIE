@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "\u9A0E\u58EB\u306E\u4EA1\u9AB8\u3092\u898B\u3066"
   dialogueID: DantyouKisimae
   lines:
-  - speakerName: "\u56E3\u9577"
+  - speakerName: "\u30A2\u30DE\u30D9\u30EB\u56E3\u9577"
     speakerType: 0
     dialogueText: "\u673D\u3061\u3066\u3044\u308B\u306A\u2026\u53EF\u54C0\u60F3\u306B"
     statChanges: []
@@ -36,3 +36,19 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "\u304A\u524D\u306F"
   dialogueID: 
   lines:
-  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u304A\u524D\u306F...\uFF01"
     statChanges: []
@@ -43,12 +43,16 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
-  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u3042\u3044\u3064\u306F\u304A\u524D\u306E\u3053\u3068\u3092\u305A\u3063\u3068\u6C17\u304B\u3051\u3066\u304F\u308C\u3066\u3044\u305F\u3060\u308D\u3046\uFF01"
     statChanges: []
@@ -76,12 +80,16 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
-  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u4F55\u3067\u6BBA\u3057\u305F\uFF01\uFF01"
     statChanges: []
@@ -109,12 +117,16 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
-  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u4F55\u3067\u7C21\u5358\u306B\u3042\u304D\u3089\u3081\u3084\u304C\u3063\u305F\uFF01\uFF01"
     statChanges: []
@@ -142,12 +154,16 @@ MonoBehaviour:
     fadeOut: 1
     fadeIn: 0
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
-  - speakerName: "\u5B64\u5150\u9A0E\u58EB"
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30E8\u30BB\u30D5"
     speakerType: 0
     dialogueText: "\u6BB4\u3089\u308C\u3066\u3057\u307E\u3063\u305F..."
     statChanges: []
@@ -175,8 +191,12 @@ MonoBehaviour:
     fadeOut: 0
     fadeIn: 1
     fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 0
     nextSceneName: 
     waitAdvanceBeforeSceneChange: 0
     fadeOutBeforeSceneChange: 0
     preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}

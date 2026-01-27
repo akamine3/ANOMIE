@@ -81,6 +81,43 @@ MonoBehaviour:
     fadeIn: 0
     fadeDuration: 0
     fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 0
+    fadeOutBeforeSceneChange: 0
+    preSceneChangeFadeDuration: 0
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: 
+    speakerType: 0
+    dialogueText: "\u305D\u308C\u304B\u3089\u6570\u65E5\u3001\u56DB\u4EBA\u306F\u30C0\u30F3\u30B8\u30E7\u30F3\u306E\u4E2D\u306B\u6D41\u308C\u308B\u5DDD\u3092\u898B\u3064\u3051\n\u4F11\u606F\u3092\u53D6\u3063\u3066\u3044\u305F\u3002"
+    statChanges: []
+    moveInstructions: []
+    useItemActions: 0
+    itemActions: []
+    useEffectActions: 0
+    itemEffectActions: []
+    unfairSpeak: 0
+    hasChoices: 0
+    choices: []
+    noChoiceAction: 0
+    noChoiceNextDialogue: {fileID: 0}
+    noChoiceNextLineIndex: 0
+    returnAfterThisLine: 0
+    returnDialogue: {fileID: 0}
+    returnLineIndex: 0
+    requireCondition: 0
+    conditions: []
+    developerNote: 
+    fade:
+      type: 0
+      duration: 0
+      waitForCompletion: 0
+    fadeOut: 1
+    fadeIn: 0
+    fadeDuration: 0
+    fadePreset: {fileID: 0}
     changeSceneOnReadEnd: 1
     nextSceneName: Next6
     waitAdvanceBeforeSceneChange: 0

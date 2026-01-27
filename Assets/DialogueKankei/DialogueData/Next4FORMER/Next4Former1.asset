@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "\u5D29\u843D\u306E\u524D\u306B\u7ACB\u3064"
   dialogueID: houraku
   lines:
-  - speakerName: 
+  - speakerName: "\u30A8\u30C9\u30EA\u30C3\u30AF"
     speakerType: 0
     dialogueText: "\u3053\u3063\u3061\u306E\u9053\u306F\u5D29\u843D\u3067\u585E\u304C\u3063\u3066\u308B\u306A\u3002"
     statChanges: []
@@ -36,7 +36,23 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
-  - speakerName: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
+  - speakerName: "\u30A8\u30C9\u30EA\u30C3\u30AF"
     speakerType: 0
     dialogueText: "\u3055\u3059\u304C\u306B\u5D29\u3057\u3066\u901A\u308B\u308F\u3051\u306B\u306F\u3044\u304B\u306A\u3044\u306A\uFF0E\uFF0E\uFF0E"
     statChanges: []
@@ -57,3 +73,19 @@ MonoBehaviour:
     requireCondition: 0
     conditions: []
     developerNote: 
+    fade:
+      type: 0
+      duration: 0.5
+      waitForCompletion: 1
+    fadeOut: 0
+    fadeIn: 0
+    fadeDuration: 0.3
+    fadePreset: {fileID: 0}
+    changeSceneOnReadEnd: 0
+    nextSceneName: 
+    waitAdvanceBeforeSceneChange: 1
+    fadeOutBeforeSceneChange: 1
+    preSceneChangeFadeDuration: 0.4
+    useFadePreset: 0
+    usePreSceneChangePreset: 0
+    preSceneChangePreset: {fileID: 0}
